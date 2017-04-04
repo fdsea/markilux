@@ -1,4 +1,16 @@
-.topline{
-    border-top: 5px solid red;
-    font-family: $rr;
+
+.line{
+    width: 100%;
+    height: 100px;
+    background: red;
+    margin-top: 100px;
+    position: relative;
+    &:after{
+        @include fence('/images/triangle.svg','top', 10px);
+       
+    }
+    &:before{
+        @include fence('/images/triangle.svg','bottom', 10px);
+         
+    }
 }

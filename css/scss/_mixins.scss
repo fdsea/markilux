@@ -1,0 +1,20 @@
+
+/*=================== FENCE ======================*/
+@mixin fence($urlImg:'/images/triangle.svg', $pos: 'bottom', $size: 10px){
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: $size;
+    background-size: $size $size;
+    background-position: left;
+    background-image: url($urlImg);
+    @if($pos == 'top'){
+        top: -$size /1.4;
+    }
+    @else{
+        transform:rotate(180deg);
+        bottom:-$size / 1.4;
+    }
+    
+}
+/*================= END =======================*/
