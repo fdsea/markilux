@@ -56,15 +56,15 @@
 
 /*=== FONT VARIABLES ===*/
 /*======== END ========*/
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
 .topline {
   border-top: 5px solid red;
   font-family: "RobotoRegular"; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
 header {
   background: lightgreen; }
-  /* line 3, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+  /* line 3, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   header p {
     color: #22a;
     font-family: "RobotoCondensedBold";
