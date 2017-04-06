@@ -39,22 +39,19 @@ for(let i = 0; i < arr.length; i++){
   }
 }
 
-toggleContent(col_3);
+addContent(col_3);
 
 function toggleAllBlock(){
     var li = document.querySelectorAll('.li');
-    function returnIndex(){
-        var index = Array.prototype.indexOf.call(li, this);
-        return index;
-    }
-   // for(let i = 0;i<li.length;i++){
-      //  li[i].addEventListener('click',()=>{
-        
-    //}
     
-    li[0].addEventListener('click',()=>{
-        toggleContent(col_0)
+    
+    
+   for(let i = 0;i<li.length;i++){
+     li[i].addEventListener('click',()=>{
+       var index = Array.prototype.indexOf.call(li, this);
+         console.log(index);
     });
+  }
 }
 toggleAllBlock();
 
