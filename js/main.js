@@ -21,13 +21,17 @@ $('.owl-carousel').owlCarousel({
 
 function toggleTabs() {
 	let li = document.querySelectorAll('.li')
-		, slider_design = document.querySelectorAll('.slider_design');
-	//, slider_content = document.querySelectorAll('slider_content');
+		, slider_design = document.querySelectorAll('.slider_design')
+		, side_arrow = document.querySelectorAll('.side_arrow');
 	for (let i = 0; i < li.length; i++) {
 		li[i].addEventListener('click', (e) => {
 			for (let j = 0; j < slider_design.length; j++) {
+				li[j].classList.remove('active_tabs_design');
+				side_arrow[j].classList.remove('active_arrow_design');
 				slider_design[j].classList.remove('active_slider_design');
 			}
+			li[i].classList.add('active_tabs_design');
+			side_arrow[i].classList.add('active_arrow_design');
 			slider_design[i].classList.add('active_slider_design');
 		});
 	}

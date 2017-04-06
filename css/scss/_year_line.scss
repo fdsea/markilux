@@ -6,6 +6,7 @@
 .right {
 	width: 70%;
 	float: right;
+	overflow: hidden;
 	.car-wrap {
 		width: 100%;
 		.slider_design {
@@ -15,16 +16,14 @@
 			.items {}
 		}
 	}
-	.slider_content {
-		display: none;
-	}
+	.slider_content {}
 }
 
 .owl-nav {
 	color: red;
 	font-size: 3em;
-	z-index" 100;
- position: absolute;
+	z-index: 100;
+	//position: absolute;
 	.owl-prev {
 		position: absolute;
 		left: 0;
@@ -44,39 +43,38 @@
 	display: block!important;
 }
 
+.active_tabs_design {
+	background: $grey!important;
+	border-left: 3px solid $red!important;
+	color: $white!important;
+}
+
+.active_arrow_design {
+	display: block!important;
+}
+
 
 /*====================*/
 
 .left {
 	ul {
 		li {
-			//margin-bottom: 20px;
 			padding: 20px;
-			background: #aaa;
-			color: #fff;
+			background: $white;
+			color: $grey;
 			text-align: center;
 			cursor: pointer;
-			//transition: .2s ease;
 			position: relative;
-			&:after {
-				content: '';
+			.side_arrow {
 				position: absolute;
 				width: 0;
 				height: 0;
 				border: 30px solid transparent;
-				border-left-color: #aaa;
+				border-left-color: $grey;
 				right: -60px;
 				top: 0;
 				z-index: 100;
-				//transition: .2s ease;
 				display: none;
-			}
-			&:hover {
-				background: #555;
-			}
-			&:hover:after {
-				display: block;
-				border-left-color: #555;
 			}
 		}
 	}

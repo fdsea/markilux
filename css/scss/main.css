@@ -56,6 +56,8 @@
 
 /*=== FONT VARIABLES ===*/
 /*======== END ========*/
+/*==== COLOR VARIABLES ====*/
+/*========= END ==========*/
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
 .left {
   float: left;
@@ -65,7 +67,7 @@
 .right {
   width: 70%;
   float: right;
-  background: lightblue; }
+  overflow: hidden; }
   /* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
   .right .car-wrap {
     width: 100%; }
@@ -75,38 +77,48 @@
       display: none;
       position: relative; }
 
-/* line 21, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
+/* line 22, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
 .owl-nav {
   color: red;
-  font-size: 3em; }
-  /* line 24, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
+  font-size: 3em;
+  z-index: 100; }
+  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
   .owl-nav .owl-prev {
     position: absolute;
     left: 0;
     top: 50%; }
-  /* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
+  /* line 32, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
   .owl-nav .owl-next {
     position: absolute;
     right: 0;
     top: 50%; }
 
 /*=== ACTIVE SLIDE ====*/
-/* line 39, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
+/* line 42, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
 .active_slider_design {
   display: block !important; }
 
+/* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
+.active_tabs_design {
+  background: #aaa !important;
+  border-left: 3px solid #d00 !important;
+  color: #fff !important; }
+
+/* line 52, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
+.active_arrow_design {
+  display: block !important; }
+
 /*====================*/
-/* line 48, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
+/* line 61, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
 .left ul li {
   padding: 20px;
-  background: #aaa;
-  color: #fff;
+  background: #fff;
+  color: #aaa;
   text-align: center;
   cursor: pointer;
   position: relative; }
-  /* line 57, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
-  .left ul li:after {
-    content: '';
+  /* line 68, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
+  .left ul li .side_arrow {
     position: absolute;
     width: 0;
     height: 0;
@@ -116,12 +128,5 @@
     top: 0;
     z-index: 100;
     display: none; }
-  /* line 70, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
-  .left ul li:hover {
-    background: #555; }
-  /* line 73, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
-  .left ul li:hover:after {
-    display: block;
-    border-left-color: #555; }
 
 /*# sourceMappingURL=main.css.map */
