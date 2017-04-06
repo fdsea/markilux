@@ -1,0 +1,20 @@
+.header{
+	background-image: url(/images/matte-header-bg.png), url(/images/header-bg.jpg);
+    
+	height: 90vh;
+	width: 100vw;
+	background-repeat:repeat, no-repeat;
+	position: relative;
+	background-size: cover ;
+	.awards-block{
+		position: absolute;
+		bottom:1%;
+		left:50%;
+		transform: translateX(-50%);
+		width: 50%;
+		display: flex;
+		justify-content: space-between;
+		
+		
+	}
+}
