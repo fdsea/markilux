@@ -1,0 +1,23 @@
+.metering{
+    padding-top: 5%;
+    h2{
+       font-family: $rl;
+        color:#000;
+        font-size: 2.1em;
+    }
+    .metering_info_block{
+        margin-bottom: 5%;
+        h3{
+         font-family: $rr;
+         font-size: 1.3em;
+        }
+        p{
+            font-family: $rr;
+         font-size: 1em;
+        }
+    }
+        
+}
+.metering_info_section{
+    margin-top: 2%;
+}

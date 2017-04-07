@@ -1,0 +1,33 @@
+.smart_mark{
+    padding-top: 8%;
+    .smart_header{
+        color:#000;
+        h2{
+            font-family: $rl;
+            font-size: 2.1em;
+        }
+        p{
+            padding-top: 2%;
+            font-size: 1.2em;
+        }
+    }
+}
+.item_smart{
+    position:relative;
+    margin-top: 5%;
+    &:after{
+        content: attr(data-info-title);
+        color: red;
+        font-size: 1.9em;
+        font-family: $rl;
+        position: absolute;
+        padding: 2% 3%;
+        width: 100%;
+        height: 30%;
+        bottom:0;
+        left:0;
+        background: rgba(255,255,255,.5);
+        
+    }
+ 
+}

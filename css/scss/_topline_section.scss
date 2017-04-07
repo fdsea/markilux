@@ -1,1 +1,217 @@
+/*=== NAV SIDE - PANEL ===*/
 
+$time: 0.3s;
+$timing: ease-in-out;
+.topline-wrapper{
+	border-top: 5px solid $red;
+	width: 100%;
+	
+}
+.topline {
+	width: 80%;
+	margin: 0 auto;
+	padding: 7px 0 7px 0;
+	&:before,
+	&:after{
+	content: "";
+		display: table;
+		height: 0;
+		clear: both;
+	}
+	.nav-btn {
+		width: 50px;
+		height: 50px;
+		position: relative;
+		top: 10px;
+		left: 10px;
+		float: left;
+		cursor: pointer;
+		z-index: 1000;
+		&:hover span {
+			background: $grey;
+		}
+		.span {
+			position: absolute;
+			width: 80%;
+			height: 10%;
+			background: $red;
+			border-radius: 15px;
+			transition: .5s ease;
+		}
+		@for $i from 1 through 3 {
+			.span-#{$i} {
+				top: $i*25%-16%;
+			}
+		}
+	}
+	/*==== NAV ANIMATION ====*/
+	.active-stix-1 {
+		animation: stix-1 $time $timing forwards;
+		@keyframes stix-1 {
+			0% {
+				transform: rotate(0deg);
+				width: 0;
+			}
+			100% {
+				transform: rotate(45deg) translate(10px, 14px);
+				width: 100%;
+			}
+		}
+	}
+	.active-stix-2 {
+		animation: stix-2 $time $timing forwards;
+		@keyframes stix-2 {
+			0% {
+				opacity: 1;
+			}
+			10% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 0;
+			}
+		}
+	}
+	.active-stix-3 {
+		animation: stix-3 $time $timing forwards;
+		@keyframes stix-3 {
+			0% {
+				transform: rotate(0deg);
+				width: 0;
+			}
+			100% {
+				transform: rotate(-45deg) translate(4px, -7px);
+				width: 100%;
+			}
+		}
+	}
+	.inactive-stix-1 {
+		animation: stix-1-inact $time $timing forwards;
+		@keyframes stix-1-inact {
+			0% {
+				transform: rotate(45deg) translate(10px, 14px);
+			}
+			100% {
+				transform: rotate(0deg);
+			}
+		}
+	}
+	.inactive-stix-2 {
+		animation: stix-2-inact $time $timing forwards;
+		@keyframes stix-2-inact {
+			0% {
+				opacity: 0;
+			}
+			90% {
+				opacity: 1;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+	}
+	.inactive-stix-3 {
+		animation: stix-3-inact $time $timing forwards;
+		@keyframes stix-3-inact {
+			0% {
+				transform: rotate(-45deg) translate(4px, -7px);
+			}
+			100% {
+				transform: rotate(0deg);
+			}
+		}
+	}
+	.popup-nav {
+		position: fixed;
+		top: 0%;
+		left: -100%;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, .8);
+		transition: 0.5s ease;
+		z-index: 200;
+		ul {
+			margin: 10%;
+			li {
+				list-style-type: none;
+				a {
+					text-decoration: none;
+					display: block;
+					margin-bottom: 15px;
+					color: #fff;
+					text-transform: uppercase;
+					transition: 0.1s ease;
+					&:hover {
+						color: lightgreen;
+					}
+				}
+			}
+		}
+	}
+	.active-nav {
+		left: 0;
+	}
+}
+
+
+/*======= END =======*/
+
+.topline {
+	.logo-header {
+		float: left;
+		margin: 0 0 0 1.5%;
+	}
+	h1 {
+		font-size: 1em;
+		font-family: $rl;
+		display: inline-block;
+        float: left;
+		line-height: 40px;
+		margin-left: 2%;
+		a {
+			color: $red;
+			border-bottom: 2px dashed $red;
+			text-decoration: none;
+		}
+	}
+	.header-phone {
+		float: left;
+		font-family: $rr;
+		width: 20%;
+		margin-top: 5px;
+		.phone-number {
+           
+			a {
+				color:#000;
+		        display: block;
+				font-size: 1.5em;
+				text-align: right;
+				text-decoration: none;
+				span{
+				color:$grey;
+				font-size: 0.7em;
+				margin-right: 5px;
+				display:inline-block;
+				&:before{
+					content:'';
+					display: inline-block;
+					margin: 0px 2px 0 0;
+					width: 12px;height: 12px;
+					background: url(/images/time-icon.png) no-repeat 0 1px;
+					background-size: 100%;
+				
+					}	
+		 		}
+		    }
+		 }
+		.request {
+			color:$red;
+			border-bottom: 2px dashed $red;
+			text-decoration: none;
+			font-size: 0.8em;
+			cursor: pointer;
+			margin-top: -5px;
+			float: right;
+       }
+	}
+}

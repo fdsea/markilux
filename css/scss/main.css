@@ -56,36 +56,745 @@
 
 /*=== FONT VARIABLES ===*/
 /*======== END ========*/
+/*==== COLOR VARIABLES ====*/
+/*========= END ==========*/
+/* line 24, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+.red {
+  color: red; }
+
+/* line 28, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+.resp {
+  max-width: 100%;
+  height: auto; }
+
+/* line 32, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+.no-padding {
+  padding: 0 !important; }
+
+/*=================== FENCE ======================*/
+/*================= END =======================*/
+/*=== NAV SIDE - PANEL ===*/
+/* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+.topline-wrapper {
+  border-top: 5px solid #dd011d;
+  width: 100%; }
+
+/* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+.topline {
+  width: 80%;
+  margin: 0 auto;
+  padding: 7px 0 7px 0;
+  /*==== NAV ANIMATION ====*/ }
+  /* line 14, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline:before, .topline:after {
+    content: "";
+    display: table;
+    height: 0;
+    clear: both; }
+  /* line 21, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .nav-btn {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+    cursor: pointer;
+    z-index: 1000; }
+    /* line 30, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    .topline .nav-btn:hover span {
+      background: #aaa; }
+    /* line 33, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    .topline .nav-btn .span {
+      position: absolute;
+      width: 80%;
+      height: 10%;
+      background: #dd011d;
+      border-radius: 15px;
+      transition: .5s ease; }
+    /* line 42, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    .topline .nav-btn .span-1 {
+      top: 9%; }
+    /* line 42, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    .topline .nav-btn .span-2 {
+      top: 34%; }
+    /* line 42, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    .topline .nav-btn .span-3 {
+      top: 59%; }
+  /* line 48, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .active-stix-1 {
+    animation: stix-1 0.3s ease-in-out forwards; }
+
+@keyframes stix-1 {
+  0% {
+    transform: rotate(0deg);
+    width: 0; }
+  100% {
+    transform: rotate(45deg) translate(10px, 14px);
+    width: 100%; } }
+  /* line 61, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .active-stix-2 {
+    animation: stix-2 0.3s ease-in-out forwards; }
+
+@keyframes stix-2 {
+  0% {
+    opacity: 1; }
+  10% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+  /* line 75, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .active-stix-3 {
+    animation: stix-3 0.3s ease-in-out forwards; }
+
+@keyframes stix-3 {
+  0% {
+    transform: rotate(0deg);
+    width: 0; }
+  100% {
+    transform: rotate(-45deg) translate(4px, -7px);
+    width: 100%; } }
+  /* line 88, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .inactive-stix-1 {
+    animation: stix-1-inact 0.3s ease-in-out forwards; }
+
+@keyframes stix-1-inact {
+  0% {
+    transform: rotate(45deg) translate(10px, 14px); }
+  100% {
+    transform: rotate(0deg); } }
+  /* line 99, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .inactive-stix-2 {
+    animation: stix-2-inact 0.3s ease-in-out forwards; }
+
+@keyframes stix-2-inact {
+  0% {
+    opacity: 0; }
+  90% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+  /* line 113, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .inactive-stix-3 {
+    animation: stix-3-inact 0.3s ease-in-out forwards; }
+
+@keyframes stix-3-inact {
+  0% {
+    transform: rotate(-45deg) translate(4px, -7px); }
+  100% {
+    transform: rotate(0deg); } }
+  /* line 124, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .popup-nav {
+    position: fixed;
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: 0.5s ease;
+    z-index: 200; }
+    /* line 133, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    .topline .popup-nav ul {
+      margin: 10%; }
+      /* line 135, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+      .topline .popup-nav ul li {
+        list-style-type: none; }
+        /* line 137, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+        .topline .popup-nav ul li a {
+          text-decoration: none;
+          display: block;
+          margin-bottom: 15px;
+          color: #fff;
+          text-transform: uppercase;
+          transition: 0.1s ease; }
+          /* line 144, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+          .topline .popup-nav ul li a:hover {
+            color: lightgreen; }
+  /* line 151, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .active-nav {
+    left: 0; }
+
+/*======= END =======*/
+/* line 160, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+.topline .logo-header {
+  float: left;
+  margin: 0 0 0 1.5%; }
+
+/* line 164, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+.topline h1 {
+  font-size: 1em;
+  font-family: "RobotoLight";
+  display: inline-block;
+  float: left;
+  line-height: 40px;
+  margin-left: 2%; }
+  /* line 171, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline h1 a {
+    color: #dd011d;
+    border-bottom: 2px dashed #dd011d;
+    text-decoration: none; }
+
+/* line 177, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+.topline .header-phone {
+  float: left;
+  font-family: "RobotoRegular";
+  width: 20%;
+  margin-top: 5px; }
+  /* line 184, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .header-phone .phone-number a {
+    color: #000;
+    display: block;
+    font-size: 1.5em;
+    text-align: right;
+    text-decoration: none; }
+    /* line 190, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    .topline .header-phone .phone-number a span {
+      color: #aaa;
+      font-size: 0.7em;
+      margin-right: 5px;
+      display: inline-block; }
+      /* line 195, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+      .topline .header-phone .phone-number a span:before {
+        content: '';
+        display: inline-block;
+        margin: 0px 2px 0 0;
+        width: 12px;
+        height: 12px;
+        background: url(/images/time-icon.png) no-repeat 0 1px;
+        background-size: 100%; }
+  /* line 207, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  .topline .header-phone .request {
+    color: #dd011d;
+    border-bottom: 2px dashed #dd011d;
+    text-decoration: none;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin-top: -5px;
+    float: right; }
+
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+.header {
+  height: 90vh;
+  width: 100%;
+  background: url(/images/matte-header-bg.png), url(/images/header-bg.jpg), no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: bottom right; }
+  /* line 9, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+  .header .awards-block {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55%;
+    display: flex;
+    justify-content: space-between; }
+    /* line 17, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+    .header .awards-block img {
+      float: left;
+      max-width: 100%;
+      height: auto; }
+
 /* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.year_section {
+  background: red;
+  width: 100%; }
+
+/*===== RED ARROW =====*/
+/* line 6, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.red-line {
+  width: 60%;
+  margin: 10px auto;
+  height: 40px;
+  display: table;
+  background: red;
+  overflow: hidden; }
+  /* line 15, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+  .red-line .cell {
+    display: table-cell;
+    width: 16.666666%;
+    padding: 1px 5%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: bold;
+    position: relative; }
+    /* line 27, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+    .red-line .cell .arrow {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border: 7px solid #fff;
+      transform: rotate(45deg);
+      border-left-color: transparent;
+      border-bottom-color: transparent; }
+  /* line 40, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+  .red-line .cell-1:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 7px solid #fff;
+    transform: rotate(45deg);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    top: -5px;
+    left: -20%; }
+
+/* line 76, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-1 .arrow-1 {
+  left: 82px;
+  top: -5px; }
+
+/* line 76, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-1 .arrow-2 {
+  left: 94px;
+  top: -5px; }
+
+/* line 76, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-1 .arrow-3 {
+  left: 106px;
+  top: -5px; }
+
+/* line 76, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-1 .arrow-4 {
+  left: 118px;
+  top: -5px; }
+
+/* line 84, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-2 .arrow-1 {
+  left: 82px;
+  top: -5px; }
+
+/* line 84, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-2 .arrow-2 {
+  left: 94px;
+  top: -5px; }
+
+/* line 92, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-3 .arrow-1 {
+  left: 76px;
+  top: -5px; }
+
+/* line 92, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-3 .arrow-2 {
+  left: 82px;
+  top: -5px; }
+
+/* line 100, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-5 .arrow-1 {
+  left: 76px;
+  top: -5px; }
+
+/* line 100, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-5 .arrow-2 {
+  left: 82px;
+  top: -5px; }
+
+/* line 108, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+.cell-6 .arrow-1 {
+  left: 81px;
+  top: -5px; }
+
+/*===== END OF RED ARROW =====*/
+/* line 2, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+.reward h2 {
+  font-family: "RobotoLight";
+  font-size: 2.2em;
+  padding-top: 20px;
+  text-align: center; }
+
+/* line 8, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+.reward p {
+  font-family: "RobotoLight";
+  font-size: 1.2em;
+  padding-top: 20px;
+  text-align: center; }
+
+/* line 14, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+.reward .counters-section {
+  padding-top: 10px;
+  color: #000; }
+  /* line 17, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+  .reward .counters-section .counter {
+    font-family: "RobotoCondensedBold";
+    font-size: 3em;
+    text-align: center; }
+  /* line 22, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+  .reward .counters-section .description-counter {
+    padding-top: 0;
+    font-family: "RobotoCondensedRegular";
+    text-align: center; }
+
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.design {
+  margin-top: 10%; }
+
+/* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left {
   float: left;
   width: 30%; }
 
-/* line 6, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+/* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .right {
   width: 70%;
   float: right;
-  background: lightblue; }
-  /* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+  overflow: hidden; }
+  /* line 14, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
   .right .car-wrap {
-    width: 100%;
-    height: 300px; }
-    /* line 13, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
-    .right .car-wrap .owl-carousel {
-      height: 100%; }
-      /* line 15, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
-      .right .car-wrap .owl-carousel img {
-        width: 170px; }
+    width: 100%; }
+    /* line 16, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+    .right .car-wrap .slider_design {
+      height: 100%;
+      display: none;
+      position: relative; }
+  /* line 24, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  .right .slider_content .characteristics {
+    padding-top: 30px; }
+    /* line 26, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+    .right .slider_content .characteristics p {
+      font-family: "RobotoRegular"; }
 
-/* line 23, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+/* line 33, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.owl-nav {
+  color: red;
+  font-size: 3em;
+  z-index: 100; }
+  /* line 38, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  .owl-nav .owl-prev {
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+    left: 0;
+    top: 50%; }
+  /* line 46, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    top: 50%; }
+
+/*=== ACTIVE SLIDE ====*/
+/* line 56, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.active_slider_design {
+  display: block !important; }
+
+/* line 60, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.active_tabs_design {
+  background: #ddd !important;
+  border-left: 6px solid #dd011d !important;
+  color: #dd011d !important; }
+
+/* line 66, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.active_arrow_design {
+  display: block !important; }
+
+/*====================*/
+/* line 75, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left ul li {
-  margin-bottom: 20px;
-  background: #444;
-  color: #fff;
+  padding: 3%;
+  background: #fff;
+  color: #aaa;
+  text-align: left;
+  font-family: "RobotoRegular";
+  font-size: 1.5em;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd; }
+  /* line 87, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  .left ul li .side_arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-left-color: #ddd;
+    right: -49px;
+    top: 0;
+    z-index: 100;
+    display: none; }
+
+/* line 99, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.left ul li:nth-child(1) {
+  border-top: 1px solid #aaa; }
+
+/* line 103, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.left .form_caption {
+  color: #363636;
+  font-size: 1.7em;
   text-align: center;
-  cursor: pointer; }
-  /* line 29, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
-  .left ul li:hover {
-    background: #000; }
+  padding: 5%; }
+
+/* line 110, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.left form .name, .left form .phone, .left form .btn, .left form .form-section .email, .form-section .left form .email {
+  display: block;
+  width: 79%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 1.5% 4%;
+  margin-bottom: 4%;
+  background: #eeeeee; }
+
+/* line 122, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.left form .btn {
+  color: #000;
+  font-family: "RobotoCondensedBold";
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border: none;
+  padding: 3% 2%;
+  background: yellow; }
+
+/* line 133, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+.left form p {
+  font-family: "RobotoRegular";
+  font-size: 0.7em;
+  text-align: center; }
+  /* line 137, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  .left form p span {
+    color: #ffd800;
+    padding-left: 1%; }
+
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+.unique {
+  background: url(/images/unique_bg.png) repeat;
+  margin-top: 5%;
+  padding-top: 3%; }
+
+/* line 7, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+.unique_description {
+  font-family: "RobotoRegular";
+  color: #000;
+  text-align: left; }
+  /* line 11, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+  .unique_description h2 {
+    padding-bottom: 3%;
+    font-size: 2em; }
+  /* line 17, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+  .unique_description p {
+    padding-top: 0;
+    padding-bottom: 2%;
+    font-size: 1.2em; }
+
+/* line 23, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+.slider_unique_section {
+  margin-top: 5%; }
+
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+.superiority {
+  padding-top: 5%;
+  background: url(/images/superiority_bg.png) repeat; }
+  /* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  .superiority .superiority_header h2 {
+    padding-bottom: 3%;
+    font-size: 2em; }
+  /* line 9, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  .superiority .superiority_header p {
+    padding-top: 0;
+    padding-bottom: 2%;
+    font-size: 1.2em; }
+  /* line 15, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  .superiority .superiority_block_section {
+    padding-top: 2%; }
+
+/* line 20, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+.superiority_block {
+  font-family: "RobotoRegular";
+  margin-bottom: 17%; }
+  /* line 24, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  .superiority_block .superiority_pick {
+    float: left; }
+  /* line 28, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  .superiority_block h3 {
+    color: red;
+    font-family: "RobotoBold";
+    padding-left: 32%;
+    font-size: 1.1em; }
+  /* line 34, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  .superiority_block p {
+    clear: both;
+    padding-top: 2%; }
+
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+.consultation {
+  padding-top: 3%;
+  background: #db3633;
+  position: relative; }
+  /* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  .consultation:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    background-size: 14px 14px;
+    background-position: left;
+    background-image: url("/images/triangle_2.svg");
+    top: -10px; }
+  /* line 8, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  .consultation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    background-size: 14px 14px;
+    background-position: left;
+    background-image: url("/images/triangle_2.svg");
+    transform: rotate(180deg);
+    bottom: -10px; }
+  /* line 11, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  .consultation h3 {
+    font-family: "RobotoRegular";
+    font-size: 1.7em;
+    text-align: center;
+    color: #fff; }
+  /* line 17, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  .consultation .name, .consultation .left form .phone, .left form .consultation .phone, .consultation .left form .btn, .left form .consultation .btn, .consultation .phone, .consultation .form-section .email, .form-section .consultation .email {
+    display: block;
+    width: 100%;
+    margin: 10% auto 0;
+    border-radius: 5px;
+    padding: 1.5% 4%;
+    margin-bottom: 4%;
+    border: none; }
+  /* line 29, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  .consultation .btn {
+    width: 95%;
+    background: #ffd800;
+    color: #000;
+    margin: 0 auto 7%;
+    display: block;
+    font-family: "RobotoCondensedBold";
+    text-transform: uppercase;
+    font-size: 1.5em;
+    border: none;
+    padding: 2% 2%;
+    border-radius: 5px;
+    transition: 0.2s ease;
+    background: #ffd800; }
+    /* line 43, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+    .consultation .btn:hover {
+      background: #f5b138; }
+
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+.smart_mark {
+  padding-top: 8%; }
+  /* line 3, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+  .smart_mark .smart_header {
+    color: #000; }
+    /* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+    .smart_mark .smart_header h2 {
+      font-family: "RobotoLight";
+      font-size: 2.1em; }
+    /* line 9, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+    .smart_mark .smart_header p {
+      padding-top: 2%;
+      font-size: 1.2em; }
+
+/* line 15, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+.item_smart {
+  position: relative;
+  margin-top: 5%; }
+  /* line 18, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+  .item_smart:after {
+    content: attr(data-info-title);
+    color: red;
+    font-size: 1.9em;
+    font-family: "RobotoLight";
+    position: absolute;
+    padding: 2% 3%;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5); }
+
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+.catalog {
+  background: #f5b138;
+  border-bottom: 10px solid #dd011d;
+  padding-top: 1%; }
+
+/* line 7, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+.catalog_description {
+  padding: 1.5% 2%;
+  margin-left: 2%; }
+  /* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  .catalog_description h3 {
+    font-size: 2em;
+    color: #000;
+    font-family: "RobotoRegular"; }
+  /* line 16, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  .catalog_description p {
+    font-family: "RobotoRegular";
+    font-size: 1.5em;
+    color: #000;
+    line-height: 1.2; }
+
+/* line 26, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+.form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn, .left form .form-section .btn, .form-section .consultation .phone, .consultation .form-section .phone, .form-section .email {
+  display: block;
+  width: 90%;
+  margin: 18% auto 0;
+  border-radius: 5px;
+  padding: 3% 4%;
+  margin-bottom: 4%;
+  border: none; }
+
+/* line 38, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+.form-section .btn {
+  width: 95%;
+  background: #ffd800;
+  color: #fff;
+  margin: 1% auto 2%;
+  display: block;
+  font-family: "RobotoCondensedBold";
+  text-transform: uppercase;
+  font-size: 1.5em;
+  border: none;
+  padding: 2% 2%;
+  border-radius: 5px;
+  transition: 0.2s ease;
+  background: #dd011d; }
+  /* line 52, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  .form-section .btn:hover {
+    background: red; }
+
+/* line 57, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+.form-section p {
+  text-align: center;
+  font-size: 0.8em;
+  font-family: "RobotoCondensedRegular";
+  padding-top: 2%;
+  color: #6d6d6d; }
+
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+.metering {
+  padding-top: 5%; }
+  /* line 3, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+  .metering h2 {
+    font-family: "RobotoLight";
+    color: #000;
+    font-size: 2.1em; }
+  /* line 8, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+  .metering .metering_info_block {
+    margin-bottom: 5%; }
+    /* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+    .metering .metering_info_block h3 {
+      font-family: "RobotoRegular";
+      font-size: 1.3em; }
+    /* line 14, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+    .metering .metering_info_block p {
+      font-family: "RobotoRegular";
+      font-size: 1em; }
+
+/* line 21, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+.metering_info_section {
+  margin-top: 2%; }
+
+/* line 22, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+body {
+  background: blue; }
 
 /*# sourceMappingURL=main.css.map */

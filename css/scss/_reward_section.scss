@@ -1,0 +1,29 @@
+.reward{
+    h2{
+      font-family: $rl;
+      font-size: 2.2em;
+        padding-top: 20px;
+        text-align: center
+    }
+    p{
+        font-family: $rl;
+        font-size: 1.2em;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .counters-section{
+        padding-top: 10px;
+        color: #000;
+        .counter{
+            font-family: $rcb;
+            font-size: 3em;
+            text-align: center;
+        }
+        .description-counter{
+            padding-top:0;
+            font-family:$rcr;
+            text-align: center
+        }
+    }
+    
+}

@@ -1,0 +1,38 @@
+.superiority{
+    padding-top: 5%;
+   background: url(/images/superiority_bg.png) repeat;
+    .superiority_header{
+        h2{
+          padding-bottom: 3%;
+        font-size: 2em;  
+        }
+        p{
+          padding-top: 0;
+        padding-bottom: 2%;
+        font-size: 1.2em;  
+        }
+    }
+    .superiority_block_section{
+        padding-top: 2%;
+    }
+}
+
+.superiority_block{
+    font-family: $rr;
+    margin-bottom: 17%;
+    
+    .superiority_pick{
+        float: left;
+        
+    }
+    h3{
+        color: red;
+       font-family: $rb;
+        padding-left: 32%;
+        font-size: 1.1em;
+    }
+    p{
+        clear: both;
+        padding-top: 2%;
+    }
+}
