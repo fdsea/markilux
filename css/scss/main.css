@@ -793,6 +793,62 @@
 .metering_info_section {
   margin-top: 2%; }
 
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+.worktime {
+  padding-top: 2%; }
+  /* line 4, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+  .worktime .description_worktime h2 {
+    font-family: "RobotoLight";
+    font-size: 2.1em;
+    color: #000; }
+  /* line 9, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+  .worktime .description_worktime h3 {
+    font-size: 1.4em;
+    padding-top: 6%;
+    text-align: center; }
+
+/* line 16, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+.worktime_red_line {
+  background: #dd011d;
+  color: #fff;
+  font-family: "RobotoLight";
+  font-size: 1em;
+  margin-top: 1%;
+  overflow: hidden; }
+  /* line 23, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+  .worktime_red_line p {
+    text-align: center;
+    display: block;
+    padding: 3%;
+    position: relative; }
+    /* line 28, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+    .worktime_red_line p:after {
+      content: "";
+      position: absolute;
+      width: 40%;
+      height: 100%;
+      border: 4px solid transparent;
+      border-top: 7px solid #fff;
+      transform: rotate(70deg);
+      right: -60px; }
+  /* line 41, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+  .worktime_red_line p:nth-child(2):after {
+    right: -60px; }
+  /* line 46, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+  .worktime_red_line .last_p:after {
+    display: none; }
+
+/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+.feedback {
+  margin-top: 0.6%;
+  background: #e2e2e2;
+  padding-top: 1%; }
+  /* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+  .feedback h2 {
+    font-size: 2.1em;
+    font-family: "RobotoLight";
+    color: #000; }
+
 /* line 22, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
 body {
   background: blue; }
