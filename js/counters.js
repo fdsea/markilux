@@ -34,12 +34,12 @@ counter(0, 80,countTime,p4);
 counter(0, 1000000,countTime,p5);
     
 }
-
+ metrickCounter();
 document.addEventListener('scroll',()=>{
     let scroll = document.body.scrollTop;
     let reward = document.querySelector('.reward');
     if(reward.offsetTop/2.2 <= document.body.scrollTop && document.body.scrollTop<400 ){
-        metrickCounter();
+       
  }
    
 })

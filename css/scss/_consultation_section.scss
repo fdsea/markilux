@@ -13,21 +13,22 @@
         font-size: 1.7em;
         text-align: center;
         color: #fff;
+		padding-bottom: 3%;
     }
-    .name{
+    .name_consultation_block{
         display: block;
-            width: 100%;
-            margin: 10% auto 0;
+            width: 95%;
+            margin: 0% auto 0;
             border-radius: 5px;
             padding: 1.5% 4%;
             margin-bottom: 4%;
             border: none;
     }
-    .phone{
-        @extend .name;
+    .phone_consultation_block{
+        @extend .name_consultation_block;
     }
     .btn{
-        width: 95%;
+        width: 97%;
         background: $yellow;
         color: #000;
         margin: 0 auto 7%;

@@ -2,10 +2,41 @@
     margin-top: 0.6%;
     background: #e2e2e2;
     padding-top: 1%;
+	padding-bottom: 1%;
     h2{
         font-size: 2.1em;
         font-family: $rl;
         color: #000;
+		padding-bottom: 2%;
     }
 }
 
+.feedback_slider{
+	margin-top: 100px;
+	.left_side{
+		//float: left;
+	}
+	.right_side {
+		h2{
+			font-size: 1.4em;;
+			padding-top:0;
+			margin-top: 0;
+		}	
+		h3{
+		font-size: 1.2em;
+		}
+		p{
+		padding:3.7em 1.9em 0em;
+			font-size: 0.8em;
+		}
+		p:last-child{
+		padding-top:2%;
+		}
+		
+}
+}
+.owl-dots{
+	position: absolute;
+	bottom: 10%;
+	right: 22%;
+}
