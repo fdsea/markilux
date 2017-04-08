@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/grid.css" />
 	<link rel="stylesheet" href="css/reset.css" />
 	<link href="css/media-queries.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="plugins/bootstrap/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="plugins/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="plugins/owl/assets/owl.carousel.min.css">
@@ -29,6 +30,7 @@
 </head>
 
 <body>
+   <div class="content_wrapper">
 	<!--_topline_section-->
 	<div class="topline-wrapper">
 	<section class="topline">
@@ -617,21 +619,44 @@
 		</div>
 	</div>
 	</section>
-	
+</div><!--  CONTENT_WRAPPER_END  -->	
 	<!-- END -->
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-4">
 					<div class="footer_logo">
-					  <img src="/images/logo.png" alt="Markilux">
+					  <img src="images/logo_footer_1.png" alt="Markilux">
 					 </div>
-					 <p>@2000-2017 markilux Russia</p>
+					 <p class="copyright_footer"><i class="fa fa-copyright" aria-hidden="true"></i>2000-2017 markilux Russia</p>
 				</div>
-				<div class="col-xs-12 col-md-4">
-					<a href="info@markilux-russia.com">info@markilux-russia.com</a><br>
-					<a href="">Политика конфиденциальности</a>
-					<a href="">Реквизиты</a>
+				<div class="col-xs-12 col-md-4 footer_links">
+				  <div class="footer_email"><a href="info@markilux-russia.com">info@markilux-russia.com</a>
+				  </div>
+				  <div class="requisites">
+				    <a href="#privacy_popup" data-toggle="modal">Политика конфиденциальности</a>
+					<a href="#requisites_popup" data-toggle="modal">| Реквизиты</a>     
+				  </div>
+				  <!-- FOOTER POPUP`S -->
+<div id="privacy_popup" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa0a84fa124be205b1987de5f0315155f07a6ef95b8a14227377a6ebfc5ebe587&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+           
+        </div>
+    </div>
+</div>
+<div id="requisites_popup" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa0a84fa124be205b1987de5f0315155f07a6ef95b8a14227377a6ebfc5ebe587&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+           
+        </div>
+    </div>
+</div>
+					<!-- END POPUP-->
 				</div>
 				<div class="col-xs-12 col-md-4">
 					<div class="pay_sistems">
