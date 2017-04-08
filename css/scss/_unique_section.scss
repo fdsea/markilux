@@ -1,5 +1,5 @@
 .unique{
-    background: url(/images/unique_bg.png) repeat;
+    background: url(/images/unique_bg.png)no-repeat;
     margin-top: 5%;
     padding-top: 3%;
 }
@@ -23,4 +23,24 @@
 .slider_unique_section{
     margin-top:5%;
     
+}
+.unique{
+    .owl-nav{
+       
+        .owl-prev{
+          width: 30%; 
+          top: 50%;
+          left:0;
+        }
+        .owl-next{
+          width: 6%;
+          top: 50%;
+          right:10%;
+            float:right;
+        }
+        
+    }
+    .owl-dots{
+        display: none;
+    }
 }

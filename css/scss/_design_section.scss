@@ -11,13 +11,25 @@
 	width: 70%;
 	float: right;
 	overflow: hidden;
-	.car-wrap {
+	.carousel-wrap {
 		width: 100%;
 		.slider_design {
 			height: 100%;
 			display: none;
 			position: relative;
-			.items {}
+            .owl-dots{
+                position: absolute;
+                top:60%;
+                left:45%;
+                .owl-dot.active{
+                    span{
+                        background: red;  
+                    }
+                }
+                .owl-dot{
+                    span{border: 2px solid grey;}
+                }
+            }  
 		}
 	}
 	.slider_content {

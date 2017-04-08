@@ -1,9 +1,17 @@
-//"use strict";
+"use strict";
 var navBtn = document.querySelector('.nav-btn')
 	, popupNav = document.querySelector('.popup-nav')
-	, stixs = document.querySelectorAll('.span');
+	, stixs = document.querySelectorAll('.span'),
+    menu_item = document.querySelectorAll('.menu_item');
+console.log(menu_item);
+   for(let i = 0; i < menu_item.length;i++){
+       menu_item[i].addEventListener("click",()=>{
+          popupNav.classList.remove('active-nav');
+       });
+   }
 navBtn.addEventListener('click', () => {
 	popupNav.classList.toggle('active-nav');
+   
 	for (let i = 0; i < stixs.length; i++) {
 		if (stixs[i].classList.contains('active-stix-' + (i + 1))) {
 			stixs[i].classList.remove('active-stix-' + (i + 1));

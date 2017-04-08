@@ -7,9 +7,9 @@ $(document).ready(function() {
 		margin:10, //Отступ от картино если выводите больше 1
 		navText:false,
 		nav:true, //Отключил навигацию
-		autoplay:false, //Автозапуск слайдера
+		autoplay:true, //Автозапуск слайдера
 		smartSpeed:1000, //Время движения слайда
-		autoplayTimeout:2000, //Время смены слайда
+		autoplayTimeout:1000, //Время смены слайда
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
 				items:1

@@ -14,7 +14,7 @@
 .feedback_slider{
 	margin-top: 100px;
 	.left_side{
-		//float: left;
+		float: left;
 	}
 	.right_side {
 		h2{
@@ -35,8 +35,18 @@
 		
 }
 }
-.owl-dots{
-	position: absolute;
-	bottom: 10%;
-	right: 22%;
+.feedback {
+    .owl-dots {
+        position: absolute;
+        bottom: 10%;
+        right: 22%;
+        .owl-dot.active {
+            span {
+                background: red!important;
+            }
+        }
+        .owl-dot{
+                    span{border: 2px solid grey;}
+                }
+    }
 }
