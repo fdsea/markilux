@@ -3,10 +3,10 @@
     background: #db3633;
     position: relative;
     &:before{
-        @include fence('/images/triangle_2.svg','top',14px);
+        @include fence('/images/triangle_2.svg','top',13px);
     }
     &:after{
-        @include fence('/images/triangle_2.svg','bottom',14px);
+        @include fence('/images/triangle_2.svg','bottom',13px);
     }
     h3{
         font-family: $rr;

@@ -9,11 +9,11 @@
     background-position: left;
     background-image: url($urlImg);
     @if($pos == 'top'){
-        top: -$size /1.4;
+        top: -$size /1.42;
     }
     @else{
         transform:rotate(180deg);
-        bottom:-$size / 1.4;
+        bottom:-$size / 1.42;
     }
     
 }
