@@ -11,20 +11,27 @@
             padding-top: 6%;
             text-align: center;
         }
+         p:nth-child(5){
+           &:after{
+              display: none;
+          }  
+      }
     }
+	
 }
-.worktime_red_line{
-    background: $red;
-    color: #fff;
-    font-family: $rl;
-    font-size: 1em;
-    margin-top: 1%;
-    overflow: hidden;
-    p{
+
+    
+    
+   p.p_desription_worktime{
+	    font-size: 1em;
+	    background: red;
+	    font-family: $rl;
         text-align: center;
         display: block;
         padding: 3%;
         position: relative;
+	    color: #fff;
+	   overflow: hidden;
         &:after{
             content:"";
             position: absolute;
@@ -33,20 +40,10 @@
             border: 4px solid transparent;
             border-top: 7px solid #fff;
             transform: rotate(70deg);
-            right: -60px
+			z-index: 100;
+			right: -35px;
         }
         
     }
-    p:nth-child(2){
-        &:after{
-            right:-60px;
-        }
-    }
-    .last_p{
-        &:after{
-            display: none;
-        }
-        
-    }
+   
       
-}

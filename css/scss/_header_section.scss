@@ -12,12 +12,14 @@
     left: 50%;
     transform: translateX(-50%);
     width: 55%;
-    display: flex;
-    justify-content: space-between;
+    //display: flex;
+    //justify-content: space-between;
+	  .col_award{
+	  	width: 14.1%;
+		float: left;  
+	  }
       img{
-          float:left;
-          max-width: 100%;
-          height: auto;
+          
       }
 
   }

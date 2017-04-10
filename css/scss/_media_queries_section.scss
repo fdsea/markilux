@@ -1,0 +1,89 @@
+/*---- topline ----*/
+@media screen and (max-width: 1231px){
+	.topline-wrapper {
+		.topline {
+			width: 100%;
+			.header-phone{
+			  width: 16%;  
+		 }	
+	 }
+  }
+}
+@media screen and (max-width: 940px){
+	.topline {
+		.logo-header {
+			float: none;
+			margin: 0 0 0 60px;
+         }
+		h1{
+			display: block;
+			text-align: center;
+			width: 100%;
+		}
+		.header-phone{
+			position: absolute;
+			top: 10px;
+			right: 20px;
+			white-space: nowrap;
+		 }	
+      }
+	}
+/*-- end top line --*/
+
+/*----- header -----*/
+@media screen and (max-width: 1129px){
+	.header{
+		.awards-block {
+			width: 85%;
+			.col_award{
+			
+			}
+   }
+ }
+}
+@media screen and (max-width: 940px){
+	.header{
+		.awards-block {
+			width: 100%;
+			.col_award{
+			
+			}
+   }
+ }
+}
+/*--- header end ---*/
+/*---  disign ---*/
+
+@media screen and (max-width: 992px){
+	.design{
+		.left{
+			position: absolute;
+			z-index: 100;
+			left: -100%;
+			top: 0;
+			background: #fff;
+			width: 50%;
+			ul{
+				li{
+					.side_arrow{
+						display: none!important;
+					}
+				}
+			}
+		}
+		.right {
+			width: 100%;
+		}
+	   .design_button_nav {
+			display: block;
+    }	
+}
+	
+
+}
+/*-- end disign --*/
+
+/*--- worktime ---*/
+
+
+/*- end worktime -*/

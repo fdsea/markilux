@@ -1,15 +1,15 @@
 
-
-
+(function(){
 $(document).ready(function() {
+	
 	$('.owl-carousel').owlCarousel({
-		loop:true, //Зацикливаем слайдер
-		margin:10, //Отступ от картино если выводите больше 1
+		loop: true, //Зацикливаем слайдер
+		margin: 10, //Отступ от картино если выводите больше 1
 		navText:false,
-		nav:true, //Отключил навигацию
-		autoplay:true, //Автозапуск слайдера
-		smartSpeed:1000, //Время движения слайда
-		autoplayTimeout:1000, //Время смены слайда
+		nav: false, //Отключил навигацию
+		autoplay: true, //Автозапуск слайдера
+		smartSpeed: 1000, //Время движения слайда
+		autoplayTimeout: 2000, //Время смены слайда
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
 				items:1
@@ -22,6 +22,9 @@ $(document).ready(function() {
 			}
 		}
 	});
+	
+
+	
 });
 
 function toggleTabs() {
@@ -42,3 +45,4 @@ function toggleTabs() {
 	}
 }
 toggleTabs();
+}());
