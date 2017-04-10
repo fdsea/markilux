@@ -1,6 +1,7 @@
 .content_wrapper{
     width: 100%;
     height: 100%;
+	overflow: hidden;
 }
 
 
@@ -131,24 +132,29 @@ $timing: ease-in-out;
 		position: fixed;
 		top: 0%;
 		left: -100%;
-		width: 100%;
+		width: 40%;
 		height: 100%;
-		background: rgba(0, 0, 0, .8);
+		background: rgba(255, 255, 255, .97);
 		transition: 0.5s ease;
 		z-index: 200;
 		ul {
-			margin: 100px;
+			margin: 100px 15px;
 			li {
+				width: 100%;
 				list-style-type: none;
+				box-sizing: border-box;
 				a {
+					font-family: $rb;
+					font-size: 1.5em;
 					text-decoration: none;
 					display: block;
 					margin-bottom: 15px;
-					color: #fff;
+					color: #000;
 					text-transform: uppercase;
-					transition: 0.1s ease;
+					transition: .25s ease;
 					&:hover {
-						color: lightgreen;
+						color: red;
+						text-decoration: line-through;
 					}
 				}
 			}
@@ -181,7 +187,7 @@ $timing: ease-in-out;
 		}
 	}
 	.header-phone {
-		float: left;
+		float: right;
 		font-family: $rr;
 		width: 20%;
 		margin-top: 5px;
@@ -299,3 +305,4 @@ width: 420px;height: 430px;
 		}
 	}
 }
+
