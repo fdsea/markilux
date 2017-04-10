@@ -1,5 +1,5 @@
 .feedback{
-    margin-top: 0.6%;
+    margin: 0.6% auto;
     background: #e2e2e2;
     padding-top: 1%;
 	padding-bottom: 1%;
@@ -49,4 +49,16 @@
                     span{border: 2px solid grey;}
                 }
     }
+}
+.feedback{
+    .feedback_slider{
+        .owl-nav{
+          .owl-prev{
+             left:0; 
+           }
+          .owl-next{
+            right:0;
+           }
+       }
+    } 
 }

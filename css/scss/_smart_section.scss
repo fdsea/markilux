@@ -46,3 +46,13 @@
               }  
     
           }
+.smart_mark{
+    .smart_carousel_wrap{
+        display: flex;
+        justify-content: center;
+        .owl-carousel{
+            width: 70%;
+    }
+    }
+    
+}

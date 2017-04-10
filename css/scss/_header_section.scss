@@ -1,7 +1,6 @@
 .header {
   height: 90vh;
   width: 100%;
-
   background: url(/images/matte-header-bg.png), url(/images/header-bg.jpg), no-repeat;;
   position: relative;
   background-size: cover;
@@ -12,8 +11,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 55%;
-    //display: flex;
-    //justify-content: space-between;
+    
 	  .col_award{
 	  	width: 14.1%;
 		float: left;  
@@ -24,3 +22,49 @@
 
   }
 }
+/*-- POPUP --*/
+#call_order_popup{
+    .modal-dialog{
+        .modal-header{
+            .h2{
+                text-align: center;
+                display: inline-block;
+                font-size: 1em;
+                text-transform: uppercase;
+                margin-left: 40px;
+                font-family: $rb;
+            }
+        }
+        width: 300px;
+        .banner_form{
+            padding: -10px 30px;
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            align-items: center;
+            font-family: $rr;
+            .banner_input_name{
+               
+                margin-bottom: 10px;
+                width: 100%;
+                border-radius: 5px;
+                border: 1px solid grey;
+                padding:5px 10px;
+             }
+            .banner_input_phone{
+                @extend .banner_input_name;
+                
+             }
+             .btn{
+                @extend .banner_input_name;
+                 text-transform: uppercase;
+                 background: $red;
+                 color: #fff;
+                 border:none;
+                 padding: 7px 10px
+             }    
+        }
+    }    
+}
+
+/*----------*/

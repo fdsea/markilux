@@ -5,7 +5,7 @@ var navBtn = document.querySelector('.nav-btn')
 	, popupNav = document.querySelector('.popup-nav')
 	, stixs = document.querySelectorAll('.span'),
     menu_item = document.querySelectorAll('.menu_item');
-console.log(menu_item);
+
    for(let i = 0; i < menu_item.length;i++){
 	   
        menu_item[i].addEventListener("click",()=>{

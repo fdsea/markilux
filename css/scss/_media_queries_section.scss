@@ -51,6 +51,29 @@
    }
  }
 }
+@media screen and (max-width: 800px){
+    .header{
+        .header_banner{
+            right:0;
+            width: 375px;
+            .garanty{
+                font-size: 1.2em;
+            }
+                .banner_form{
+                    .btn{
+                       font-size: 1.2em;
+                       margin-bottom: 0;
+                    }
+                    .security{
+                        padding:0px;
+                        clear: both;
+                    }
+                }
+                
+            
+        }
+    }
+}
 /*--- header end ---*/
 /*---  disign ---*/
 
@@ -83,7 +106,58 @@
 }
 /*-- end disign --*/
 
+/*-- unique --*/
+@media screen and (max-width: 992px){
+    
+}
+
+/*--- end ---*/
+
 /*--- worktime ---*/
 
 
 /*- end worktime -*/
+
+/*-- FOOTER --*/
+@media screen and (max-width: 768px){
+    .footer{
+        position: relative;
+        .copyright_footer{
+            padding-bottom: 0;
+        }
+        .footer_logo{
+          margin-top:35px;
+          margin-bottom: 20px;   
+        }
+        .footer_links{
+            text-align: center;
+            .footer_email{
+                display: inline-block;
+                padding-top: 0;
+            }
+            .requisites{
+                display: inline-block;
+                padding-top: 0;
+            }
+        }
+        .pay_col{
+            position: absolute;
+            top: 20px;;
+            right: 10px;
+        }
+    }
+    
+}
+@media screen and (max-width: 458px){
+    .footer{
+        .pay_col{
+            .pay_sistems{
+                img{
+                    width: 100px;
+                    
+                }
+            }
+        }
+    }
+}
+/*------------*/
