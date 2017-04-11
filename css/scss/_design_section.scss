@@ -192,6 +192,14 @@
         padding: 5%;
     }
     form{
+		.design_hidden_input{
+			visibility: hidden;
+			height: 2px;
+			width: 1px;
+			padding:0;
+		    margin:0;
+			float:right;
+		}
         .name{
             display: block;
             width: 79%;

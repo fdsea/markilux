@@ -751,6 +751,15 @@
   padding: 5%; }
 
 /* line 195, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
+.left form .design_hidden_input {
+  visibility: hidden;
+  height: 2px;
+  width: 1px;
+  padding: 0;
+  margin: 0;
+  float: right; }
+
+/* line 203, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form .name, .left form .phone, .left form .btn, .left form .form-section .email, .form-section .left form .email {
   display: block;
   width: 79%;
@@ -760,7 +769,7 @@
   margin-bottom: 4%;
   background: #eeeeee; }
 
-/* line 207, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
+/* line 215, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form .btn {
   color: #000;
   font-family: "RobotoCondensedBold";
@@ -770,12 +779,12 @@
   padding: 3% 2%;
   background: yellow; }
 
-/* line 218, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
+/* line 226, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form p {
   font-family: "RobotoRegular";
   font-size: 0.7em;
   text-align: center; }
-  /* line 222, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
+  /* line 230, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .left form p span {
     color: #ffd800;
     padding-left: 1%; }
@@ -1562,7 +1571,7 @@ p.p_desription_worktime {
 
 /*---- end ----*/
 /*-- FOOTER --*/
-@media screen and (max-width: 1465px) {
+@media screen and (max-width: 1965px) {
   /* line 448, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .footer .copyright_footer {
     padding-bottom: 0; }
