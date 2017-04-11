@@ -34,17 +34,19 @@ counter(0, 45, countTime,p2);
 counter(0, 250,countTime,p3);
 counter(0, 80,countTime,p4);
 counter(0, 1000000,countTime,p5);
-    
+	
+    return false;
 }
 
-document.addEventListener('scroll',()=>{
-    let scroll = document.body.scrollTop;
-    let reward = document.querySelector('.reward');
-    if(reward.offsetTop/2.2 <= document.body.scrollTop && document.body.scrollTop<400 ){
+	function scroolStart(){
+	   let scroll = document.body.scrollTop;
+       let reward = document.querySelector('.reward');
+       if(reward.offsetTop/2.2 <= document.body.scrollTop /*&& document.body.scrollTop<400*/ ){
         metrickCounter();
- }
-   
-});
+		document.removeEventListener('scroll', scroolStart);
+	   }
+	}
+document.addEventListener('scroll', scroolStart);
 
 }());
         
