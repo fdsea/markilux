@@ -486,8 +486,20 @@
             top: 20px;;
             right: 10px;
         }
+		#privacy_popup{
+	       .modal-dialog{
+			   width: 90%;
+			}
+		}
+		#requisites_popup{
+			.modal-body{
+				height: 70vh;
+			}
+			button{
+				float: left;
+			}
+        }
     }
-    
 }
 @media screen and (max-width: 458px){
     .footer{

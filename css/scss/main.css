@@ -396,10 +396,14 @@
       display: table-cell; }
 
 /*-- POPUP --*/
-/* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+/* line 28, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+#instalation_popup {
+  /*some style*/ }
+
+/* line 32, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
 #call_order_popup .modal-dialog {
   width: 300px; }
-  /* line 31, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+  /* line 34, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   #call_order_popup .modal-dialog .modal-header .h2 {
     text-align: center;
     display: inline-block;
@@ -407,7 +411,7 @@
     text-transform: uppercase;
     margin-left: 40px;
     font-family: "RobotoBold"; }
-  /* line 41, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+  /* line 44, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   #call_order_popup .modal-dialog .banner_form {
     padding: -10px 30px;
     display: flex;
@@ -415,14 +419,14 @@
     align-content: space-around;
     align-items: center;
     font-family: "RobotoRegular"; }
-    /* line 48, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+    /* line 51, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .banner_input_name, #call_order_popup .modal-dialog .banner_form .banner_input_phone, #call_order_popup .modal-dialog .banner_form .btn {
       margin-bottom: 10px;
       width: 100%;
       border-radius: 5px;
       border: 1px solid grey;
       padding: 5px 10px; }
-    /* line 60, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+    /* line 63, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .btn {
       text-transform: uppercase;
       background: #dd011d;
@@ -1256,15 +1260,23 @@ p.p_desription_worktime {
 /* line 52, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
 #privacy_popup {
   font-family: "RobotoRegular"; }
-  /* line 54, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
+  /* line 53, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
+  #privacy_popup .modal-dialog {
+    width: 50%; }
+    /* line 56, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
+    #privacy_popup .modal-dialog .modal-header button {
+      float: left; }
+  /* line 62, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   #privacy_popup .h3 {
     display: inline-block;
     text-transform: uppercase;
-    margin-left: 140px; }
-  /* line 60, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
+    margin-left: 39px;
+    display: block;
+    float: left; }
+  /* line 70, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   #privacy_popup .modal-body {
     padding: 10px 20px; }
-    /* line 62, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
+    /* line 72, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
     #privacy_popup .modal-body p {
       color: #000; }
 
@@ -1606,10 +1618,19 @@ p.p_desription_worktime {
     .footer .pay_col {
       position: absolute;
       top: 20px;
-      right: 10px; } }
+      right: 10px; }
+    /* line 490, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+    .footer #privacy_popup .modal-dialog {
+      width: 90%; }
+    /* line 495, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+    .footer #requisites_popup .modal-body {
+      height: 70vh; }
+    /* line 498, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+    .footer #requisites_popup button {
+      float: left; } }
 
 @media screen and (max-width: 458px) {
-  /* line 495, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  /* line 507, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .footer .pay_col .pay_sistems {
     display: none; } }
 
