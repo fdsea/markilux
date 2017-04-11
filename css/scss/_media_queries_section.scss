@@ -1,10 +1,26 @@
+@media screen and (max-width: 800px){
+	.content_wrapper{
+		.owl-carousel {
+			.owl-nav{
+				display: none !important;
+			}	
+       }
+	}
+}
 /*---- topline ----*/
 @media screen and (max-width: 1231px){
 	.topline-wrapper {
 		.topline {
 			width: 100%;
+			.logo-header {
+				margin-top: 8px;
+				img{
+					width: 200px;
+				}
+             }
 			.header-phone{
-			  width: 16%;  
+			  width: 16%;
+			  margin-right: 20px;	
 		 }	
 	 }
   }
@@ -23,18 +39,79 @@
 		.header-phone{
 			position: absolute;
 			top: 10px;
-			right: 20px;
+			right: 10px;
 			white-space: nowrap;
 		 }	
       }
 	}
+@media screen and (max-width: 700px){
+	.topline {
+		.logo-header {
+			float: none;
+			margin: 0 0 0 60px;
+         }
+		h1{
+			display: block;
+			text-align: center;
+			width: 100%;
+		}
+		.header-phone{	
+			width: 50% !important;
+		 }	
+      }
+}
+@media screen and (max-width: 450px){
+.topline {
+		.logo-header {
+		   float: none;
+			margin: 0 0 0 60px;
+         }
+		h1{
+			display: block;
+			text-align: center;
+			width: 100%;
+			line-height: 1.1;
+		}
+		.header-phone{	
+			width: 50% !important;
+			top: 20px;
+			margin-right: 5px !important;
+			.phone-number {
+				a{
+					font-size:1.1em;
+				}
+            }
+		 }	
+      }
+}
+@media screen and (max-width: 402px){
+	.topline {
+		.logo-header {
+		   float: none;
+			margin: 0 0 0 60px;
+         }
+		h1{
+			display: block;
+			text-align: center;
+			width: 100%;
+			line-height: 1.1;
+		}
+		.header-phone{
+			position:static;
+			float: left;
+			width: 63% !important;
+			margin-right: 5px !important;
+			
+		 }	
+      }
+}
 /*-- end top line --*/
 
 /*----- header -----*/
 @media screen and (max-width: 1129px){
 	.header{
 		.awards-block {
-			width: 85%;
+			//width: 85%;
 			.col_award{
 			
 			}
@@ -45,9 +122,6 @@
 	.header{
 		.awards-block {
 			width: 100%;
-			.col_award{
-			
-			}
    }
  }
 }
@@ -75,8 +149,162 @@
     }
 }
 /*--- header end ---*/
-/*---  disign ---*/
+/*---top red line ---*/
+@media screen and (max-width: 1472px){
+	.year_section{
+		.red-line{
+			.cell{
+				padding: 1px 6%;
+				
+			}
+			.cell-6{
+				.arrow.arrow-1{
+					left: 60px !important;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 1284px){
+	.year_section{
+		.red-line{
+			//width: 100%;
+			.cell{
+				padding: 1px 6%;
+			}
+			.cell-2{
+				padding-left: 7%;
+			}
+			.cell-1{
+				.arrow-1{
+					left: 65px;
+				}
+				.arrow-2{
+					left: 75px;
+				}
+				.arrow-3{
+					left: 85px;
+				}
+				.arrow-4{
+					left: 95px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 940px){
+	.year_section{
+		display: none;
+		.red-line{
+			width: 100%;
+			.cell{
+				padding: 1px 6%;
+			}
+			.cell-1{
+				&:before{
+				display: none;
+				}
+			}
+			.cell-6{
+				.arrow.arrow-1{
+					display: none;
+				}
+			}
+		}
+	}
+}
+/*--- end top red line ---*/
 
+/*---  disign ---*/
+@media screen and (max-width: 1100px){
+	.right{
+		.carousel-wrap{
+			.slider_design{
+				 .owl-dots{
+				   top: 55%;
+			   }
+			}	 
+		}
+	}
+}
+@media screen and (max-width: 727px){
+	.right{
+		.carousel-wrap{
+			.slider_design{
+				 .owl-dots{
+				   top: 50%;
+			   }
+			}	 
+		}
+	}
+}
+@media screen and (max-width: 650px){
+	.right{
+		.carousel-wrap{
+			.slider_design{
+				 .owl-dots{
+				   top: 45%;
+				   left: 35%;	 
+			   }
+			}	 
+		}
+	}
+}
+@media screen and (max-width: 590px){
+	.right{
+		.carousel-wrap{
+			.slider_design{
+				 .owl-dots{
+				   top: 40%;
+			   }
+			}	 
+		}
+	}
+}
+@media screen and (max-width: 490px){
+	.right{
+		.carousel-wrap{
+			.slider_design{
+				 .owl-dots{
+				   top: 35%;
+			   }
+			}	 
+		}
+	}
+}
+@media screen and (max-width: 490px){
+	.right{
+		.carousel-wrap{
+			.slider_design{
+				 .owl-dots{
+				   top: 30%;
+			   }
+			}	 
+		}
+	}
+}
+@media screen and (max-width: 400px){
+	.right{
+		.carousel-wrap{
+			.slider_design{
+				 .owl-dots{
+				   top: 25%;
+			   }
+			}	 
+		}
+	}
+}
+@media screen and (max-width: 354px){
+	.right{
+		.carousel-wrap{
+			.slider_design{
+				 .owl-dots{
+				   top: 22%;
+			   }
+			}	 
+		}
+	}
+}
 @media screen and (max-width: 992px){
 	.design{
 		.left{
@@ -101,24 +329,141 @@
 			display: block;
     }	
 }
-	
 
+}
+@media screen and (max-width: 644px){
+	.design{
+		.left{
+			width: 80%;
+	  }	
+   }
+	.active_mobile_button_disign{
+	left: 78.8% !important;
+  }
 }
 /*-- end disign --*/
 
-/*-- unique --*/
+/*-- consultation --*/
+@media screen and (max-width: 768px){
+	.consultation{
+		.name_consultation_block,
+		.phone_consultation_block,
+		.btn{
+			padding: 2% 4%;
+			font-size: 2.7em;
+		}
+		
+	}
+}
+@media screen and (max-width: 420px){
+	
+	.consultation{
+		.name_consultation_block,
+		.phone_consultation_block,
+		.btn{
+			padding: 2% 4%;
+			font-size: 1.5em;
+		}
+		.btn{
+			width: 95%;
+		}
+		
+	}
+}
+/*--- end ---*/
+
+/* --- catalog ---*/
 @media screen and (max-width: 992px){
-    
+	
+	.form-section{
+		.name,
+		.email,
+		.btn{
+			padding: 2% 4%;
+			font-size: 2.7em;
+		}
+		.btn{
+			width: 90%;
+		}
+		
+	}
+
+}
+@media screen and (max-width: 768px){
+	
+	.form-section{
+		.name,
+		.email,
+		.btn{
+			padding: 2% 4%;
+			font-size: 2.4em;
+		}
+		.btn{
+			width: 90%;
+		}
+		
+	}
+
+}
+@media screen and (max-width: 420px){
+	
+	.form-section{
+		.name,
+		.email,
+		.btn{
+			padding: 2% 4%;
+			font-size: 1.5em;
+		}
+		.btn{
+			width: 90%;
+		}
+		
+	}
 }
 
-/*--- end ---*/
+/*-- end catalog --*/
 
 /*--- worktime ---*/
 
 
 /*- end worktime -*/
+/*-- feedback --*/
+@media screen and (max-width: 992px){
+	.feedback{
+		.owl-dots{
+		  bottom: 0%;
+		  right: 45%;	
+		}
+	}
+}
+/*---- end ----*/
 
 /*-- FOOTER --*/
+@media screen and (max-width: 1465px){
+    .footer{
+       
+        .copyright_footer{
+            padding-bottom: 0;
+        }
+        .footer_logo{
+           
+        }
+        .footer_links{
+            
+            .footer_email{
+                
+            }
+            .requisites{
+               display: flex;
+				justify-content: center;
+            }
+        }
+        .pay_col{
+           
+        }
+    }
+    
+}
 @media screen and (max-width: 768px){
     .footer{
         position: relative;
@@ -152,10 +497,7 @@
     .footer{
         .pay_col{
             .pay_sistems{
-                img{
-                    width: 100px;
-                    
-                }
+                display: none;
             }
         }
     }

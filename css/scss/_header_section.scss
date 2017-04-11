@@ -6,15 +6,17 @@
   background-size: cover;
   background-position: bottom right;
   .awards-block {
+	  display: table;
     position: absolute;
     bottom: 1%;
     left: 50%;
     transform: translateX(-50%);
-    width: 55%;
+    width: 60%;
     
 	  .col_award{
-	  	width: 14.1%;
-		float: left;  
+		  display: table-cell;
+	  	//width: 14.1%;
+		//float: left;  
 	  }
       img{
           

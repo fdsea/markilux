@@ -7,7 +7,7 @@ for(let i in opacity_block){
 	if(getCoords(opacity_block[i]).top <=100){ opacity_block[i].classList.add('visible_block');} 
 	document.addEventListener('scroll',()=>{
 		 
-		 if(getCoords(opacity_block[i]).top-400 <= document.body.scrollTop){
+		 if(getCoords(opacity_block[i]).top-600 <= document.body.scrollTop){
 			 opacity_block[i].classList.add('visible_block');
 		 }
 });
