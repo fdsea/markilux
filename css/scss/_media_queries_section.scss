@@ -244,7 +244,7 @@
 			.slider_design{
 				 .owl-dots{
 				   top: 45%;
-				   left: 35%;	 
+				   left: 43%;	 
 			   }
 			}	 
 		}
@@ -256,6 +256,7 @@
 			.slider_design{
 				 .owl-dots{
 				   top: 40%;
+					 left:40%;
 			   }
 			}	 
 		}
@@ -267,22 +268,25 @@
 			.slider_design{
 				 .owl-dots{
 				   top: 35%;
+				   left:35%;
 			   }
 			}	 
 		}
 	}
 }
-@media screen and (max-width: 490px){
+@media screen and (max-width: 430px){
 	.right{
 		.carousel-wrap{
 			.slider_design{
 				 .owl-dots{
 				   top: 30%;
+					 left:30%;
 			   }
 			}	 
 		}
 	}
 }
+
 @media screen and (max-width: 400px){
 	.right{
 		.carousel-wrap{
@@ -350,7 +354,7 @@
 		.phone_consultation_block,
 		.btn{
 			padding: 2% 4%;
-			font-size: 2.7em;
+			font-size: 1.7em;
 		}
 		
 	}
@@ -362,7 +366,7 @@
 		.phone_consultation_block,
 		.btn{
 			padding: 2% 4%;
-			font-size: 1.5em;
+			font-size: 1.3em;
 		}
 		.btn{
 			width: 95%;
@@ -441,18 +445,10 @@
 /*-- FOOTER --*/
 @media screen and (max-width: 1465px){
     .footer{
-       
         .copyright_footer{
             padding-bottom: 0;
         }
-        .footer_logo{
-           
-        }
         .footer_links{
-            
-            .footer_email{
-                
-            }
             .requisites{
                display: flex;
 				justify-content: center;
@@ -482,7 +478,7 @@
             }
             .requisites{
                 display: inline-block;
-                padding-top: 0;
+                padding-top: 5%;
             }
         }
         .pay_col{

@@ -1,3 +1,5 @@
+(function(){
+
 function metrickCounter(){
   var p1 = document.querySelector('.counter-1'),
       p2 = document.querySelector('.counter-2'),
@@ -42,7 +44,7 @@ document.addEventListener('scroll',()=>{
         metrickCounter();
  }
    
-})
+});
 
-
+}());
         
