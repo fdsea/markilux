@@ -8,8 +8,8 @@
   overflow: hidden;	
 	.video_wrapper{
 		video#video_background{
-			top: -180px !important;
-			//bottom: 0!important;
+			//top: -180px !important;
+			bottom: 0%!important;
 		}
 	}
   .awards-block {
@@ -21,14 +21,8 @@
     width: 60%;
     z-index: 1000;
 	  .col_award{
-		  display: table-cell;
-	  	//width: 14.1%;
-		//float: left;  
+		  display: table-cell;  
 	  }
-      img{
-          
-      }
-
   }
 }
 /*-- POPUP --*/

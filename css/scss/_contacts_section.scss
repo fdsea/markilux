@@ -1,6 +1,9 @@
 .contacts{
 	text-align: center;
 	line-height: 1;
+	a:focus{
+		outline: none;
+	}
 	p{
 		font-family: $rl;
 		font-size: 2em;
