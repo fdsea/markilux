@@ -8,8 +8,8 @@ $(document).ready(function() {
 		navText:false,
 		nav: false, //Отключил навигацию
 		autoplay: true, //Автозапуск слайдера
-		smartSpeed: 1000, //Время движения слайда
-		autoplayTimeout: 2000, //Время смены слайда
+		smartSpeed: 3000, //Время движения слайда
+		autoplayTimeout: 4000, //Время смены слайда
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
 				items:1
