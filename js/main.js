@@ -1,6 +1,18 @@
 
 (function(){
 $(document).ready(function() {
+    var videobackground = new $.backgroundVideo($('#header_section'), {
+      "align": "centerXY",
+      "width": 1280,
+      "height": 720,
+      "path": "video/",
+      "filename": "Markilux MX-1 bg",
+      "types": ["mp4"],
+      "preload": true,
+      "autoplay": true,
+      "loop": true
+    });
+ 
 	
 	$('.owl-carousel').owlCarousel({
 		loop: true, //Зацикливаем слайдер
@@ -8,8 +20,13 @@ $(document).ready(function() {
 		navText:false,
 		nav: false, //Отключил навигацию
 		autoplay: true, //Автозапуск слайдера
+<<<<<<< HEAD
 		smartSpeed: 3000, //Время движения слайда
 		autoplayTimeout: 4000, //Время смены слайда
+=======
+		smartSpeed: 1000, //Время движения слайда
+		autoplayTimeout: 3000, //Время смены слайда
+>>>>>>> b1c3a3e4b920477f0e15a4394aaabd1993e5ce4f
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
 				items:1
@@ -22,8 +39,6 @@ $(document).ready(function() {
 			}
 		}
 	});
-	
-
 	
 });
 

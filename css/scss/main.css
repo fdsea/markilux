@@ -379,31 +379,36 @@
 .header {
   height: 90vh;
   width: 100%;
-  background: url(/images/matte-header-bg.png), url(/images/header-bg.jpg), no-repeat;
+  background: url(/images/matte-header-bg.png) no-repeat;
   position: relative;
   background-size: cover;
-  background-position: bottom right; }
-  /* line 8, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+  background-position: bottom right;
+  overflow: hidden; }
+  /* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+  .header .video_wrapper video#video_background {
+    bottom: 0% !important; }
+  /* line 15, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   .header .awards-block {
     display: table;
     position: absolute;
     bottom: 1%;
     left: 50%;
     transform: translateX(-50%);
-    width: 60%; }
-    /* line 16, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+    width: 60%;
+    z-index: 1000; }
+    /* line 23, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     .header .awards-block .col_award {
       display: table-cell; }
 
 /*-- POPUP --*/
-/* line 28, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+/* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
 #instalation_popup {
   /*some style*/ }
 
-/* line 32, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+/* line 33, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
 #call_order_popup .modal-dialog {
   width: 300px; }
-  /* line 34, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+  /* line 35, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   #call_order_popup .modal-dialog .modal-header .h2 {
     text-align: center;
     display: inline-block;
@@ -411,7 +416,7 @@
     text-transform: uppercase;
     margin-left: 40px;
     font-family: "RobotoBold"; }
-  /* line 44, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+  /* line 45, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   #call_order_popup .modal-dialog .banner_form {
     padding: -10px 30px;
     display: flex;
@@ -419,14 +424,14 @@
     align-content: space-around;
     align-items: center;
     font-family: "RobotoRegular"; }
-    /* line 51, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+    /* line 52, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .banner_input_name, #call_order_popup .modal-dialog .banner_form .banner_input_phone, #call_order_popup .modal-dialog .banner_form .btn {
       margin-bottom: 10px;
       width: 100%;
       border-radius: 5px;
       border: 1px solid grey;
       padding: 5px 10px; }
-    /* line 63, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+    /* line 64, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .btn {
       text-transform: uppercase;
       background: #dd011d;
@@ -764,7 +769,7 @@
   float: right; }
 
 /* line 203, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
-.left form .name, .left form .phone, .left form .btn, .left form .form-section .email, .form-section .left form .email {
+.left form .name, .left form .phone, .left form .btn_order, .left form .form-section .email, .form-section .left form .email {
   display: block;
   width: 79%;
   margin: 0 auto;
@@ -774,7 +779,7 @@
   background: #eeeeee; }
 
 /* line 215, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
-.left form .btn {
+.left form .btn_order {
   color: #000;
   font-family: "RobotoCondensedBold";
   text-transform: uppercase;
@@ -936,7 +941,7 @@
 
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
 .smart_mark {
-  padding-top: 8%; }
+  padding-top: 5%; }
   /* line 3, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark .smart_header {
     color: #000; }
@@ -1012,10 +1017,10 @@
   padding-top: 8%; }
 
 /* line 28, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
-.form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn, .left form .form-section .btn, .form-section .email {
+.form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email {
   display: block;
   width: 90%;
-  margin: 0% auto 0;
+  margin: 0 auto 0;
   border-radius: 5px;
   padding: 3% 4%;
   margin-bottom: 4%;
@@ -1100,17 +1105,6 @@ p.p_desription_worktime {
   position: relative;
   color: #fff;
   overflow: hidden; }
-  /* line 35, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
-  p.p_desription_worktime:after {
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 100%;
-    border: 4px solid transparent;
-    border-top: 7px solid #fff;
-    transform: rotate(70deg);
-    z-index: 100;
-    right: -35px; }
 
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
 .feedback {
@@ -1174,27 +1168,30 @@ p.p_desription_worktime {
   text-align: center;
   line-height: 1; }
   /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+  .contacts a:focus {
+    outline: none; }
+  /* line 7, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts p {
     font-family: "RobotoLight";
     font-size: 2em;
     line-height: 1; }
-  /* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+  /* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts .our_addres {
     font-size: 1.5em;
     padding-top: 5%; }
-  /* line 14, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+  /* line 17, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts a {
     color: #000;
     font-size: 2.5em;
     display: block; }
-    /* line 20, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+    /* line 23, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
     .contacts a b {
       padding-left: 1%; }
-    /* line 23, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+    /* line 26, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
     .contacts a .work_time {
       padding-top: 0;
       line-height: 1; }
-  /* line 28, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+  /* line 31, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts .btn_contacts {
     background: #fff;
     border: 1px solid red;
@@ -1202,17 +1199,41 @@ p.p_desription_worktime {
     text-transform: uppercase;
     color: red;
     font-family: "RobotoMedium";
-    padding: 1% 2%; }
-  /* line 38, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+    padding: 1% 2%;
+    transition: .35s ease; }
+    /* line 40, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+    .contacts .btn_contacts:hover {
+      background: red; }
+    /* line 43, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+    .contacts .btn_contacts:hover a {
+      color: #fff; }
+    /* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+    .contacts .btn_contacts:active {
+      background: darkred; }
+    /* line 49, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+    .contacts .btn_contacts a {
+      font-size: 1em;
+      color: red;
+      text-decoration: none;
+      border: none; }
+      /* line 54, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+      .contacts .btn_contacts a:focus {
+        outline: none; }
+  /* line 60, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts addres b {
     font-size: 1.5em;
     padding-top: 0.5%; }
-  /* line 42, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+  /* line 64, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts addres p {
     padding-top: 0.4%;
     font-size: 1em; }
+  /* line 69, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+  .contacts .driving_directions {
+    color: #dd011d;
+    font-size: 1em;
+    padding-top: 1.4%; }
 
-/* line 48, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
+/* line 75, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
 .any_questions {
   margin-top: 6%; }
 
@@ -1540,7 +1561,7 @@ p.p_desription_worktime {
 /* --- catalog ---*/
 @media screen and (max-width: 992px) {
   /* line 383, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn, .left form .form-section .btn, .form-section .email,
+  .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email,
   .form-section .email,
   .form-section .btn {
     padding: 2% 4%;
@@ -1551,7 +1572,7 @@ p.p_desription_worktime {
 
 @media screen and (max-width: 768px) {
   /* line 399, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn, .left form .form-section .btn, .form-section .email,
+  .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email,
   .form-section .email,
   .form-section .btn {
     padding: 2% 4%;
@@ -1562,7 +1583,7 @@ p.p_desription_worktime {
 
 @media screen and (max-width: 420px) {
   /* line 415, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn, .left form .form-section .btn, .form-section .email,
+  .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email,
   .form-section .email,
   .form-section .btn {
     padding: 2% 4%;

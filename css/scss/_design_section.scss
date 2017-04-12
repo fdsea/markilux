@@ -212,7 +212,7 @@
         .phone{
             @extend .name;
         }
-        .btn{
+        .btn_order{
             @extend .name;
             color: #000;
             font-family: $rcb;
