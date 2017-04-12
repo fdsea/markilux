@@ -20,13 +20,8 @@ $(document).ready(function() {
 		navText:false,
 		nav: false, //Отключил навигацию
 		autoplay: true, //Автозапуск слайдера
-<<<<<<< HEAD
 		smartSpeed: 3000, //Время движения слайда
 		autoplayTimeout: 4000, //Время смены слайда
-=======
-		smartSpeed: 1000, //Время движения слайда
-		autoplayTimeout: 3000, //Время смены слайда
->>>>>>> b1c3a3e4b920477f0e15a4394aaabd1993e5ce4f
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
 				items:1
