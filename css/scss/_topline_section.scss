@@ -253,7 +253,9 @@ $timing: ease-in-out;
 
 /*===== BANNER ======*/
 .header_banner{
-width: 420px;height: 430px;
+width: 20%;//420px;
+	//height: 430px;
+	//height: auto;
 	position: absolute;
 	background: rgba(255,255,255,0.5);
 	top: 10%;

@@ -1,6 +1,7 @@
 
 (function(){
 $(document).ready(function() {
+	function backgroundVideo(){
     var videobackground = new $.backgroundVideo($('#header_section'), {
       "align": "centerXY",
       "width": 1280,
@@ -12,16 +13,18 @@ $(document).ready(function() {
       "autoplay": true,
       "loop": true
     });
- 
+	}
+	backgroundVideo();
 	
 	$('.owl-carousel').owlCarousel({
 		loop: true, //Зацикливаем слайдер
 		margin: 10, //Отступ от картино если выводите больше 1
-		navText:false,
+		navText: false,
 		nav: false, //Отключил навигацию
 		autoplay: true, //Автозапуск слайдера
-		smartSpeed: 3000, //Время движения слайда
-		autoplayTimeout: 4000, //Время смены слайда
+		smartSpeed: 500, //Время движения слайда
+		autoplayTimeout: 1000, //Время смены слайда
+		autoplayHoverPause: true, 
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
 				items:1
@@ -62,9 +65,9 @@ toggleTabs();
 		var navBtn = document.querySelector('.nav-btn'),
 			pos = document.body.scrollTop;
 		console.log(pos);
-		if(pos > 120){
+		if(pos > 1){
 			navBtn.style.position = "fixed";
-			navBtn.style.left = "5%";
+			navBtn.style.left = "1.7%";
 			navBtn.style.top = "3%";
 		}else{
 			navBtn.style.position="";

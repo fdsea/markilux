@@ -27,9 +27,10 @@
     }
     h3{
         color: red;
-       font-family: $rb;
-        padding-left: 32%;
+        font-family: $rb;
         font-size: 1.1em;
+		float: left;
+		margin-left: 4%;
     }
     p{
         clear: both;

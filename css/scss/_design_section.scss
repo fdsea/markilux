@@ -95,6 +95,26 @@
         }
     }
 }
+.right{
+	.carousel-wrap{
+		.slider_design{
+			.item{
+				.img_design_wrap{
+					max-height: 458px;
+					overflow: hidden;
+					
+				}
+				h1{
+					font-size: 1.9em;
+					margin: 0.1em 0 0.1em;
+				}
+				
+			}
+		}
+		
+	}
+
+}
 
 .owl-nav {
 	color: red;
