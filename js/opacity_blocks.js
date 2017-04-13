@@ -1,4 +1,5 @@
 (function(){
+    "use strict";
 	var opacity_block = document.querySelectorAll('.opacity_block');
 for(let i in opacity_block){
     

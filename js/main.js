@@ -20,8 +20,8 @@ $(document).ready(function() {
 		navText:false,
 		nav: false, //Отключил навигацию
 		autoplay: true, //Автозапуск слайдера
-		smartSpeed: 1000, //Время движения слайда
-		autoplayTimeout: 3000, //Время смены слайда
+		smartSpeed: 3000, //Время движения слайда
+		autoplayTimeout: 4000, //Время смены слайда
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
 				items:1
@@ -55,4 +55,23 @@ function toggleTabs() {
 	}
 }
 toggleTabs();
+	
+	
+	/*--- NAV BTN ---*/
+	document.addEventListener("scroll", ()=>{
+		var navBtn = document.querySelector('.nav-btn'),
+			pos = document.body.scrollTop;
+		console.log(pos);
+		if(pos > 120){
+			navBtn.style.position = "fixed";
+			navBtn.style.left = "5%";
+			navBtn.style.top = "3%";
+		}else{
+			navBtn.style.position="";
+			navBtn.style.left = "";
+			navBtn.style.top = "";	
+		}
+	});
+	/*---  END  ---*/
+
 }());

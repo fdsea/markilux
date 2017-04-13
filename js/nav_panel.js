@@ -18,7 +18,7 @@ var navBtn = document.querySelector('.nav-btn')
    }
 navBtn.addEventListener('click', () => {
 	popupNav.classList.toggle('active-nav');
-   
+    navBtn.classList.toggle('active-nav_btn');
 	for (let i = 0; i < stixs.length; i++) {
 		if (stixs[i].classList.contains('active-stix-' + (i + 1))) {
 			stixs[i].classList.remove('active-stix-' + (i + 1));

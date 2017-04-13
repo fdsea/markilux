@@ -6,14 +6,14 @@ let btn = document.querySelector('.design_button_nav '),
 
 btn.addEventListener("click",()=>{
  nav_panel.classList.toggle('active_mobile_nav_panel');
- btn.classList.toggle('active_mobile_button_disign');	
+ btn.classList.toggle('active_mobile_button_design');
  //fa.classList.toggle('fa-arrow-left');
 	
  });
 	for(let i = 0; i < li.length;i++){
 li[i].addEventListener('click',()=>{
 	nav_panel.classList.remove('active_mobile_nav_panel');
-	 btn.classList.remove('active_mobile_button_disign');
+	 btn.classList.remove('active_mobile_button_design');
    });
   }	
 }())
