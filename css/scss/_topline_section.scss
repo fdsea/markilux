@@ -34,7 +34,7 @@ $timing: ease-in-out;
 		left: 10px;
 		float: left;
 		cursor: pointer;
-		z-index: 1000;
+		z-index: 10000;
 		&:hover span {
 			background: $grey;
 		}
@@ -54,7 +54,7 @@ $timing: ease-in-out;
 	}
 	/*==== NAV ANIMATION ====*/
 	.active-nav_btn{
-		left: 6% !important;
+		//left: 6% !important;
 	}
 	
 	.active-stix-1 {
@@ -141,7 +141,7 @@ $timing: ease-in-out;
 		height: 100%;
 		background: rgba(255, 255, 255, .97);
 		transition: 0.5s ease;
-		z-index: 200;
+		z-index: 9000;
 		border-left: 8px solid red;
 		ul {
 			margin: 100px 0px;
@@ -250,17 +250,17 @@ $timing: ease-in-out;
        }
 	}
 }
-
 /*===== BANNER ======*/
 .header_banner{
-width: 20%;//420px;
+width:420px;
 	//height: 430px;
-	//height: auto;
+	height: auto;
 	position: absolute;
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.7);
 	top: 10%;
 	right: 30%;
 	color: #000;
+	z-index: 5000;
 	h2{
 	font-size: 2.1em;
 	font-family: $rl;
@@ -315,13 +315,14 @@ width: 20%;//420px;
 	.security{
 		display: block;
 	    font-size: 0.6em;
-		padding:0;
+		padding:0 0 10px;
 		margin-top: 3%;
 		text-align: center;
-		color:$grey;
+		color:#000;
 		a{
 		display: inline-block;
-			color: $grey;
+			padding:0 0 10px;
+			color: red;
 			text-decoration: underline;
 			
 		}

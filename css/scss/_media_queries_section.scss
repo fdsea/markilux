@@ -129,7 +129,8 @@
     .header{
         .header_banner{
             right:0;
-            width: 375px;
+             width: 375px;
+			 height: auto;
             .garanty{
                 font-size: 1.2em;
             }
@@ -145,6 +146,15 @@
                 }
                 
             
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .header{
+        .header_banner{
+             right:0;
+             width: 100%;
+			 height: auto;   
         }
     }
 }

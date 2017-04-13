@@ -65,14 +65,14 @@ toggleTabs();
 		var navBtn = document.querySelector('.nav-btn'),
 			pos = document.body.scrollTop;
 		console.log(pos);
-		if(pos > 1){
+		if(pos > 0){
 			navBtn.style.position = "fixed";
-			navBtn.style.left = "1.7%";
-			navBtn.style.top = "3%";
+			
+			navBtn.style.top = "10px";
 		}else{
 			navBtn.style.position="";
 			navBtn.style.left = "";
-			navBtn.style.top = "";	
+			navBtn.style.top = "10px";	
 		}
 	});
 	/*---  END  ---*/
