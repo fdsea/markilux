@@ -1220,11 +1220,11 @@ p.p_desription_worktime {
       .contacts .btn_contacts a:focus {
         outline: none; }
   /* line 60, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
-  .contacts addres b {
+  .contacts .organisation_place b {
     font-size: 1.5em;
     padding-top: 0.5%; }
   /* line 64, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
-  .contacts addres p {
+  .contacts .organisation_place p {
     padding-top: 0.4%;
     font-size: 1em; }
   /* line 69, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
