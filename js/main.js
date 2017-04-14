@@ -61,6 +61,7 @@ toggleTabs();
 	
 	
 	/*--- NAV BTN ---*/
+	/*
 	document.addEventListener("scroll", ()=>{
 		var navBtn = document.querySelector('.nav-btn'),
 			pos = document.body.scrollTop;
@@ -75,6 +76,7 @@ toggleTabs();
 			navBtn.style.top = "10px";	
 		}
 	});
+	*/
 	/*---  END  ---*/
 
 }());

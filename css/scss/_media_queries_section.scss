@@ -8,12 +8,27 @@
 	}
 }
 /*---- topline ----*/
+@media screen and (min-width: 1232px){
+	.topline-wrapper {
+	    .nav-btn{
+			position: fixed;
+			top: 23px;
+			left: 8%;
+		}
+	}
+}
 @media screen and (max-width: 1231px){
 	.topline-wrapper {
+	    .nav-btn{
+			position: fixed;
+			top: 21px;
+			left: 10px;
+		}
 		.topline {
 			width: 100%;
 			.logo-header {
 				margin-top: 8px;
+				margin-left: 55px;
 				img{
 					width: 200px;
 				}
@@ -64,7 +79,10 @@
 .topline {
 		.logo-header {
 		   float: none;
-			margin: 0 0 0 60px;
+			margin-top: 6px !important;
+			img{
+			 width: 220px !important;
+			}
          }
 		h1{
 			display: block;
