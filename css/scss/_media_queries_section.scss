@@ -406,7 +406,11 @@
 
 /* --- catalog ---*/
 @media screen and (max-width: 992px){
-	
+	.catalog{
+		img{
+			display: none;
+		}
+	}
 	.form-section{
 		.name,
 		.email,
@@ -454,6 +458,18 @@
 }
 
 /*-- end catalog --*/
+
+/*--- superiority --*/
+
+@media screen and (max-width: 768px){
+	.superiority{
+		.superiority_block{
+			margin-bottom: 6%;
+		}
+		
+	}
+}
+/*----- end  ----*/
 
 /*--- worktime ---*/
 

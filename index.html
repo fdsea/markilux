@@ -73,7 +73,7 @@
           <div class="modal-body"> 
           <form action="#" class="banner_form">
 		  	<input type="text" class="banner_input_name" placeholder="Укажите ваше имя" required>
-		  	<input type="text" class="banner_input_phone" placeholder="+7(__)__-_-_" required>
+		  	<input type="text" class="banner_input_phone" id="phone" placeholder="+7(__)__-_-_" required>
 		  	<button class="btn">Сделайте мне расчет</button>
 		  </form>
         </div>
@@ -107,7 +107,7 @@
 		  <h3>Заполните поля и получите просчет идеальной маркизы</h3>
 		  <form action="#" class="banner_form">
 		  	<input type="text" class="banner_input_name" placeholder="Укажите ваше имя" required>
-		  	<input type="text" class="banner_input_phone" placeholder="+7(__)__-_-_" required>
+		  	<input type="text" class="banner_input_phone" id="phone" placeholder="+7(__)__-_-_" required>
 		  	<button class="btn">Сделайте мне расчет</button>
 		  	<p class="security">
 		  		Мы не передаем Ваши контактные данные третьим лицам.<a href="#privacy_popup" data-toggle="modal">Политика конфиденциальности</a>
@@ -115,13 +115,13 @@
 		  </form>
 	  </div>
 		<div class="awards-block">
-		 <div class="col_award"><img src="./images/awards/award-1.jpg" class="img-responsive" alt=""></div>
-		 <div class="col_award"><img src="./images/awards/award-2.jpg" class="img-responsive" alt=""></div>
-		 <div class="col_award"><img src="./images/awards/award-3.jpg" class="img-responsive" alt=""></div>
-		 <div class="col_award"><img src="./images/awards/award-4.jpg" class="img-responsive" alt=""></div>
-		 <div class="col_award"><img src="./images/awards/award-5.jpg" class="img-responsive" alt=""></div>
-		 <div class="col_award"><img src="./images/awards/award-6.jpg" class="img-responsive" alt=""></div>
-		 <div class="col_award"><img src="./images/awards/award-7.jpg" class="img-responsive" alt=""></div>
+		 <div class="col_award"><img src="./images/awards/award-1.png" class="img-responsive" alt=""></div>
+		 <div class="col_award"><img src="./images/awards/award-2.png" class="img-responsive" alt=""></div>
+		 <div class="col_award"><img src="./images/awards/award-3.png" class="img-responsive" alt=""></div>
+		 <div class="col_award"><img src="./images/awards/award-4.png" class="img-responsive" alt=""></div>
+		 <div class="col_award"><img src="./images/awards/award-5.png" class="img-responsive" alt=""></div>
+		 <div class="col_award"><img src="./images/awards/award-6.png" class="img-responsive" alt=""></div>
+		 <div class="col_award"><img src="./images/awards/award-7.png" class="img-responsive" alt=""></div>
 		</div>
 	
 	</header>
@@ -208,7 +208,7 @@
 					<form action="#">
 				        <input class="design_hidden_input" type="text">
 					    <input class="name" type="text" placeholder="Укажите ваше имя" required>
-					    <input class="phone" type="text" placeholder="+7(__)__-_-_" required>
+					    <input class="phone" type="text" id="phone" placeholder="+7(__)__-_-_" required>
 					    <button class="btn_order">Заказать эту модель</button>
                         <p>количество заполнивших форму<span class="amount_people">126</span></p>
 					</form>
@@ -876,17 +876,25 @@
 	               <p>Капли воды вбирают в себя частицы грязи и скатываются с маркизной ткани.</p>
 	               </div>
 	           </div>
-	           <div class="col-xs-12 col-sm-6 col-lg-4">
-	                <div class="superiority_block">
+	           <div class="col-xs-12 col-sm-12 col-lg-4">
+                  <div class="row">
+                  	<div class="col-xs-12 col-sm-6 col-lg-12">
+                  		 <div class="superiority_block">
 	               <img class="superiority_pick" src="images/pick_5.png" alt="">
 	               <h3>Стандарт <br>Oeko-Tex 100</h3>
 	               <p>Ткани сертифицированы согласно стандарту Oeko-Tex 100, что гарантирует отсутствие вредных для здоровья красителей или химикатов.</p>
 	               </div>
+                  	</div>
+                 
+	              
+                  	<div class="col-xs-12 col-sm-6 col-lg-12">
 	               <div class="superiority_block">
 	               <img class="superiority_pick" src="images/pick_6.png" alt="">
 	               <h3>Бесшовное соединение<br> тканей</h3>
 	               <p>Уникальная технология скрепления тканей с помощью ультразвука придает особую прочность и тонкость месту соединения тканей.  </p>
 	               </div>
+					   </div>
+				   </div>
 	           </div>
 	       </div>
 	  </div>
@@ -908,7 +916,7 @@
 	                <input class="name_consultation_block" type="text" placeholder="Укажите ваше имя" required>
 	                </div>
 	                <div class="col-xs-12 col-md-6 ">
-	                    <input type="text" class="phone_consultation_block" placeholder="+7(__)__-_-_" required>
+	                    <input type="text" class="phone_consultation_block" id="phone" placeholder="+7(__)__-_-_" required>
 	                </div>
 	                <div class="col-xs-12">
 	                    <button class="btn">Бесплатная консультация</button>
@@ -951,7 +959,7 @@
 	    <div class="container">
 	        <div class="row">
 	            <div class="col-xs-12 col-md-3">
-	                <img class='resp' src="images/pick_7.png" alt="">
+	                <img src="images/pick_7.png" alt="">
 	            </div>
 	            <div class="col-xs-12 col-md-4 catalog_description">
 	                <h3>Получить бесплатно</h3>
@@ -1206,6 +1214,8 @@
        
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src='js/video_bg.js'></script>
+	<script type="text/javascript" src="plugins/maskedinput/jquery.maskedinput-1.2.2.js"></script>
+	<script src="/js/maskedinput.js"></script>
 	<script src="plugins/owl/owl.carousel.min.js"></script>
 	<script src='plugins/bootstrap/bootstrap.min.js'></script>
 	<script src='js/nav_panel.js'></script>
