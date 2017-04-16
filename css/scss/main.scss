@@ -1,3 +1,24 @@
+::-webkit-input-placeholder {color:#666;padding-left:10px;}
+::-moz-placeholder          {color:#666;padding-left:10px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#666;padding-left:10px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#666;padding-left:10px;}
+
+input[placeholder]          {text-overflow:ellipsis;}
+input::-moz-placeholder     {text-overflow:ellipsis;} 
+input:-moz-placeholder      {text-overflow:ellipsis;} 
+input:-ms-input-placeholder {text-overflow:ellipsis;}    
+
+::-webkit-input-placeholder       {opacity: 1; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+::-moz-placeholder                {opacity: 1; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+:-moz-placeholder                 {opacity: 1; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+:-ms-input-placeholder            {opacity: 1; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+:focus::-webkit-input-placeholder {opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+:focus::-moz-placeholder          {opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+:focus:-moz-placeholder           {opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+:focus:-ms-input-placeholder      {opacity: 0; -webkit-transition: opacity 0.3s ease; transition: opacity 0.3s ease;}
+
+
+
 @import 'fonts_collection';
 @import 'variables';
 @import 'mixins';
@@ -14,6 +35,7 @@
 @import 'metering_section';
 @import 'worktime_section';
 @import 'feedback_section';
+@import 'our_job_section';
 @import 'contacts_section';
 @import 'footer_section';
 @import 'media_queries_section';

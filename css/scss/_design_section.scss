@@ -95,13 +95,37 @@
         }
     }
 }
+.right{
+	.carousel-wrap{
+		.slider_design{
+			.item{
+				.img_design_wrap{
+					max-height: 450px;
+					overflow: hidden;
+				}
+				h1{
+					font-size: 1.9em;
+					margin: 0.5em 0 0.1em;
+				}
+				p{
+					font-size: 0.95em;
+				}
+				.characteristics{
+					p{
+					font-size: 1em;
+					}
+				}
+			}
+		}
+		
+	}
+
+}
 
 .owl-nav {
 	color: red;
 	font-size: 3em;
 	z-index: 100;
-	
-	//position: absolute;
 	.owl-prev {
 		position: absolute;
         background: url(/images/left_arrow.png)no-repeat!important;

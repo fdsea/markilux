@@ -1,6 +1,7 @@
 
 (function(){
 $(document).ready(function() {
+	function backgroundVideo(){
     var videobackground = new $.backgroundVideo($('#header_section'), {
       "align": "centerXY",
       "width": 1280,
@@ -12,16 +13,18 @@ $(document).ready(function() {
       "autoplay": true,
       "loop": true
     });
- 
+	}
+	backgroundVideo();
 	
-	$('.owl-carousel').owlCarousel({
+	$('.carousel_section').owlCarousel({
 		loop: true, //Зацикливаем слайдер
 		margin: 10, //Отступ от картино если выводите больше 1
-		navText:false,
+		navText: false,
 		nav: false, //Отключил навигацию
 		autoplay: true, //Автозапуск слайдера
-		smartSpeed: 3000, //Время движения слайда
-		autoplayTimeout: 4000, //Время смены слайда
+		smartSpeed: 1000, //Время движения слайда
+		autoplayTimeout: 2000, //Время смены слайда
+		autoplayHoverPause: true, 
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
 				items:1
@@ -34,8 +37,53 @@ $(document).ready(function() {
 			}
 		}
 	});
-	
+    $('.slider_1').owlCarousel({
+		loop: true, //Зацикливаем слайдер
+		margin: 10, //Отступ от картино если выводите больше 1
+		navText: false,
+		nav: false, //Отключил навигацию
+		autoplay: true, //Автозапуск слайдера
+		smartSpeed: 1000, //Время движения слайда
+		autoplayTimeout: 2000, //Время смены слайда
+		autoplayHoverPause: true, 
+		responsive:{ //Адаптация в зависимости от разрешения экрана
+			0:{
+				items:1
+			},
+			600:{
+				items:1
+			},
+			1000:{
+				items:1
+			}
+		}
+	});
+ 
+        $('.carousel_feedback_section').owlCarousel({
+		loop: true, //Зацикливаем слайдер
+		margin: 10, //Отступ от картино если выводите больше 1
+		navText: false,
+		nav: true, //Отключил навигацию
+		//autoplay: true, //Автозапуск слайдера
+		smartSpeed: 500, //Время движения слайда
+		autoplayTimeout: 3000, //Время смены слайда
+		//autoplayHoverPause: false, 
+		responsive:{ //Адаптация в зависимости от разрешения экрана
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:3
+			}
+		}
+	});
+         
 });
+    
+	
 
 function toggleTabs() {
 	let li = document.querySelectorAll('.li')
@@ -55,4 +103,6 @@ function toggleTabs() {
 	}
 }
 toggleTabs();
+	
+
 }());
