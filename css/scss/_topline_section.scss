@@ -252,8 +252,7 @@ $timing: ease-in-out;
 }
 /*===== BANNER ======*/
 .header_banner{
-width:420px;
-	//height: 430px;
+    width:420px;
 	height: auto;
 	position: absolute;
 	background: rgba(255,255,255,0.7);
@@ -301,6 +300,15 @@ width:420px;
 		padding: 1.2% 22%;
 		margin-top: 4%;
 		margin-bottom: 4%;
+		box-shadow: 0 2px 5px #555;
+		transition: 0.35s ease;
+		&:hover{
+			background: $red;
+		}
+		&:active{
+			background: $red/2;
+			box-shadow: 0 1px 2px #555;
+		}
 	}
 	input{
 	    margin-left: 4%;

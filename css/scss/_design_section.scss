@@ -244,6 +244,15 @@
             border: none;
             padding: 3% 2%;
             background: yellow;
+			transition: .35s ease;
+			box-shadow: 0 2px 5px $yellow;
+			&:hover{
+			   background: $yellow;
+		   }
+		   &:active{
+			   background: $yellow/1.1;
+			   box-shadow: 0 1px 2px $yellow;
+		   }
             
           }
         p{
