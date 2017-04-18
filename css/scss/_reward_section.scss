@@ -1,4 +1,5 @@
 .reward{
+   
     h2{
       font-family: $rl;
       font-size: 2.2em;
@@ -27,3 +28,20 @@
     }
     
 }
+
+.awards_section{
+    position: relative;
+    margin: 12% 0 0;
+    .awards-block{
+	  display: table;
+      position: absolute;
+      bottom: 1%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60%;
+      z-index: 1000;
+	  .col_award{
+		  display: table-cell;  
+	    }
+      }
+    }

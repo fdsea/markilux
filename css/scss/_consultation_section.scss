@@ -31,7 +31,7 @@
         width: 97%;
         background: $yellow;
         color: #000;
-        margin: 0 auto 7%;
+        margin: 1% auto 7%;
         display: block;
             font-family: $rcb;
             text-transform: uppercase;
@@ -51,5 +51,17 @@
 			   box-shadow: 0 1px 2px $yellow;
 			   outline: none !important;
 		   }
+    }
+    form{
+        .consult_checkbox{
+            vertical-align: middle;
+            display: inline-block;
+            margin: 0 0 0 6px;
+        }
+        label{
+            vertical-align: baseline;
+            display: inline-block;
+            color: #fff;
+        }
     }
 }

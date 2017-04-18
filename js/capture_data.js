@@ -19,7 +19,7 @@
                     }
                         clearInterval(setId);
                         valOfHiddenInput.value = arr[arr.length-1];
-                        console.log(valOfHiddenInput.value);// value capture test
+                       
                         arr.splice(0,arr.length);
                   
                 },300);

@@ -1,0 +1,11 @@
+{
+    "name": "jet/markilux",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "markilux\\": ""
+        }
+    }
+}

@@ -285,7 +285,17 @@ $timing: ease-in-out;
 	.banner_form{
 	    width: 89%;
 		margin: 0 auto;
-		
+        .banner_input_checkbox{
+            width: 25px;
+            margin:12px 0px;
+            display: inline-block;
+            vertical-align: middle;  
+            }
+        label{
+            display: inline-block;
+            vertical-align: middle; 
+            font-size: 1em;
+     }	
 	}
 	.btn{
 	float: left;
@@ -298,7 +308,7 @@ $timing: ease-in-out;
 		border: none;
 		border-radius: 5px;
 		padding: 1.2% 22%;
-		margin-top: 4%;
+		margin-top: 1%;
 		margin-bottom: 4%;
 		box-shadow: 0 2px 5px #555;
 		transition: 0.35s ease;

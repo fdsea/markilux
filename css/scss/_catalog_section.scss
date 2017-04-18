@@ -24,6 +24,19 @@
 .form-section{
 	form{
 	padding-top: 8%;
+        .catalog_checkbox{
+            vertical-align: middle;
+            display: inline-block;
+            margin: 0 0 0 6px;
+            
+        }
+        label{
+            vertical-align: baseline;
+            display: inline-block;
+            color: #555;
+            font-size: 1em;
+        }
+        
 	}
     .name{
         display: block;

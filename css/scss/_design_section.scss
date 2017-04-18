@@ -1,15 +1,22 @@
 .design{
     position: relative;
-    margin-top: 10%;
+    margin-top: 5%;
 	.design_h2{
 		 font-family: $rl;
          color:#000;
          font-size: 2.1em;
-		margin-bottom: 1.5em;
+         margin-bottom: 0.5em;
 	}
+    .design_h3{
+         font-family: $rl;
+         color:#000;
+         font-size: 1.1em;
+         margin-bottom: 2.5em;
+    }
 }
 .left {
-	 position: relative;
+    position: relative;
+   
 	float: left;
 	width: 30%;
 	transition: 0.35s ease;
@@ -55,7 +62,7 @@
 		}
 	}
 }
-@keyframes blink_menu{
+@keyframes blink_menu {
 	0%{opacity: 0;}
 	50%{opacity: 0.3;}
 	100%{opacity: 0.01;}
@@ -95,12 +102,12 @@
         }
     }
 }
-.right{
+.right {
 	.carousel-wrap{
 		.slider_design{
 			.item{
 				.img_design_wrap{
-					max-height: 450px;
+					max-height: 458px;
 					overflow: hidden;
 				}
 				h1{
@@ -223,6 +230,16 @@
 		    margin:0;
 			float:right;
 		}
+        .design_checkbox{
+            margin:0 5px 0 35px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        label{
+             font-size: 0.8em;
+             display: inline-block;
+             vertical-align: baseline;
+        }
         .name{
             display: block;
             width: 79%;
@@ -234,10 +251,12 @@
         }
         .phone{
             @extend .name;
+            margin-bottom: 2%;
         }
         .btn_order{
             @extend .name;
             color: #000;
+            margin-top: 2%;
             font-family: $rcb;
             text-transform: uppercase;
             font-size: 1.5em;

@@ -23,7 +23,7 @@ $(document).ready(function() {
 		nav: false, //Отключил навигацию
 		autoplay: true, //Автозапуск слайдера
 		smartSpeed: 1000, //Время движения слайда
-		autoplayTimeout: 2000, //Время смены слайда
+		autoplayTimeout: 3000, //Время смены слайда
 		autoplayHoverPause: true, 
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
@@ -37,14 +37,15 @@ $(document).ready(function() {
 			}
 		}
 	});
-    $('.slider_1').owlCarousel({
+     $('.slider_1').owlCarousel({
 		loop: true, //Зацикливаем слайдер
 		margin: 10, //Отступ от картино если выводите больше 1
 		navText: false,
-		nav: false, //Отключил навигацию
+		nav: false,
+        lazyLoad: true,
 		autoplay: true, //Автозапуск слайдера
 		smartSpeed: 1000, //Время движения слайда
-		autoplayTimeout: 2000, //Время смены слайда
+		autoplayTimeout: 120000, //Время смены слайда
 		autoplayHoverPause: true, 
 		responsive:{ //Адаптация в зависимости от разрешения экрана
 			0:{
@@ -58,7 +59,7 @@ $(document).ready(function() {
 			}
 		}
 	});
- 
+    
         $('.carousel_feedback_section').owlCarousel({
 		loop: true, //Зацикливаем слайдер
 		margin: 10, //Отступ от картино если выводите больше 1

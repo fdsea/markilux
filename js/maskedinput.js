@@ -5,3 +5,6 @@ $(document).ready(function(){
   $("#phone_design").inputmask("+7(999)999-99-99");
   $("#phone_consultation").inputmask("+7(999)999-99-99");
   });     
+
+
+

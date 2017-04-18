@@ -9,10 +9,10 @@
 	.video_wrapper{
 		video#video_background{
 			top: -180px !important;
-			//bottom: 20%!important;
+			bottom: 0%!important;
 		}
 	}
- 
+  
 }
 /*-- POPUP --*/
 #instalation_popup{
@@ -38,6 +38,7 @@
             align-content: space-around;
             align-items: center;
             font-family: $rr;
+           
             .banner_input_name{
                
                 margin-bottom: 10px;
@@ -50,6 +51,19 @@
                 @extend .banner_input_name;
                 
              }
+            .popup_call_checkbox{
+              display: inline-block;
+              vertical-align: middle;
+                
+            }
+            label{
+                display: inline-block;
+                vertical-align: middle;
+                color:#000;
+                font-size: 0.7em;
+               
+            }
+            
              .btn{
                 @extend .banner_input_name;
                  text-transform: uppercase;
@@ -57,6 +71,7 @@
                  color: #fff;
                  border:none;
                  padding: 7px 10px;
+                 margin-top: 3%;
 				 box-shadow: 0 2px 5px $red;
 				 transition: 0.35s ease;
 				 &:hover{
@@ -73,20 +88,3 @@
 }
 
 /*----------*/
-
-.awards_section {
-	position: relative;
-	margin-top: 5%;
-	 .awards-block {
-	  display: table;
-    position: absolute;
-    bottom: 1%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    z-index: 1000;
-	  .col_award{
-		  display: table-cell;  
-	  }
-  }
-}
