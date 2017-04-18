@@ -8,22 +8,11 @@
   overflow: hidden;	
 	.video_wrapper{
 		video#video_background{
-			//top: -180px !important;
-			bottom: 0%!important;
+			top: -180px !important;
+			//bottom: 20%!important;
 		}
 	}
-  .awards-block {
-	  display: table;
-    position: absolute;
-    bottom: 1%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    z-index: 1000;
-	  .col_award{
-		  display: table-cell;  
-	  }
-  }
+ 
 }
 /*-- POPUP --*/
 #instalation_popup{
@@ -84,3 +73,20 @@
 }
 
 /*----------*/
+
+.awards_section {
+	position: relative;
+	margin-top: 5%;
+	 .awards-block {
+	  display: table;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    z-index: 1000;
+	  .col_award{
+		  display: table-cell;  
+	  }
+  }
+}

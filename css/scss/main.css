@@ -491,29 +491,17 @@ input:-ms-input-placeholder {
   overflow: hidden; }
   /* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   .header .video_wrapper video#video_background {
-    bottom: 0% !important; }
-  /* line 15, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
-  .header .awards-block {
-    display: table;
-    position: absolute;
-    bottom: 1%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    z-index: 1000; }
-    /* line 23, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
-    .header .awards-block .col_award {
-      display: table-cell; }
+    top: -180px !important; }
 
 /*-- POPUP --*/
-/* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+/* line 18, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
 #instalation_popup {
   /*some style*/ }
 
-/* line 33, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+/* line 22, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
 #call_order_popup .modal-dialog {
   width: 300px; }
-  /* line 35, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+  /* line 24, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   #call_order_popup .modal-dialog .modal-header .h2 {
     text-align: center;
     display: inline-block;
@@ -521,7 +509,7 @@ input:-ms-input-placeholder {
     text-transform: uppercase;
     margin-left: 40px;
     font-family: "RobotoBold"; }
-  /* line 45, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+  /* line 34, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   #call_order_popup .modal-dialog .banner_form {
     padding: -10px 30px;
     display: flex;
@@ -529,14 +517,14 @@ input:-ms-input-placeholder {
     align-content: space-around;
     align-items: center;
     font-family: "RobotoRegular"; }
-    /* line 52, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+    /* line 41, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .banner_input_name, #call_order_popup .modal-dialog .banner_form .banner_input_phone, #call_order_popup .modal-dialog .banner_form .btn {
       margin-bottom: 10px;
       width: 100%;
       border-radius: 5px;
       border: 1px solid grey;
       padding: 5px 10px; }
-    /* line 64, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+    /* line 53, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .btn {
       text-transform: uppercase;
       background: red;
@@ -545,16 +533,33 @@ input:-ms-input-placeholder {
       padding: 7px 10px;
       box-shadow: 0 2px 5px #dd011d;
       transition: 0.35s ease; }
-      /* line 73, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+      /* line 62, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
       #call_order_popup .modal-dialog .banner_form .btn:hover {
         background: #dd011d; }
-      /* line 76, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+      /* line 65, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
       #call_order_popup .modal-dialog .banner_form .btn:active {
         background: #6f010f;
         box-shadow: 0 1px 2px #dd011d;
         outline: none !important; }
 
 /*----------*/
+/* line 77, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+.awards_section {
+  position: relative;
+  margin-top: 5%; }
+  /* line 80, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+  .awards_section .awards-block {
+    display: table;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    z-index: 1000; }
+    /* line 88, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
+    .awards_section .awards-block .col_award {
+      display: table-cell; }
+
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
 .year_section {
   background: red;
