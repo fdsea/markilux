@@ -8,22 +8,11 @@
   overflow: hidden;	
 	.video_wrapper{
 		video#video_background{
-			//top: -180px !important;
-			bottom: 0%!important;
+			top: -180px !important;
+			//bottom: 20%!important;
 		}
 	}
-  .awards-block {
-	  display: table;
-    position: absolute;
-    bottom: 1%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    z-index: 1000;
-	  .col_award{
-		  display: table-cell;  
-	  }
-  }
+ 
 }
 /*-- POPUP --*/
 #instalation_popup{
@@ -64,13 +53,40 @@
              .btn{
                 @extend .banner_input_name;
                  text-transform: uppercase;
-                 background: $red;
+                 background: red;
                  color: #fff;
                  border:none;
-                 padding: 7px 10px
+                 padding: 7px 10px;
+				 box-shadow: 0 2px 5px $red;
+				 transition: 0.35s ease;
+				 &:hover{
+			        background: $red;
+		         }
+		         &:active{
+			        background: $red/2;
+			        box-shadow: 0 1px 2px $red;
+					 outline: none !important;
+		        }
              }    
         }
     }    
 }
 
 /*----------*/
+
+.awards_section {
+	position: relative;
+	margin-top: 5%;
+	 .awards-block {
+	  display: table;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    z-index: 1000;
+	  .col_award{
+		  display: table-cell;  
+	  }
+  }
+}

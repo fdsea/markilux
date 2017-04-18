@@ -3,10 +3,10 @@
     background: #db3633;
     position: relative;
     &:before{
-        @include fence('/images/triangle_2.svg','top',13px);
+        @include fence('/images/triangle_2.svg','top',12px);
     }
     &:after{
-        @include fence('/images/triangle_2.svg','bottom',13px);
+        @include fence('/images/triangle_2.svg','bottom',12px);
     }
     h3{
         font-family: $rr;
@@ -39,10 +39,17 @@
             border: none;
             padding: 2% 2%;
             border-radius: 5px;
-        transition: 0.2s ease;
-            background: $yellow;
-        &:hover{
-            background: $yellow_dark;
-        }
+            transition: 0.2s ease;
+            background: yellow;
+		    box-shadow: 0 2px 5px $yellow;
+			
+           &:hover{
+               background: $yellow;
+           }
+		   &:active{
+			   background: $yellow/1.1;
+			   box-shadow: 0 1px 2px $yellow;
+			   outline: none !important;
+		   }
     }
 }
