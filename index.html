@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="plugins/owl/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="plugins/owl/assets/owl.theme.default.min.css">
     <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/scss/main.css" />
     <!--[if lt IE 9]>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -27,7 +28,7 @@
     <![endif]-->
 </head>
 
-<body >
+<body>
 
    <div class="content_wrapper">
 	<!--_topline_section-->
@@ -76,7 +77,7 @@
 		  	<input type="text" class="banner_input_name" placeholder="Укажите ваше имя" required>
 		  	<input type="text" class="banner_input_phone" id="phone_popup" placeholder="+7(__)__-_-_" required>
 		  	<div><input class = "popup_call_checkbox" name="agree" 
-              type="checkbox" id="agree" value="agree" required>
+              type="checkbox" id="agree_1" value="agree" required>
                 <label for="agree">Я даю согласие на обработку личных данных</label></div>
 		  	<button type="submit" class="btn">Сделайте мне расчет</button>
 		  </form>
@@ -112,7 +113,7 @@
 		  <form class="order banner_form" method="post" action="/srv/sendForm.php">
 		  	<input type="text" class="banner_input_name" placeholder="Укажите ваше имя" required>
 		  	<input type="text" class="banner_input_phone" id="phone_banner" placeholder="+7(__)__-_-_" required>
-		  	<input class = "banner_input_checkbox" name="agree" type="checkbox" id="agree" value="agree" required><label for="agree">Я даю согласие на обработку личных данных</label>
+		  	<input class = "banner_input_checkbox" name="agree" type="checkbox" id="agree_2" value="agree" required><label for="agree">Я даю согласие на обработку личных данных</label>
 		  	<button type="submit" class="btn">Сделайте мне расчет</button>
 		  	<p class="security">
 		  		Мы не передаем Ваши контактные данные третьим лицам.<a href="#privacy_popup" data-toggle="modal">Политика конфиденциальности</a>
@@ -215,7 +216,7 @@
 				        <input class="design_hidden_input" type="hidden">
 					    <input class="name" type="text" placeholder="Укажите ваше имя" required>
 					    <input class="phone" type="text" id="phone_design" placeholder="+7(__)__-_-_" required>
-                         <input class = "design_checkbox" name="agree" type="checkbox" id="agree" value="agree" required><label for="agree">Я даю согласие на обработку личных данных</label>
+                         <input class = "design_checkbox" name="agree" type="checkbox" id="agree_3" value="agree" required><label for="agree">Я даю согласие на обработку личных данных</label>
 					    <button type="submit" class="btn_order">Заказать эту модель</button>
                         <p>количество заполнивших форму<span class="amount_people">126</span></p>
 					</form>
@@ -923,7 +924,7 @@
 	                </div>
 	                <div class="col-xs-12">
                     <input class = "consult_checkbox" name="agree" 
-type="checkbox" id="agree" value="agree" required>
+type="checkbox" id="agree_4" value="agree" required>
 <label for="agree">Я даю согласие на обработку личных данных</label>
 	                    <button type="submit" class="btn">Бесплатная консультация</button>
 	                </div>
@@ -937,26 +938,27 @@ type="checkbox" id="agree" value="agree" required>
 	<!-- SMART -->
 	<section class="smart_mark opacity_block" id="options">
 	    <div class="container">
-	        <div class="row">
-	            <div class="col-xs-12 smart_header">
-	                <h2>Умные маркизы <span class="red">markilux</span></h2>
-	                <p>Удобство эксплуатации, соответствует самым строгим требованиям и любым погодным условиям</p>
-	            </div>
-	            <div class="row">
-	            <div class="col-xs-12">
-                   <div class="smart_carousel_wrap">
-	                <div class="owl-carousel carousel_section owl-theme ">
-	                    <div class="item item_smart" data-info-title='Инфракрасные обогреватели-1'><img src="images/slider_pick_1.png" alt="инфракрасные обогреватели"></div>
-	                    <div class="item item_smart" data-info-title='Инфракрасные обогреватели-2'><img src="images/slider_pick_2.jpg" alt="инфракрасные обогреватели"></div>
-	                    <div class="item item_smart" data-info-title='Инфракрасные обогреватели-3'><img src="images/slider_pick_3.jpg" alt="инфракрасные обогреватели"></div>
-	                    <div class="item item_smart" data-info-title='Инфракрасные обогреватели-4'><img src="images/slider_pick_4.jpg" alt="инфракрасные обогреватели"></div>
-	                    <div class="item item_smart" data-info-title='Инфракрасные обогреватели-4'><img src="images/slider_pick_5.jpg" alt="инфракрасные обогреватели"></div>
-	                </div>
-	                </div>
-	            </div>
-	            </div>
-	        </div>
+	       <div class="row superiority_block_section">
+	    <div class="col-xs-12 col-sm-6 col-lg-4">
+	            <a data-fancybox="gallery" href="big_1.jpg"><img src="small_1.jpg"></a>
+                <a data-fancybox="gallery" href="big_2.jpg"><img src="small_2.jpg"></a>
 	    </div>
+	    <div class="col-xs-12 col-sm-6 col-lg-4">
+	               
+	    </div>
+	    <div class="col-xs-12 col-sm-12 col-lg-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-12">
+                  		 
+                </div>
+                  
+                <div class="col-xs-12 col-sm-6 col-lg-12">
+	               
+			    </div>
+		    </div>
+	    </div>
+       </div>
+     </div>
 	</section>
 	<!-- END -->
 	
@@ -978,7 +980,7 @@ type="checkbox" id="agree" value="agree" required>
                         <div class="col-xs-12 col-md-6 "><input type="email" class="email" placeholder="Укажите ваш e-mail" required></div>
                         <div class="col-xs-12">
                         <input class = "catalog_checkbox" name="agree" 
-type="checkbox" id="agree" value="agree" required>
+type="checkbox" id="agree_5" value="agree" required>
 <label for="agree">Я даю согласие на обработку личных данных</label>
                         <button type="submit" class="btn">Получить каталог</button>
                         
@@ -1047,25 +1049,25 @@ type="checkbox" id="agree" value="agree" required>
         <div class="container">
 	        <div class="row">
 	     
-				<div class="col-xs-12 col-sm-6 col-md-3 no-padding">
+				<div class="col-xs-12 col-sm-6 col-md-3 small-padding">
 				<h3 class="worktime_h3">Замер и расчет</h3>
 				<img src="images/slider_pick_1.png" alt="" class="img-responsive">	
 				<p class="p_desription_worktime">1 день (в день обращения)</p>			
 				</div>
 				
-				<div class="col-xs-12 col-sm-6 col-md-3 no-padding">
+				<div class="col-xs-12 col-sm-6 col-md-3 small-padding">
 				<h3 class="worktime_h3">Изготовление в Германии</h3>
 				<img src="images/slider_pick_2.jpg" alt="" class="img-responsive">	
 				<p class="p_desription_worktime">от 25 до 45 рабочих дней</p>
 				</div>
 				
-				<div class="col-xs-12 col-sm-6 col-md-3 no-padding">
+				<div class="col-xs-12 col-sm-6 col-md-3 small-padding">
 				<h3 class="worktime_h3">Доставка в Россию</h3>
 				<img src="images/slider_pick_3.jpg" alt="" class="img-responsive">
 				<p class="p_desription_worktime">от 10 до 20 дней</p>	
 				</div>
 				
-				<div class="col-xs-12 col-sm-6 col-md-3 no-padding">
+				<div class="col-xs-12 col-sm-6 col-md-3 small-padding">
 				<h3 class="worktime_h3">Установка и настройка</h3>
 				<img src="images/slider_pick_4.jpg" alt="" class="img-responsive">
 				<p class="p_desription_worktime">1 день</p>	
@@ -1151,27 +1153,27 @@ type="checkbox" id="agree" value="agree" required>
                   <div class="feedback_block_avatar avatar_1 center-block">
                   </div>
                   <div class="feedback_block_description">
-                      <h1 class="client_name">Человек Человеков</h1>
-                      <h2 class="client_profession">Человек</h2>
-                      <p class="client_feedback">Пришел, смотрю прикольно! Ай маладца надо брать! Взял две, потом еще 100 - себе, дяде, соседу и еще какому то парню. Все говорят - "вах!!! хде взял?? А я молчу не говорю."</p>
+                      <h1 class="client_name">Федор Сумкин</h1>
+                      <h2 class="client_profession">Путешественник</h2>
+                      <p class="client_feedback">У нас одна сторона дома выходит на солнечную сторону, после обеда находиться там просто не возможно от духоты и жары. Будучи в Германии в гостях, увидели решение проблемы в виде маркиз, узнали фирму, оказалось, что к нам в Россию уже возят такие маркизы. В интернете нашли фирму, позвонили, замерщик приехал на следующий день вместе с огромным количеством образцов, долго выбирали. Все достаточно быстро посчитали после согласования, сделали заказ в Германию, так как нам нужно было срочно, доставку мы оплатили самолетом, что гораздо дороже получилось, но зато мы все лето наслаждались удивительно атмосферой как дома, так как закрыли окна, так и на терраске, так как установили маркизу еще и на стене дома. Получилась потрясающая зона отдыха! Нам все друзья обзавидовались! Всем рекомендуем теперь, спасибо!</p>
                   </div>
                </div><!--item-->
                <div class="item">
                   <div class="feedback_block_avatar avatar_2 center-block">
                   </div>
                   <div class="feedback_block_description">
-                      <h1 class="client_name">Tea Time</h1>
-                      <h2 class="client_profession">Плохой человек</h2>
-                      <p class="client_feedback">Хорошо прышать по ним ночью, когда никто не видит! Кучу заказов сделал блягодаря крепкости этих маркизов!</p>
+                      <h1 class="client_name">Иван Семенов</h1>
+                      <h2 class="client_profession">Повар</h2>
+                      <p class="client_feedback">Долго выбирали фирму, где заказать маркизы, цены везде кусаются, но нет гарантии, что это реально немецкий товар. Муж у меня очень дотошный и качество при выборе товара, у него стоит на первом месте. Почитали отзывы о маркизах Маркилюкс, посмотрели несколько обзоров, впечатлили механизмы, внешний вид и надежность в случае сильных ветровых нагрузок, так как дом стоит на окраине поселка и нечем не защищен, ветра там бывают реально сильные. Заказали и были приятно удивлены, маркиза оказалась не только очень прочной, но очень эстетично выглядела, а в сложенном состоянии ее почти не заметно. Стоит уже больше 2-х лет, с удовольствием пользуемся и выражаем благодарность ребятам.</p>
                   </div>
                </div><!--item-->
                <div class="item">
                   <div class="feedback_block_avatar avatar_3 center-block">
                   </div>
                   <div class="feedback_block_description">
-                      <h1 class="client_name">Bender Rodriguez</h1>
-                      <h2 class="client_profession">Robot</h2>
-                      <p class="client_feedback">Они знают толк в этом!</p>
+                      <h1 class="client_name">Василий Томин</h1>
+                      <h2 class="client_profession">Писатель</h2>
+                      <p class="client_feedback">Редко пишу отзывы, но сейчас решил написать. Очень понравилось, как ребята сработали, сделали замер, скинули к вечеру цены, все подробно расписано, я менял то ткани, то механизмы, то сами маркизы несколько раз, они безо всяких разговоров пересчитывали мой заказ раз 5, я их реально замучил, но мне хотелось учесть все нюансы и при этом сэкономить. В итоге мы нашли золотую середину и теперь мы наслаждаемся этим маленьким чудом! Рекомендую всем, кто хочет получить действительно немецкий товар, а не китайскую подделку и по реальным ценам!</p>
                   </div>
                </div><!--item-->
             </div>
@@ -1278,6 +1280,7 @@ type="checkbox" id="agree" value="agree" required>
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
    <script src="js/preload_img.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
     <script src="plugins/distMask/jquery.inputmask.bundle.js"></script>
     <script src="plugins/distMask/inputmask/phone-codes/phone.js"></script>
     <script src="plugins/distMask/inputmask/phone-codes/phone-be.js"></script>
