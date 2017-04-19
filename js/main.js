@@ -37,7 +37,7 @@ $(document).ready(function() {
 			}
 		}
 	});
-     $('.slider_1').owlCarousel({
+       $('.slider_1').owlCarousel({
 		loop: true, //Зацикливаем слайдер
 		margin: 10, //Отступ от картино если выводите больше 1
 		navText: false,
@@ -59,12 +59,13 @@ $(document).ready(function() {
 			}
 		}
 	});
+	
     
         $('.carousel_feedback_section').owlCarousel({
 		loop: true, //Зацикливаем слайдер
 		margin: 10, //Отступ от картино если выводите больше 1
 		navText: false,
-		nav: true, //Отключил навигацию
+		nav: false, //Отключил навигацию
 		//autoplay: true, //Автозапуск слайдера
 		smartSpeed: 500, //Время движения слайда
 		autoplayTimeout: 3000, //Время смены слайда
@@ -87,11 +88,12 @@ $(document).ready(function() {
 	
 
 function toggleTabs() {
-	var li = document.querySelectorAll('.li')
-		, slider_design = document.querySelectorAll('.slider_design')
-		, side_arrow = document.querySelectorAll('.side_arrow');
-	for (var i = 0; i < li.length; i++) {
-		li[i].addEventListener('click', function() {
+	var li = document.querySelectorAll('.li'),
+	    slider_design = document.querySelectorAll('.slider_design'),
+	    side_arrow = document.querySelectorAll('.side_arrow');
+
+	var _loop = function _loop(i) {
+		li[i].addEventListener('click', function () {
 			for (var j = 0; j < slider_design.length; j++) {
 				li[j].classList.remove('active_tabs_design');
 				side_arrow[j].classList.remove('active_arrow_design');
@@ -101,6 +103,10 @@ function toggleTabs() {
 			side_arrow[i].classList.add('active_arrow_design');
 			slider_design[i].classList.add('active_slider_design');
 		});
+	};
+
+	for (var i = 0; i < li.length; i++) {
+		_loop(i);
 	}
 }
 toggleTabs();

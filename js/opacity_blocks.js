@@ -15,7 +15,7 @@
     chekoutSl(i);
     document.addEventListener('scroll', function () {
       if (getCoords(opacity_block[i]).top - 600 <= document.body.scrollTop) {
-        console.log(23);
+      
         opacity_block[i].classList.add('visible_block');
       }
     });
