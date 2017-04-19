@@ -6,7 +6,7 @@
         @include fence('/images/triangle_2.svg','top',12px);
     }
     &:after{
-        @include fence('/images/triangle_2.svg','bottom',12px);
+        @include fence('/images/triangle_2.svg','bottom',11px);
     }
     h3{
         font-family: $rr;
@@ -42,7 +42,7 @@
             transition: 0.2s ease;
             background: yellow;
 		    box-shadow: 0 2px 5px $yellow;
-			
+			margin-top: 2% !important;
            &:hover{
                background: $yellow;
            }

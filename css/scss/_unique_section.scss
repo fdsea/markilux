@@ -2,17 +2,25 @@
     background: url(/images/bg-grey.png)repeat;
 	position: relative;
     margin-top: 5%;
-    padding: 3% 0;
+    padding: 1.5% 0;
     width: 100%;
 	&:before{
 		content:"";
 		position: absolute;
 		display:block;
 		background:url(/images/zabor.png) repeat-x;
-		background-size: 20%;
-		height: 10px;
+		height: 15px;
 		width: 100%;
 		top: -10px;	
+	}
+	&:after{
+		content:"";
+		position: absolute;
+		display:block;
+		background:url(/images/zabor2.png) repeat-x;
+		height: 15px;
+		width: 100%;
+		bottom: -10px;	
 	}
 }
 

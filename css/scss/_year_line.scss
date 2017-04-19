@@ -2,6 +2,7 @@
 background: red;
 	width: 100%;
     margin: 13% 0 3%;
+	
 }
 /*===== RED ARROW =====*/
 .red-line{
@@ -9,7 +10,7 @@ background: red;
   margin: 10px auto;
   height: 40px;
   display: table;
-    //display: flex;
+  //display: flex;
   background:red;
   overflow: hidden;
 	
@@ -31,6 +32,8 @@ background: red;
     height: 50px;
     border: 7px solid #fff;
     transform: rotate(45deg);
+    right: 0px;
+	   top: -5px;
     border-left-color:transparent;
     border-bottom-color: transparent; 
 	   z-index: 500;
@@ -48,9 +51,10 @@ background: red;
             border-left-color:transparent;
             border-bottom-color: transparent;   
 			top:-5px;
-			left:-20%;
+			left:-17%;
 		}
 	}
+	
 	.cell-1{
 	
 	}	
@@ -69,48 +73,10 @@ background: red;
         
 	}
   .cell-6{
-   
+	  .arrow-1{
+	 right: 10px
+	  }
   }
 }
 
-.cell-1{
-  @for $i from 1 through 4{   
-    .arrow-#{$i}{
-        left: 70px+ $i*12px;
-        top:-5px;
-    }
-  }
-}
-.cell-2{
-   @for $i from 1 through 2{   
-    .arrow-#{$i}{
-        left: 70px+ $i*12px;
-        top:-5px;
-    }
-  }
-}
-.cell-3{
-  @for $i from 1 through 2{   
-    .arrow-#{$i}{
-        left: 70px+ $i*6px;
-        top:-5px;
-    }
-  }
-}
-.cell-5{
-  @for $i from 1 through 2{   
-    .arrow-#{$i}{
-        left: 70px+ $i*6px;
-        top:-5px;
-    }
-  }
-}
-.cell-6{
-  @for $i from 1 through 1{   
-    .arrow-#{$i}{
-        left: 80px+$i;
-        top:-5px;
-    }
-  }
-}
 /*===== END OF RED ARROW =====*/
