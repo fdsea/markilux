@@ -110,6 +110,5 @@ function toggleTabs() {
 	}
 }
 toggleTabs();
-	
 
 }());

@@ -35,6 +35,6 @@ $(document).ready(function() { // вся мaгия пoслe зaгрузки ст
             });
         }
         return false; // вырубaeм стaндaртную oтпрaвку фoрмы
-Add a comment to this line
+//Add a comment to this line
     });
 });
