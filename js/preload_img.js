@@ -1,5 +1,5 @@
-
-var arrImg = [ 
+(function(){
+	var arrImg = [ 
   "http://kompravda.eu/share/i/12/8345525/wr-720.sh-18.jpg",
   "http://ok-crimea.ru/article/1223/markizy-v-simferopole-crimea.jpg",
   "https://www.technorol.eu/images/markyzy/stobag-sattler/fotogalerie/zimni-zahrady/airomatic-7.jpg",
@@ -11,10 +11,11 @@ var arrImg = [
 
 function preloadImages(arr) {
      
-  for (let i = 0; i < arr.length; i++) {
+  for (var i = 0; i < arr.length; i++) {
     new Image().src = arr[i];
      
   }
 }
 
 preloadImages(arrImg);
+}());

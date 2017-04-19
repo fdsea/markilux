@@ -14,9 +14,9 @@ function counter(beginVal,afterVal,time,innerElem,pick){
   if(pick === undefined){
     pick = '';
   }
-  let i = beginVal;
-  let partOfsum = afterVal / 100;
-  var stopTimer = setInterval(()=>{
+  var i = beginVal;
+  var partOfsum = afterVal / 100;
+  var stopTimer = setInterval(function() {
     if(i >= afterVal){
     clearInterval(stopTimer);
      i = afterVal;
@@ -39,8 +39,8 @@ counter(0, 1000000,countTime,p5);
 }
 
 	function scroolStart(){
-	   let scroll = document.body.scrollTop;
-       let reward = document.querySelector('.reward');
+	   var scroll = document.body.scrollTop;
+       var reward = document.querySelector('.reward');
        if(reward.offsetTop/2.2 <= document.body.scrollTop /*&& document.body.scrollTop<400*/ ){
         metrickCounter();
 		document.removeEventListener('scroll', scroolStart);

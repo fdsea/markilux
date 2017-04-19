@@ -87,12 +87,12 @@ $(document).ready(function() {
 	
 
 function toggleTabs() {
-	let li = document.querySelectorAll('.li')
+	var li = document.querySelectorAll('.li')
 		, slider_design = document.querySelectorAll('.slider_design')
 		, side_arrow = document.querySelectorAll('.side_arrow');
-	for (let i = 0; i < li.length; i++) {
-		li[i].addEventListener('click', () => {
-			for (let j = 0; j < slider_design.length; j++) {
+	for (var i = 0; i < li.length; i++) {
+		li[i].addEventListener('click', function() {
+			for (var j = 0; j < slider_design.length; j++) {
 				li[j].classList.remove('active_tabs_design');
 				side_arrow[j].classList.remove('active_arrow_design');
 				slider_design[j].classList.remove('active_slider_design');
