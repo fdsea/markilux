@@ -1,9 +1,14 @@
 .metering{
     padding-top: 5%;
     h2{
-       font-family: $rl;
+        font-family: $rl;
         color:#000;
         font-size: 2.1em;
+        padding-bottom: 3%;
+    }
+    p{
+        font-size: 1.2em;
+        padding-bottom: 2%;
     }
     .metering_info_block{
         margin-bottom: 5%;

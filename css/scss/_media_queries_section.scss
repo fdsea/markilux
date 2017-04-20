@@ -474,8 +474,11 @@
 		
 		}
 		label{
-			font-size: 0.9em;
+			//font-size: 0.9em;
 		}
+        a{
+            font-size: 0.5em;
+        }
 		
 	}
   }
@@ -521,6 +524,17 @@
 		.btn{
 			width: 90%;
 		}
+        .catalog_checkbox{
+            margin-left: 5px;
+        }
+        label{
+            font-size: 1.2em!important;
+        }
+        a{display: block !important;
+            font-size: 1.2em;
+            margin-left: 5%;
+            padding: 2% 0;
+        }
 		
 	}
 
