@@ -1,6 +1,6 @@
 .smart_mark{
 	font-family: $rl;
-    padding-top: 5%;
+    padding: 5% 0;
 	h2{
 		font-size: 2em;
 		padding-bottom: 3%;
@@ -10,9 +10,22 @@
 		padding-top: 0;
         padding-bottom: 2%;
 	}
+	h3{
+		font-size: 1.5em;
+		margin-top: 1em;
+		padding-bottom: 1em;
+	}
 	.superiority_block_section{
-		h3{
+		h4{
 			padding-bottom: 5px;
+			font-size: 1.2em;
+			span{
+			padding: 0 5px;
+			
+			}
+		}
+		img{
+			width: 100%;
 		}
 		a{
 			margin-bottom: 25px;

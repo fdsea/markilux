@@ -1132,7 +1132,7 @@ input:-ms-input-placeholder {
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
 .smart_mark {
   font-family: "RobotoLight";
-  padding-top: 5%; }
+  padding: 5% 0; }
   /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark h2 {
     font-size: 2em;
@@ -1142,10 +1142,22 @@ input:-ms-input-placeholder {
     font-size: 1.2em;
     padding-top: 0;
     padding-bottom: 2%; }
-  /* line 14, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
-  .smart_mark .superiority_block_section h3 {
-    padding-bottom: 5px; }
-  /* line 17, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
+  /* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
+  .smart_mark h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    padding-bottom: 1em; }
+  /* line 19, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
+  .smart_mark .superiority_block_section h4 {
+    padding-bottom: 5px;
+    font-size: 1.2em; }
+    /* line 22, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
+    .smart_mark .superiority_block_section h4 span {
+      padding: 0 5px; }
+  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
+  .smart_mark .superiority_block_section img {
+    width: 100%; }
+  /* line 30, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark .superiority_block_section a {
     margin-bottom: 25px;
     display: block; }
@@ -1370,6 +1382,9 @@ p.p_desription_worktime {
     font-family: "RobotoLight";
     color: #000;
     margin: 10% 0 2% 0; }
+  /* line 11, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
+  .our_job img {
+    width: 100%; }
 
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
 .contacts {
