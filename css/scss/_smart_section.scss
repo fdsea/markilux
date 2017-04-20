@@ -1,58 +1,22 @@
 .smart_mark{
-    padding-top: 1.5%;
-    .smart_header{
-        color:#000;
-        h2{
-            font-family: $rl;
-            font-size: 2.1em;
-        }
-        p{
-            padding-top: 2%;
-            font-size: 1.2em;
-        }
-    }
-}
-.item_smart{
-    position:relative;
-    margin-top: 5%;
-    &:after{
-        content: attr(data-info-title);
-        color: red;
-        font-size: 1.9em;
-        font-family: $rl;
-        position: absolute;
-        padding: 2% 3%;
-        width: 100%;
-        height: 30%;
-        bottom:0;
-        left:0;
-        background: rgba(255,255,255,.5);
-        
-    }
- 
-}
-        .smart_mark{
-            .owl-dots{
-                position: absolute;
-                top:80%;
-                left:45%;
-                display: none;
-                .owl-dot.active{
-                    span{
-                        background: red!important;
-                        
-                    }
-                }  
-              }  
-    
-          }
-.smart_mark{
-    .smart_carousel_wrap{
-        display: flex;
-        justify-content: center;
-        .owl-carousel{
-            width: 70%;
-    }
-    }
-    
+	font-family: $rl;
+    padding-top: 5%;
+	h2{
+		font-size: 2em;
+		padding-bottom: 3%;
+	}
+	p{
+		font-size: 1.2em;
+		padding-top: 0;
+        padding-bottom: 2%;
+	}
+	.superiority_block_section{
+		h3{
+			padding-bottom: 5px;
+		}
+		a{
+			margin-bottom: 25px;
+			display: block;
+		}
+	}
 }

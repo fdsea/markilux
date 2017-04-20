@@ -453,6 +453,19 @@
 }
 /*--- end ---*/
 
+/*---smart ---- */
+	@media screen and (max-width: 372px){
+		.smart_mark{
+			.superiority_block_section{
+				h3{
+					font-size: 0.8em;
+				}
+			}
+		}
+}
+
+/*--- end -----*/
+
 /* --- catalog ---*/
 @media screen and (max-width: 1116px){
 	.catalog{
