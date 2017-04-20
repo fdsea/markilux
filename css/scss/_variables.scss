@@ -32,9 +32,11 @@ $yellow_dark: #f5b138;
     padding:0!important;
 }
 .small-padding{
-    padding: 0 1px !important;
+    padding: 0 0.5px !important;
 }
-
+.medium-padding{
+	padding: 2px !important;
+}
 .hidden_block{
 	opacity:0;
 	

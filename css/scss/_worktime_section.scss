@@ -3,7 +3,7 @@
 	position: relative;
 	.bottom_red_line{
 		position: absolute;
-		height: 38px;
+		height: 37px;
 		width: 100%;
 		bottom: 0;
 		background: red;
@@ -23,11 +23,7 @@
 			padding-bottom: 2%
         }
        
-         p:nth-child(5){
-           &:after{
-              display: none;
-          }  
-      }
+      
     }
 	
 }
@@ -44,9 +40,28 @@
         text-align: center;
         display: block;
         padding: 3%;
+	    margin-top: 2px;
         position: relative;
 	    color: #fff;
-	   overflow: hidden;      
+	    &:after{
+			content: "";
+			position: absolute;
+			border: none;
+			width: 1px;
+			height: 100%;
+			background: #fff;
+			right: -1px;
+			top: -1px;
+			
+	   }
     }
+.worktime_wrapper {
+	.descripton_last{
+		&:after{
+			display: none;
+		}
+	}
+}
+ 
    
 

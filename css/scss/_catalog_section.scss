@@ -27,15 +27,21 @@
         .catalog_checkbox{
             vertical-align: middle;
             display: inline-block;
-            margin: 0 0 0 6px;
+            margin: 0 0 0 9px;
             
         }
         label{
             vertical-align: baseline;
             display: inline-block;
             color: #555;
-            font-size: 1em;
+            font-size: 0.7em;
         }
+		a{
+			@extend label;
+			display: inline;
+			color: red;
+			text-decoration: underline;
+		}
         
 	}
     .name{
@@ -54,7 +60,7 @@
          width: 95%;
         background: $yellow;
         color: #fff;
-        margin: 1% auto 2%;
+        margin: 3% auto 3%;
         display: block;
             font-family: $rcb;
             text-transform: uppercase;

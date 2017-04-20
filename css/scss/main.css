@@ -151,13 +151,17 @@ input:-ms-input-placeholder {
 
 /* line 34, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .small-padding {
-  padding: 0 1px !important; }
+  padding: 0 0.5px !important; }
 
-/* line 38, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
+/* line 37, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
+.medium-padding {
+  padding: 2px !important; }
+
+/* line 40, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .hidden_block {
   opacity: 0; }
 
-/* line 42, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
+/* line 44, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .visible_block {
   animation: opac 1s ease forwards; }
 
@@ -447,7 +451,7 @@ input:-ms-input-placeholder {
       display: inline-block;
       vertical-align: middle; }
     /* line 303, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
-    .header_banner .banner_form label {
+    .header_banner .banner_form label, .header_banner .banner_form .form-section form a, .form-section form .header_banner .banner_form a {
       display: inline-block;
       vertical-align: middle;
       font-size: 1em; }
@@ -548,7 +552,7 @@ input:-ms-input-placeholder {
       display: inline-block;
       vertical-align: middle; }
     /* line 59, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
-    #call_order_popup .modal-dialog .banner_form label {
+    #call_order_popup .modal-dialog .banner_form label, #call_order_popup .modal-dialog .banner_form .form-section form a, .form-section form #call_order_popup .modal-dialog .banner_form a {
       display: inline-block;
       vertical-align: middle;
       color: #000;
@@ -633,7 +637,7 @@ input:-ms-input-placeholder {
   font-family: "RobotoLight";
   font-size: 2.2em;
   padding-top: 20px;
-  text-align: center; }
+  text-align: left; }
 
 /* line 9, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .reward p {
@@ -899,7 +903,7 @@ input:-ms-input-placeholder {
   vertical-align: middle; }
 
 /* line 238, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
-.left form label {
+.left form label, .left .form-section form a, .form-section .left form a {
   font-size: 0.8em;
   display: inline-block;
   vertical-align: baseline; }
@@ -1120,7 +1124,7 @@ input:-ms-input-placeholder {
     display: inline-block;
     margin: 0 0 0 6px; }
   /* line 61, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
-  .consultation form label {
+  .consultation form label, .consultation .form-section form a, .form-section .consultation form a {
     vertical-align: baseline;
     display: inline-block;
     color: #fff; }
@@ -1175,15 +1179,20 @@ input:-ms-input-placeholder {
   .form-section form .catalog_checkbox {
     vertical-align: middle;
     display: inline-block;
-    margin: 0 0 0 6px; }
+    margin: 0 0 0 9px; }
   /* line 33, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
-  .form-section form label {
+  .form-section form label, .form-section form a {
     vertical-align: baseline;
     display: inline-block;
     color: #555;
-    font-size: 1em; }
+    font-size: 0.7em; }
+  /* line 39, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
+  .form-section form a {
+    display: inline;
+    color: red;
+    text-decoration: underline; }
 
-/* line 41, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
+/* line 47, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
 .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email {
   display: block;
   width: 90%;
@@ -1193,12 +1202,12 @@ input:-ms-input-placeholder {
   margin-bottom: 4%;
   border: none; }
 
-/* line 53, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
+/* line 59, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
 .form-section .btn {
   width: 95%;
   background: #ffd800;
   color: #fff;
-  margin: 1% auto 2%;
+  margin: 3% auto 3%;
   display: block;
   font-family: "RobotoCondensedBold";
   text-transform: uppercase;
@@ -1209,16 +1218,16 @@ input:-ms-input-placeholder {
   transition: 0.2s ease;
   box-shadow: 0 2px 5px #dd011d;
   background: red; }
-  /* line 70, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
+  /* line 76, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
   .form-section .btn:hover {
     background: #dd011d; }
-  /* line 73, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
+  /* line 79, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
   .form-section .btn:active {
     background: #6f010f;
     box-shadow: 0 1px 2px #dd011d;
     outline: none !important; }
 
-/* line 79, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
+/* line 85, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
 .form-section p {
   text-align: center;
   font-size: 0.8em;
@@ -1257,7 +1266,7 @@ input:-ms-input-placeholder {
   /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
   .worktime_wrapper .bottom_red_line {
     position: absolute;
-    height: 38px;
+    height: 37px;
     width: 100%;
     bottom: 0;
     background: red;
@@ -1275,17 +1284,14 @@ input:-ms-input-placeholder {
     font-size: 2.1em;
     color: #000;
     padding-bottom: 2%; }
-  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
-  .worktime .description_worktime p:nth-child(5):after {
-    display: none; }
 
-/* line 34, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
+/* line 30, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 h3.worktime_h3 {
   font-size: 1.4em;
   padding: 2% 0 2%;
   text-align: center; }
 
-/* line 40, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
+/* line 36, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 p.p_desription_worktime {
   font-size: 1em;
   background: red;
@@ -1293,9 +1299,23 @@ p.p_desription_worktime {
   text-align: center;
   display: block;
   padding: 3%;
+  margin-top: 2px;
   position: relative;
-  color: #fff;
-  overflow: hidden; }
+  color: #fff; }
+  /* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
+  p.p_desription_worktime:after {
+    content: "";
+    position: absolute;
+    border: none;
+    width: 1px;
+    height: 100%;
+    background: #fff;
+    right: -1px;
+    top: -1px; }
+
+/* line 60, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
+.worktime_wrapper .descripton_last:after {
+  display: none; }
 
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
 .feedback {
@@ -1304,7 +1324,7 @@ p.p_desription_worktime {
   .feedback .feedback_caption {
     font-family: "RobotoLight";
     font-size: 2.1em;
-    padding: 1% 0; }
+    padding: 1% 0 4%; }
   /* line 9, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
   .feedback .feedback_block_avatar {
     overflow: hidden;
@@ -1313,99 +1333,43 @@ p.p_desription_worktime {
     margin-top: 5%;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #aaa; }
-  /* line 17, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-  .feedback .avatar_1 {
-    background: url(http://files.vividscreen.info/soft/c0ae824bc1e61f6d7d495245b687e2dd/Rowan-Atkinson-as-Bean-480x320.jpg) no-repeat -85px top;
-    background-size: 300%; }
-  /* line 21, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-  .feedback .avatar_2 {
-    background: url(http://www.ruthlessreviews.com/wp-content/uploads/2016/11/teatime-385x250.jpg) no-repeat -50px top;
-    background-size: 200%; }
-  /* line 25, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-  .feedback .avatar_3 {
-    background: url(http://risovach.ru/upload/2013/05/generator/bender_19554139_orig_.jpeg) no-repeat -10px top;
-    background-size: 120%; }
-  /* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+  /* line 18, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
   .feedback .feedback_block_description {
     font-family: "RobotoLight";
     text-align: center; }
-    /* line 32, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+    /* line 21, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
     .feedback .feedback_block_description .client_name {
       font-family: "RobotoBold";
       font-size: 1.1em; }
-    /* line 36, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+    /* line 25, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
     .feedback .feedback_block_description .client_profession {
       font-size: 1em;
       margin-bottom: 4%; }
-    /* line 40, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+    /* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
     .feedback .feedback_block_description .client_feedback {
       font-size: 0.9em; }
-  /* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+  /* line 35, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
   .feedback .owl-nav .owl-prev, .feedback .owl-nav .owl-next {
     height: 50%;
     display: none; }
-  /* line 57, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+  /* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
   .feedback .owl-dots .owl-dot.active span {
     background: red !important; }
-  /* line 62, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+  /* line 51, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
   .feedback .owl-dots .owl-dot span {
     border: 2px solid grey; }
 
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
 .our_job {
   margin: 0.6% auto;
-  background: #e2e2e2;
   padding-top: 1%;
   padding-bottom: 1%; }
-  /* line 6, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
+  /* line 5, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
   .our_job h2 {
     font-size: 2.1em;
     font-family: "RobotoLight";
     color: #000;
-    padding-top: 1%; }
-
-/* line 14, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-.our_job_slider {
-  margin-top: 3%; }
-  /* line 16, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-  .our_job_slider .left_side {
-    float: left; }
-  /* line 20, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-  .our_job_slider .right_side h2 {
-    font-size: 1.4em;
-    padding-top: 0;
-    margin-top: 0; }
-  /* line 25, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-  .our_job_slider .right_side h3 {
-    font-size: 1.2em; }
-  /* line 28, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-  .our_job_slider .right_side p {
-    padding: 3.7em 1.9em 0;
-    font-size: 0.8em; }
-  /* line 32, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-  .our_job_slider .right_side p:last-child {
-    padding-top: 2%;
-    padding-bottom: 10%; }
-
-/* line 39, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-.our_job .owl-dots {
-  position: absolute;
-  bottom: 10%;
-  right: 22%; }
-  /* line 44, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-  .our_job .owl-dots .owl-dot.active span {
-    background: red !important; }
-  /* line 49, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-  .our_job .owl-dots .owl-dot span {
-    border: 2px solid grey; }
-
-/* line 56, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-.our_job .our_job_slider .owl-nav .owl-prev, .our_job .our_job_slider .feedback .owl-nav .owl-next, .feedback .our_job .our_job_slider .owl-nav .owl-next {
-  left: 0; }
-
-/* line 59, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
-.our_job .our_job_slider .owl-nav .owl-next {
-  right: 0; }
+    margin: 10% 0 2% 0; }
 
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
 .contacts {
@@ -1689,7 +1653,7 @@ p.p_desription_worktime {
     width: 100%;
     height: auto; }
     /* line 181, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-    .header .header_banner label {
+    .header .header_banner label, .header .header_banner .form-section form a, .form-section form .header .header_banner a {
       font-size: 0.9em; } }
 
 @media screen and (max-width: 450px) {
@@ -1699,7 +1663,7 @@ p.p_desription_worktime {
     width: 100%;
     height: auto; }
     /* line 193, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-    .header .header_banner label {
+    .header .header_banner label, .header .header_banner .form-section form a, .form-section form .header .header_banner a {
       font-size: 0.7em; } }
 
 /*--- header end ---*/
@@ -1830,7 +1794,7 @@ p.p_desription_worktime {
 /*-- consultation --*/
 @media screen and (max-width: 986px) {
   /* line 405, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .consultation label {
+  .consultation label, .consultation .form-section form a, .form-section form .consultation a {
     font-size: 0.9em; } }
 
 @media screen and (max-width: 768px) {
@@ -1845,7 +1809,7 @@ p.p_desription_worktime {
   .consultation .consult_checkbox {
     margin: 0 0 0 15px !important; }
   /* line 422, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .consultation label {
+  .consultation label, .consultation .form-section form a, .form-section form .consultation a {
     font-size: 1em; } }
 
 @media screen and (max-width: 420px) {
@@ -1862,7 +1826,7 @@ p.p_desription_worktime {
 
 @media screen and (max-width: 395px) {
   /* line 447, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .consultation form label {
+  .consultation form label, .consultation .form-section form a, .form-section .consultation form a {
     font-size: 0.8em; } }
 
 /*--- end ---*/
@@ -1876,7 +1840,7 @@ p.p_desription_worktime {
 /* --- catalog ---*/
 @media screen and (max-width: 1116px) {
   /* line 476, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .catalog .form-section label {
+  .catalog .form-section label, .catalog .form-section form a {
     font-size: 0.9em; } }
 
 @media screen and (max-width: 992px) {
@@ -1898,7 +1862,7 @@ p.p_desription_worktime {
     margin: 0 5px 0 30px !important;
     vertical-align: middle !important; }
   /* line 504, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .form-section label {
+  .form-section label, .form-section form a {
     font-size: 1.4em !important;
     vertical-align: middle !important; } }
 
@@ -1918,7 +1882,7 @@ p.p_desription_worktime {
   .form-section .catalog_checkbox {
     margin: 0 5px 0 25px !important; }
   /* line 534, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .form-section label {
+  .form-section label, .form-section form a {
     font-size: 1em !important; } }
 
 @media screen and (max-width: 420px) {
@@ -1935,7 +1899,7 @@ p.p_desription_worktime {
   .form-section .catalog_checkbox {
     margin: 0 5px 0 20px !important; }
   /* line 556, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .form-section label {
+  .form-section label, .form-section form a {
     font-size: 1em !important; } }
 
 @media screen and (max-width: 394px) {
@@ -1943,7 +1907,7 @@ p.p_desription_worktime {
   .form-section .catalog_checkbox {
     margin: 0 5px 0 18px !important; }
   /* line 569, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .form-section label {
+  .form-section label, .form-section form a {
     font-size: 0.9em !important; } }
 
 @media screen and (max-width: 346px) {
@@ -1951,7 +1915,7 @@ p.p_desription_worktime {
   .form-section .catalog_checkbox {
     margin: 0 5px 0 14px !important; }
   /* line 582, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
-  .form-section label {
+  .form-section label, .form-section form a {
     font-size: 0.8em !important; } }
 
 /*-- end catalog --*/

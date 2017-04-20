@@ -3,7 +3,7 @@
     .feedback_caption{
             font-family: $rl;
             font-size: 2.1em;
-            padding: 1% 0;
+            padding: 1% 0 4%;
             
     }
     .feedback_block_avatar{
@@ -14,18 +14,7 @@
             border-radius: 50%;
             box-shadow: 2px 2px 5px #aaa;
     }
-    .avatar_1{
-      background:url(http://files.vividscreen.info/soft/c0ae824bc1e61f6d7d495245b687e2dd/Rowan-Atkinson-as-Bean-480x320.jpg) no-repeat -85px top;
-        background-size: 300%;
-    }
-    .avatar_2{
-       background:url(http://www.ruthlessreviews.com/wp-content/uploads/2016/11/teatime-385x250.jpg) no-repeat -50px top;
-        background-size: 200%;
-    }
-    .avatar_3{
-      background:url(http://risovach.ru/upload/2013/05/generator/bender_19554139_orig_.jpeg) no-repeat -10px top;
-        background-size:120%;
-    }
+   
     .feedback_block_description{
         font-family: $rl;
         text-align: center;
