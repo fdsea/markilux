@@ -1266,23 +1266,26 @@ input:-ms-input-placeholder {
 /* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 .worktime {
   padding-top: 1.5%; }
-  /* line 16, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
+  /* line 15, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
+  .worktime img {
+    width: 100%; }
+  /* line 19, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
   .worktime .description_worktime h2 {
     font-family: "RobotoLight";
     font-size: 2.1em;
     color: #000;
     padding-bottom: 2%; }
-  /* line 24, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
+  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
   .worktime .description_worktime p:nth-child(5):after {
     display: none; }
 
-/* line 31, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
+/* line 34, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 h3.worktime_h3 {
   font-size: 1.4em;
   padding: 2% 0 2%;
   text-align: center; }
 
-/* line 37, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
+/* line 40, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 p.p_desription_worktime {
   font-size: 1em;
   background: red;
