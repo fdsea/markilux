@@ -4,7 +4,7 @@ var a = document.querySelectorAll('.menu_item_a');
 	  
 		 function scrollToSlide(i){
 		 
-			 a[i].addEventListener('click',function(){
+			 a[i].addEventListener('click',function(e){
 				  var atr = a[i].getAttribute('href').substring(1);
 				 
 				 $('html,body').stop().animate({ scrollTop: $("#"+atr).offset().top }, 1500);

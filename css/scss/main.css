@@ -633,39 +633,42 @@ input:-ms-input-placeholder {
 
 /*===== END OF RED ARROW =====*/
 /* line 3, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
-.reward h2 {
+.reward .rewards_caption {
   font-family: "RobotoLight";
-  font-size: 2.2em;
-  padding-top: 20px;
+  font-size: 2.1em;
+  padding-top: 5%;
   text-align: left; }
 
-/* line 9, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+/* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .reward p {
   font-family: "RobotoLight";
   font-size: 1.2em;
   padding-top: 20px;
   text-align: left; }
+  /* line 15, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+  .reward p span {
+    padding: 5px; }
 
-/* line 15, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+/* line 19, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .reward .counters-section {
   padding-top: 10px;
   color: #000; }
-  /* line 18, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+  /* line 22, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
   .reward .counters-section .counter {
     font-family: "RobotoCondensedBold";
     font-size: 3em;
     text-align: center; }
-  /* line 23, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
   .reward .counters-section .description-counter {
     padding-top: 0;
     font-family: "RobotoCondensedRegular";
     text-align: center; }
 
-/* line 32, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+/* line 36, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .awards_section {
   position: relative;
   margin: 12% 0 0; }
-  /* line 35, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+  /* line 39, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
   .awards_section .awards-block {
     display: table;
     position: absolute;
@@ -674,14 +677,33 @@ input:-ms-input-placeholder {
     transform: translateX(-50%);
     width: 60%;
     z-index: 1000; }
-    /* line 43, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+    /* line 47, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
     .awards_section .awards-block .col_award {
       display: table-cell; }
+
+/* line 53, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+.superiority_reward h2 {
+  font-family: "RobotoLight";
+  font-size: 2.1em;
+  margin-bottom: 5%; }
+
+/* line 58, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+.superiority_reward .superiority_reward_item {
+  float: left;
+  margin-bottom: 3%; }
+  /* line 61, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+  .superiority_reward .superiority_reward_item img {
+    float: left; }
+  /* line 64, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
+  .superiority_reward .superiority_reward_item p {
+    float: left;
+    margin-left: 15px;
+    padding-top: 35px; }
 
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .design {
   position: relative;
-  margin-top: 6.1%; }
+  margin-top: 8.5%; }
   /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .design .design_h2 {
     font-family: "RobotoLight";
@@ -1132,7 +1154,7 @@ input:-ms-input-placeholder {
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
 .smart_mark {
   font-family: "RobotoLight";
-  padding: 5% 0; }
+  padding: 1.5% 0 2%; }
   /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark h2 {
     font-size: 2em;
@@ -1329,59 +1351,60 @@ p.p_desription_worktime {
 .worktime_wrapper .descripton_last:after {
   display: none; }
 
-/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-.feedback {
-  margin-top: 3.4%; }
-  /* line 3, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-  .feedback .feedback_caption {
-    font-family: "RobotoLight";
-    font-size: 2.1em;
-    padding: 1% 0 4%; }
-  /* line 9, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-  .feedback .feedback_block_avatar {
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin-top: 5%;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px #aaa; }
-  /* line 18, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-  .feedback .feedback_block_description {
-    font-family: "RobotoLight";
-    text-align: center; }
-    /* line 21, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-    .feedback .feedback_block_description .client_name {
-      font-family: "RobotoBold";
-      font-size: 1.1em; }
-    /* line 25, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-    .feedback .feedback_block_description .client_profession {
-      font-size: 1em;
-      margin-bottom: 4%; }
-    /* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-    .feedback .feedback_block_description .client_feedback {
-      font-size: 0.9em; }
-  /* line 35, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-  .feedback .owl-nav .owl-prev, .feedback .owl-nav .owl-next {
-    height: 50%;
-    display: none; }
-  /* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-  .feedback .owl-dots .owl-dot.active span {
-    background: red !important; }
-  /* line 51, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
-  .feedback .owl-dots .owl-dot span {
-    border: 2px solid grey; }
+/* line 3, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+.feedback .feedback_caption {
+  font-family: "RobotoLight";
+  font-size: 2.1em;
+  padding: 0% 0 4%; }
+
+/* line 9, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+.feedback .feedback_block_avatar {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin-top: 5%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px #aaa; }
+
+/* line 18, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+.feedback .feedback_block_description {
+  font-family: "RobotoLight";
+  text-align: center; }
+  /* line 21, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+  .feedback .feedback_block_description .client_name {
+    font-family: "RobotoBold";
+    font-size: 1.1em; }
+  /* line 25, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+  .feedback .feedback_block_description .client_profession {
+    font-size: 1em;
+    margin-bottom: 4%; }
+  /* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+  .feedback .feedback_block_description .client_feedback {
+    font-size: 0.9em; }
+
+/* line 35, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+.feedback .owl-nav .owl-prev, .feedback .owl-nav .owl-next {
+  height: 50%;
+  display: none; }
+
+/* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+.feedback .owl-dots .owl-dot.active span {
+  background: red !important; }
+
+/* line 51, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
+.feedback .owl-dots .owl-dot span {
+  border: 2px solid grey; }
 
 /* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
 .our_job {
-  margin: 0.6% auto;
-  padding-top: 1%;
-  padding-bottom: 1%; }
+  margin: 0.6% auto 5%;
+  padding-top: 1%; }
   /* line 5, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
   .our_job h2 {
     font-size: 2.1em;
     font-family: "RobotoLight";
     color: #000;
-    margin: 10% 0 2% 0; }
+    margin: 10% 0 5% 0; }
   /* line 11, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
   .our_job img {
     width: 100%; }
