@@ -252,7 +252,10 @@ $timing: ease-in-out;
 			   &:active{
 				 text-decoration: none !important;
 				 outline: none !important;
-			   }	
+			   }
+				&:focus{
+					text-decoration: none !important;
+				}
              }
 			
             }
