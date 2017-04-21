@@ -197,6 +197,80 @@
     }
 }
 /*--- header end ---*/
+
+/*------ reward ------*/
+@media screen and (max-width: 1014px){
+	.rewards_caption{
+		padding-top: 1%;
+	}
+	.awards_section{
+		margin: 15% 0;
+	}
+	.superiority_reward{
+		h2{
+			margin-top: 5%;
+		}
+	}
+}
+@media screen and (max-width: 551px){
+	.superiority_reward_item{
+		img{
+			width: 50px;
+		}
+		p{
+			font-size: 1em !important;
+			padding-top: 13px !important;
+		}
+	}
+
+}
+@media screen and (max-width: 449px){
+	.superiority_reward{
+	.superiority_reward_item{
+		img{
+			width: 30px;
+		}
+		p{
+			font-size: 0.9em !important;
+			padding-top: 8px !important;
+			margin-left: 10px;
+		}
+	}
+  }
+}
+@media screen and (max-width: 393px){
+	.superiority_reward{
+	.superiority_reward_item{
+		img{
+			width: 30px;
+		}
+		p{
+			font-size: 0.8em !important;
+			padding-top: 8px !important;
+			margin-left: 10px;
+		}
+	}
+  }
+}
+@media screen and (max-width: 345px){
+	.superiority_reward{
+	.superiority_reward_item{
+		img{
+			width: 25px;
+		}
+		p{
+			font-size: 0.7em !important;
+			padding-top: 8px !important;
+			margin-left: 6px;
+		}
+	}
+  }
+}
+/*------- end --------*/
+
+
+
+
 /*---top red line ---*/
 @media screen and (max-width: 1472px){
 	.year_section{
@@ -215,8 +289,10 @@
 }
 @media screen and (max-width: 1284px){
 	.year_section{
+		
 		.red-line{
 			//width: 100%;
+			margin-top: 17% !important;
 			.cell{
 				padding: 1px 6%;
 			}
@@ -665,6 +741,26 @@
     }
     
 }
+@media screen and (max-width: 992px){
+    .footer{
+        .copyright_footer{
+            padding-bottom: 0;
+        }
+        .footer_links{
+            .requisites{
+               display: flex;
+				justify-content: center;
+				padding-top: 20px;
+            }
+        }
+        .pay_col{
+			p{
+				font-size: 0.78em;
+			}
+        }
+    }
+    
+}
 @media screen and (max-width: 768px){
     .footer{
         position: relative;
@@ -673,13 +769,13 @@
         }
         .footer_logo{
           margin-top:35px;
-          margin-bottom: 20px;   
+          margin-bottom: 0px;   
         }
         .footer_links{
             text-align: center;
             .footer_email{
                 display: inline-block;
-                padding-top: 0;
+                padding-top: 40px;
             }
             .requisites{
                 display: inline-block;
@@ -713,6 +809,11 @@
                 display: none;
             }
         }
+		.footer_links {
+			.footer_email{
+				padding-top: 15px;
+			}
+      }
     }
 }
 /*------------*/

@@ -1,88 +1,88 @@
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 html, body {
   width: 100%; }
 
-/* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 5, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 ::-webkit-input-placeholder {
   color: #666;
   padding-left: 10px; }
 
-/* line 6, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 6, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 ::-moz-placeholder {
   color: #666;
   padding-left: 10px; }
 
 /* Firefox 19+ */
-/* line 7, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 7, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 :-moz-placeholder {
   color: #666;
   padding-left: 10px; }
 
 /* Firefox 18- */
-/* line 8, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 8, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 :-ms-input-placeholder {
   color: #666;
   padding-left: 10px; }
 
-/* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 input[placeholder] {
   text-overflow: ellipsis; }
 
-/* line 11, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 11, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 input::-moz-placeholder {
   text-overflow: ellipsis; }
 
-/* line 12, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 12, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 input:-moz-placeholder {
   text-overflow: ellipsis; }
 
-/* line 13, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 input:-ms-input-placeholder {
   text-overflow: ellipsis; }
 
-/* line 15, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 15, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 ::-webkit-input-placeholder {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
 
-/* line 16, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 16, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 ::-moz-placeholder {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
 
-/* line 17, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 17, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 :-moz-placeholder {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
 
-/* line 18, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 18, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 :-ms-input-placeholder {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
 
-/* line 19, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 19, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 :focus::-webkit-input-placeholder {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
 
-/* line 20, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 20, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 :focus::-moz-placeholder {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
 
-/* line 21, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 21, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 :focus:-moz-placeholder {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease; }
 
-/* line 22, C:/Users/VIV/Desktop/Markilux/css/scss/main.scss */
+/* line 22, C:/Users/user/Desktop/mark/markilux/css/scss/main.scss */
 :focus:-ms-input-placeholder {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease;
@@ -140,33 +140,33 @@ input:-ms-input-placeholder {
 /*======== END ========*/
 /*==== COLOR VARIABLES ====*/
 /*========= END ==========*/
-/* line 23, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+/* line 23, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .red {
   color: red; }
 
-/* line 27, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+/* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .resp {
   max-width: 100%;
   height: auto; }
 
-/* line 31, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+/* line 31, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .no-padding {
   padding: 0 !important;
   margin: 0 !important; }
 
-/* line 35, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+/* line 35, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .small-padding {
   padding: 0 0.5px !important; }
 
-/* line 38, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+/* line 38, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .medium-padding {
   padding: 2px !important; }
 
-/* line 41, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+/* line 41, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .hidden_block {
   opacity: 0; }
 
-/* line 45, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
+/* line 45, C:/Users/user/Desktop/mark/markilux/css/scss/_variables.scss */
 .visible_block {
   animation: opac 1s ease forwards; }
 
@@ -178,31 +178,31 @@ input:-ms-input-placeholder {
 
 /*=================== FENCE ======================*/
 /*================= END =======================*/
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
 .content_wrapper {
   width: 100%;
   height: 100%;
   overflow: hidden; }
 
 /*=== NAV SIDE - PANEL ===*/
-/* line 12, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+/* line 12, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
 .topline-wrapper {
   border-top: 5px solid #dd011d;
   width: 100%; }
 
-/* line 17, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+/* line 17, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
 .topline {
   width: 80%;
   margin: 0 auto;
   padding: 7px 0 7px 0;
   /*==== NAV ANIMATION ====*/ }
-  /* line 21, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 21, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline:before, .topline:after {
     content: "";
     display: table;
     height: 0;
     clear: both; }
-  /* line 28, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 28, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .nav-btn {
     width: 50px;
     height: 50px;
@@ -213,10 +213,10 @@ input:-ms-input-placeholder {
     float: left;
     cursor: pointer;
     z-index: 10000; }
-    /* line 38, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 38, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .topline .nav-btn:hover span {
       background: #aaa; }
-    /* line 41, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 41, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .topline .nav-btn .span {
       position: absolute;
       width: 80%;
@@ -224,16 +224,16 @@ input:-ms-input-placeholder {
       background: #dd011d;
       border-radius: 15px;
       transition: .5s ease; }
-    /* line 50, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 50, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .topline .nav-btn .span-1 {
       top: 9%; }
-    /* line 50, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 50, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .topline .nav-btn .span-2 {
       top: 34%; }
-    /* line 50, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 50, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .topline .nav-btn .span-3 {
       top: 59%; }
-  /* line 60, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 60, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .active-stix-1 {
     animation: stix-1 0.3s ease-in-out forwards; }
 
@@ -244,7 +244,7 @@ input:-ms-input-placeholder {
   100% {
     transform: rotate(45deg) translate(10px, 14px);
     width: 100%; } }
-  /* line 73, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 73, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .active-stix-2 {
     animation: stix-2 0.3s ease-in-out forwards; }
 
@@ -255,7 +255,7 @@ input:-ms-input-placeholder {
     opacity: 0; }
   100% {
     opacity: 0; } }
-  /* line 87, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 87, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .active-stix-3 {
     animation: stix-3 0.3s ease-in-out forwards; }
 
@@ -266,7 +266,7 @@ input:-ms-input-placeholder {
   100% {
     transform: rotate(-45deg) translate(4px, -7px);
     width: 100%; } }
-  /* line 100, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 100, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .inactive-stix-1 {
     animation: stix-1-inact 0.3s ease-in-out forwards; }
 
@@ -275,7 +275,7 @@ input:-ms-input-placeholder {
     transform: rotate(45deg) translate(10px, 14px); }
   100% {
     transform: rotate(0deg); } }
-  /* line 111, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 111, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .inactive-stix-2 {
     animation: stix-2-inact 0.3s ease-in-out forwards; }
 
@@ -286,7 +286,7 @@ input:-ms-input-placeholder {
     opacity: 1; }
   100% {
     opacity: 1; } }
-  /* line 125, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 125, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .inactive-stix-3 {
     animation: stix-3-inact 0.3s ease-in-out forwards; }
 
@@ -295,7 +295,7 @@ input:-ms-input-placeholder {
     transform: rotate(-45deg) translate(4px, -7px); }
   100% {
     transform: rotate(0deg); } }
-  /* line 136, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 136, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .popup-nav {
     position: fixed;
     top: 0;
@@ -306,17 +306,17 @@ input:-ms-input-placeholder {
     transition: 0.5s ease;
     z-index: 9000;
     border-left: 8px solid red; }
-    /* line 146, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 146, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .topline .popup-nav ul {
       margin: 100px 0px; }
-      /* line 148, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+      /* line 148, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
       .topline .popup-nav ul li {
         width: 100%;
         padding-left: 30px;
         list-style-type: none;
         box-sizing: border-box;
         position: relative; }
-        /* line 154, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+        /* line 154, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
         .topline .popup-nav ul li:before {
           content: "";
           transition: .35s ease;
@@ -328,10 +328,10 @@ input:-ms-input-placeholder {
           border-left-color: red;
           left: 0px;
           top: 8px; }
-        /* line 165, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+        /* line 165, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
         .topline .popup-nav ul li:hover:before {
           display: block; }
-        /* line 168, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+        /* line 168, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
         .topline .popup-nav ul li a {
           font-family: "RobotoRegular";
           font-size: 1.5em;
@@ -340,20 +340,20 @@ input:-ms-input-placeholder {
           margin-bottom: 10px;
           color: #000;
           transition: .25s ease; }
-          /* line 176, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+          /* line 176, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
           .topline .popup-nav ul li a:hover {
             color: red; }
-  /* line 183, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 183, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .active-nav {
     left: 0; }
 
 /*======= END =======*/
-/* line 192, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+/* line 192, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
 .topline .logo-header {
   float: left;
   margin: 0 0 0 1.5%; }
 
-/* line 196, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+/* line 196, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
 .topline h1 {
   font-size: 1em;
   font-family: "RobotoLight";
@@ -361,32 +361,32 @@ input:-ms-input-placeholder {
   float: left;
   line-height: 40px;
   margin-left: 2%; }
-  /* line 203, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 203, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline h1 a {
     color: #dd011d;
     border-bottom: 2px dashed #dd011d;
     text-decoration: none; }
 
-/* line 209, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+/* line 209, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
 .topline .header-phone {
   float: right;
   font-family: "RobotoRegular";
   width: 20%;
   margin-top: 5px; }
-  /* line 216, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 216, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .header-phone .phone-number a {
     color: #000;
     display: block;
     font-size: 1.5em;
     text-align: right;
     text-decoration: none; }
-    /* line 222, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 222, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .topline .header-phone .phone-number a span {
       color: #aaa;
       font-size: 0.7em;
       margin-right: 5px;
       display: inline-block; }
-      /* line 227, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+      /* line 227, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
       .topline .header-phone .phone-number a span:before {
         content: '';
         display: inline-block;
@@ -395,7 +395,7 @@ input:-ms-input-placeholder {
         height: 12px;
         background: url(/images/time-icon.png) no-repeat 0 1px;
         background-size: 100%; }
-  /* line 239, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 239, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .topline .header-phone .request {
     border-bottom: 1px dashed #dd011d;
     text-decoration: none;
@@ -403,19 +403,19 @@ input:-ms-input-placeholder {
     cursor: pointer;
     margin-top: -5px;
     float: right; }
-    /* line 247, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 247, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .topline .header-phone .request a {
       color: #dd011d; }
-      /* line 249, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+      /* line 249, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
       .topline .header-phone .request a:hover {
         text-decoration: none !important; }
-      /* line 252, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+      /* line 252, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
       .topline .header-phone .request a:active {
         text-decoration: none !important;
         outline: none !important; }
 
 /*===== BANNER ======*/
-/* line 263, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+/* line 263, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
 .header_banner {
   width: 420px;
   height: auto;
@@ -425,42 +425,42 @@ input:-ms-input-placeholder {
   right: 30%;
   color: #000;
   z-index: 1040; }
-  /* line 272, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 272, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .header_banner h2 {
     font-size: 2.1em;
     font-family: "RobotoLight";
     padding: 5% 5%; }
-  /* line 277, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 277, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .header_banner .garanty {
     font-size: 1.6em;
     font-family: "RobotoCondensedRegular";
     text-transform: uppercase; }
-  /* line 283, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 283, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .header_banner p, .header_banner span {
     padding: 0 5%;
     font-family: "RobotoRegular";
     line-height: 1.3;
     font-size: 1.05em; }
-  /* line 289, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 289, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .header_banner h3 {
     color: #aaa;
     padding: 3% 5%; }
-  /* line 294, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 294, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .header_banner .banner_form {
     width: 89%;
     margin: 0 auto; }
-    /* line 297, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 297, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .header_banner .banner_form .banner_input_checkbox {
       width: 25px;
       margin: 12px 0px;
       display: inline-block;
       vertical-align: middle; }
-    /* line 303, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 303, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .header_banner .banner_form label, .header_banner .banner_form .form-section form a, .form-section form .header_banner .banner_form a {
       display: inline-block;
       vertical-align: middle;
       font-size: 1em; }
-  /* line 309, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 309, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .header_banner .btn {
     float: left;
     clear: both;
@@ -476,24 +476,24 @@ input:-ms-input-placeholder {
     margin-bottom: 4%;
     box-shadow: 0 2px 5px #555;
     transition: 0.35s ease; }
-    /* line 324, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 324, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .header_banner .btn:hover {
       background: #dd011d; }
-    /* line 327, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 327, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .header_banner .btn:active {
       background: #6f010f;
       box-shadow: 0 1px 2px #555; }
-  /* line 332, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 332, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .header_banner input {
     margin-left: 4%;
     width: 46.9%;
     border: 1px solid #aaa;
     border-radius: 5px;
     padding: 2% 2%; }
-  /* line 339, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 339, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .header_banner input:nth-child(1) {
     margin-left: 0; }
-  /* line 342, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+  /* line 342, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
   .header_banner .security {
     display: block;
     font-size: 0.6em;
@@ -501,14 +501,14 @@ input:-ms-input-placeholder {
     margin-top: 3%;
     text-align: center;
     color: #000; }
-    /* line 349, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
+    /* line 349, C:/Users/user/Desktop/mark/markilux/css/scss/_topline_section.scss */
     .header_banner .security a {
       display: inline-block;
       padding: 0 0 10px;
       color: red;
       text-decoration: underline; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
 .header {
   height: 90vh;
   width: 100%;
@@ -516,20 +516,20 @@ input:-ms-input-placeholder {
   background-size: cover;
   background-position: bottom right;
   overflow: hidden; }
-  /* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+  /* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   .header .video_wrapper video#video_background {
     top: -180px !important;
     bottom: 0% !important; }
 
 /*-- POPUP --*/
-/* line 18, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+/* line 18, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
 #instalation_popup {
   /*some style*/ }
 
-/* line 22, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+/* line 22, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
 #call_order_popup .modal-dialog {
   width: 300px; }
-  /* line 24, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+  /* line 24, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   #call_order_popup .modal-dialog .modal-header .h2 {
     text-align: center;
     display: inline-block;
@@ -537,7 +537,7 @@ input:-ms-input-placeholder {
     text-transform: uppercase;
     margin-left: 40px;
     font-family: "RobotoBold"; }
-  /* line 34, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+  /* line 34, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
   #call_order_popup .modal-dialog .banner_form {
     padding: -10px 30px;
     display: flex;
@@ -545,24 +545,24 @@ input:-ms-input-placeholder {
     align-content: space-around;
     align-items: center;
     font-family: "RobotoRegular"; }
-    /* line 42, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+    /* line 42, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .banner_input_name, #call_order_popup .modal-dialog .banner_form .banner_input_phone, #call_order_popup .modal-dialog .banner_form .btn {
       margin-bottom: 10px;
       width: 100%;
       border-radius: 5px;
       border: 1px solid grey;
       padding: 5px 10px; }
-    /* line 54, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+    /* line 54, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .popup_call_checkbox {
       display: inline-block;
       vertical-align: middle; }
-    /* line 59, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+    /* line 59, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form label, #call_order_popup .modal-dialog .banner_form .form-section form a, .form-section form #call_order_popup .modal-dialog .banner_form a {
       display: inline-block;
       vertical-align: middle;
       color: #000;
       font-size: 0.7em; }
-    /* line 67, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+    /* line 67, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .btn {
       text-transform: uppercase;
       background: red;
@@ -572,24 +572,24 @@ input:-ms-input-placeholder {
       margin-top: 3%;
       box-shadow: 0 2px 5px #dd011d;
       transition: 0.35s ease; }
-      /* line 77, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+      /* line 77, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
       #call_order_popup .modal-dialog .banner_form .btn:hover {
         background: #dd011d; }
-      /* line 80, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
+      /* line 80, C:/Users/user/Desktop/mark/markilux/css/scss/_header_section.scss */
       #call_order_popup .modal-dialog .banner_form .btn:active {
         background: #6f010f;
         box-shadow: 0 1px 2px #dd011d;
         outline: none !important; }
 
 /*----------*/
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
 .year_section {
   background: red;
   width: 100%;
   margin: 13% 0 3%; }
 
 /*===== RED ARROW =====*/
-/* line 8, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+/* line 8, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
 .red-line {
   width: 60%;
   margin: 10px auto;
@@ -597,7 +597,7 @@ input:-ms-input-placeholder {
   display: table;
   background: red;
   overflow: hidden; }
-  /* line 17, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+  /* line 17, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
   .red-line .cell {
     display: table-cell;
     padding: 1px 5%;
@@ -608,7 +608,7 @@ input:-ms-input-placeholder {
     font-size: 1.4em;
     font-weight: bold;
     position: relative; }
-    /* line 29, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+    /* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
     .red-line .cell .arrow {
       position: absolute;
       width: 50px;
@@ -620,7 +620,7 @@ input:-ms-input-placeholder {
       border-left-color: transparent;
       border-bottom-color: transparent;
       z-index: 500; }
-  /* line 45, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+  /* line 45, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
   .red-line .cell-1:before {
     content: "";
     position: absolute;
@@ -632,48 +632,48 @@ input:-ms-input-placeholder {
     border-bottom-color: transparent;
     top: -5px;
     left: -17%; }
-  /* line 76, C:/Users/VIV/Desktop/Markilux/css/scss/_year_line.scss */
+  /* line 76, C:/Users/user/Desktop/mark/markilux/css/scss/_year_line.scss */
   .red-line .cell-6 .arrow-1 {
     right: 10px; }
 
 /*===== END OF RED ARROW =====*/
-/* line 3, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+/* line 3, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .reward .rewards_caption {
   font-family: "RobotoLight";
   font-size: 2.1em;
   padding-top: 5%;
   text-align: left; }
 
-/* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+/* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .reward p {
   font-family: "RobotoLight";
   font-size: 1.2em;
   padding-top: 20px;
   text-align: left; }
-  /* line 15, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+  /* line 15, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
   .reward p span {
     padding: 5px; }
 
-/* line 19, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+/* line 19, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .reward .counters-section {
   padding-top: 10px;
   color: #000; }
-  /* line 22, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+  /* line 22, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
   .reward .counters-section .counter {
     font-family: "RobotoCondensedBold";
     font-size: 3em;
     text-align: center; }
-  /* line 27, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
   .reward .counters-section .description-counter {
     padding-top: 0;
     font-family: "RobotoCondensedRegular";
     text-align: center; }
 
-/* line 36, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+/* line 36, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .awards_section {
   position: relative;
   margin: 12% 0 0; }
-  /* line 39, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+  /* line 39, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
   .awards_section .awards-block {
     display: table;
     position: absolute;
@@ -682,24 +682,24 @@ input:-ms-input-placeholder {
     transform: translateX(-50%);
     width: 60%;
     z-index: 1000; }
-    /* line 47, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+    /* line 47, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
     .awards_section .awards-block .col_award {
       display: table-cell; }
 
-/* line 53, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+/* line 53, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .superiority_reward h2 {
   font-family: "RobotoLight";
   font-size: 2.1em;
   margin-bottom: 5%; }
 
-/* line 58, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+/* line 58, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
 .superiority_reward .superiority_reward_item {
   float: left;
   margin-bottom: 3%; }
-  /* line 61, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+  /* line 61, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
   .superiority_reward .superiority_reward_item img {
     float: left; }
-  /* line 64, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
+  /* line 64, C:/Users/user/Desktop/mark/markilux/css/scss/_reward_section.scss */
   .superiority_reward .superiority_reward_item p {
     float: left;
     font-size: 1.2em;
@@ -707,31 +707,31 @@ input:-ms-input-placeholder {
     padding-top: 35px;
     word-wrap: break-word; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .design {
   position: relative;
   margin-top: 8.5%; }
-  /* line 4, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .design .design_h2 {
     font-family: "RobotoLight";
     color: #000;
     font-size: 2.1em;
     margin-bottom: 0.5em; }
-  /* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .design .design_h3 {
     font-family: "RobotoLight";
     color: #000;
     font-size: 1.2em;
     margin-bottom: 2.5em; }
 
-/* line 17, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 17, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left {
   position: relative;
   float: left;
   width: 30%;
   transition: 0.35s ease; }
 
-/* line 25, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 25, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .design .design_button_nav {
   display: none;
   text-transform: uppercase;
@@ -749,7 +749,7 @@ input:-ms-input-placeholder {
   transition: 0.35s ease;
   position: absolute;
   cursor: pointer; }
-  /* line 42, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 42, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .design .design_button_nav:before, .design .design_button_nav:after {
     content: "";
     position: absolute;
@@ -762,7 +762,7 @@ input:-ms-input-placeholder {
     opacity: 0.2;
     z-index: -1;
     animation: blink_menu 1s ease infinite; }
-  /* line 55, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 55, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .design .design_button_nav:after {
     width: 70px;
     height: 70px;
@@ -778,61 +778,61 @@ input:-ms-input-placeholder {
   100% {
     opacity: 0.01; } }
 
-/* line 71, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 71, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .right {
   width: 70%;
   float: right;
   overflow: hidden; }
-  /* line 75, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 75, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .right .carousel-wrap {
     width: 100%; }
-    /* line 77, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+    /* line 77, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
     .right .carousel-wrap .slider_design {
       height: 100%;
       display: none;
       position: relative; }
-      /* line 81, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+      /* line 81, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
       .right .carousel-wrap .slider_design .owl-dots {
         position: absolute;
         top: 60%;
         left: 45%; }
-        /* line 86, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+        /* line 86, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
         .right .carousel-wrap .slider_design .owl-dots .owl-dot.active span {
           background: red; }
-        /* line 91, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+        /* line 91, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
         .right .carousel-wrap .slider_design .owl-dots .owl-dot span {
           border: 2px solid grey; }
-  /* line 97, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 97, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .right .slider_content .characteristics {
     padding-top: 30px; }
-    /* line 99, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+    /* line 99, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
     .right .slider_content .characteristics p {
       font-family: "RobotoRegular"; }
 
-/* line 109, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 109, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .right .carousel-wrap .slider_design .item .img_design_wrap {
   max-height: 458px;
   overflow: hidden; }
 
-/* line 113, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 113, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .right .carousel-wrap .slider_design .item h1 {
   font-size: 1.9em;
   margin: 0.5em 0 0.1em; }
 
-/* line 117, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 117, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .right .carousel-wrap .slider_design .item p {
   font-size: 0.95em; }
 
-/* line 121, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 121, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .right .carousel-wrap .slider_design .item .characteristics p {
   font-size: 1em; }
 
-/* line 132, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 132, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .owl-nav {
   color: red;
   font-size: 3em;
   z-index: 100; }
-  /* line 136, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 136, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .owl-nav .owl-prev, .feedback .owl-nav .owl-next {
     position: absolute;
     background: url(/images/left_arrow.png) no-repeat !important;
@@ -842,7 +842,7 @@ input:-ms-input-placeholder {
     width: 100%;
     height: 40%;
     background-size: 100%; }
-  /* line 146, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 146, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .owl-nav .owl-next {
     display: none;
     position: absolute;
@@ -857,30 +857,30 @@ input:-ms-input-placeholder {
     background: url(/images/right_arrow.png) no-repeat !important; }
 
 /*=== ACTIVE SLIDE ====*/
-/* line 164, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 164, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .active_slider_design {
   display: block !important; }
 
-/* line 168, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 168, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .active_tabs_design {
   background: #ddd !important;
   border-left: 6px solid #dd011d !important;
   color: #dd011d !important; }
 
-/* line 174, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 174, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .active_arrow_design {
   display: block !important; }
 
-/* line 178, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 178, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .active_mobile_nav_panel {
   left: 2% !important; }
 
-/* line 181, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 181, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .active_mobile_button_design {
   left: 48.8% !important; }
 
 /*====================*/
-/* line 190, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 190, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left ul li {
   padding: 3%;
   background: #fff;
@@ -893,7 +893,7 @@ input:-ms-input-placeholder {
   position: relative;
   border-bottom: 1px solid #ddd;
   border-left: 1px solid #ddd; }
-  /* line 202, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 202, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .left ul li .side_arrow {
     position: absolute;
     width: 0;
@@ -905,18 +905,18 @@ input:-ms-input-placeholder {
     z-index: 100;
     display: none; }
 
-/* line 214, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 214, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left ul li:nth-child(1) {
   border-top: 1px solid #aaa; }
 
-/* line 218, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 218, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left .form_caption {
   color: #363636;
   font-size: 1.7em;
   text-align: center;
   padding: 5%; }
 
-/* line 225, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 225, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form .design_hidden_input {
   visibility: hidden;
   height: 2px;
@@ -925,19 +925,19 @@ input:-ms-input-placeholder {
   margin: 0;
   float: right; }
 
-/* line 233, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 233, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form .design_checkbox {
   margin: 0 5px 0 35px;
   display: inline-block;
   vertical-align: middle; }
 
-/* line 238, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 238, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form label, .left .form-section form a, .form-section .left form a {
   font-size: 0.8em;
   display: inline-block;
   vertical-align: baseline; }
 
-/* line 243, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 243, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form .name, .left form .phone, .left form .btn_order, .left form .form-section .email, .form-section .left form .email {
   display: block;
   width: 79%;
@@ -947,11 +947,11 @@ input:-ms-input-placeholder {
   margin-bottom: 4%;
   background: #eeeeee; }
 
-/* line 252, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 252, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form .phone {
   margin-bottom: 2%; }
 
-/* line 256, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 256, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form .btn_order {
   color: #000;
   margin-top: 2%;
@@ -963,32 +963,32 @@ input:-ms-input-placeholder {
   background: yellow;
   transition: .35s ease;
   box-shadow: 0 2px 5px #ffd800; }
-  /* line 268, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 268, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .left form .btn_order:hover {
     background: #ffd800; }
-  /* line 271, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 271, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .left form .btn_order:active {
     background: #e8c400;
     box-shadow: 0 1px 2px #ffd800; }
 
-/* line 277, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 277, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
 .left form p {
   font-family: "RobotoRegular";
   font-size: 0.7em;
   text-align: center; }
-  /* line 281, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 281, C:/Users/user/Desktop/mark/markilux/css/scss/_design_section.scss */
   .left form p span {
     color: #ffd800;
     padding-left: 1%; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
 .unique {
   background: url(/images/bg-grey.png) repeat;
   position: relative;
   margin-top: 5%;
   padding: 1.5% 0;
   width: 100%; }
-  /* line 7, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+  /* line 7, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
   .unique:before {
     content: "";
     position: absolute;
@@ -997,7 +997,7 @@ input:-ms-input-placeholder {
     height: 15px;
     width: 100%;
     top: -10px; }
-  /* line 16, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+  /* line 16, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
   .unique:after {
     content: "";
     position: absolute;
@@ -1007,85 +1007,85 @@ input:-ms-input-placeholder {
     width: 100%;
     bottom: -10px; }
 
-/* line 27, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+/* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
 .unique_description {
   font-family: "RobotoLight";
   color: #000;
   text-align: left; }
-  /* line 31, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+  /* line 31, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
   .unique_description h2 {
     padding-bottom: 3%;
     font-size: 2.1em; }
-  /* line 37, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+  /* line 37, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
   .unique_description p {
     padding-top: 0;
     padding-bottom: 2%;
     font-size: 1.2em; }
 
-/* line 43, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+/* line 43, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
 .slider_unique_section {
   margin-top: 5%;
   width: 100%; }
 
-/* line 51, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+/* line 51, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
 .unique .owl-nav .owl-prev, .unique .feedback .owl-nav .owl-next, .feedback .unique .owl-nav .owl-next {
   width: 30%;
   top: 50%;
   left: 0; }
 
-/* line 56, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+/* line 56, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
 .unique .owl-nav .owl-next {
   width: 6%;
   top: 50%;
   right: 0%;
   float: right; }
 
-/* line 64, C:/Users/VIV/Desktop/Markilux/css/scss/_unique_section.scss */
+/* line 64, C:/Users/user/Desktop/mark/markilux/css/scss/_unique_section.scss */
 .unique .owl-dots {
   display: none; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_superiority_section.scss */
 .superiority {
   padding-top: 5%; }
-  /* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  /* line 5, C:/Users/user/Desktop/mark/markilux/css/scss/_superiority_section.scss */
   .superiority .superiority_header h2 {
     font-family: "RobotoLight";
     padding-bottom: 3%;
     font-size: 2em; }
-  /* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  /* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_superiority_section.scss */
   .superiority .superiority_header p {
     padding-top: 0;
     padding-bottom: 2%;
     font-size: 1.2em; }
-  /* line 16, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  /* line 16, C:/Users/user/Desktop/mark/markilux/css/scss/_superiority_section.scss */
   .superiority .superiority_block_section {
     padding-top: 2%; }
 
-/* line 21, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+/* line 21, C:/Users/user/Desktop/mark/markilux/css/scss/_superiority_section.scss */
 .superiority_block {
   font-family: "RobotoRegular";
   margin-bottom: 17%; }
-  /* line 25, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  /* line 25, C:/Users/user/Desktop/mark/markilux/css/scss/_superiority_section.scss */
   .superiority_block .superiority_pick {
     float: left; }
-  /* line 29, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  /* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_superiority_section.scss */
   .superiority_block h3 {
     color: red;
     font-family: "RobotoBold";
     font-size: 1.1em;
     float: left;
     margin-left: 4%; }
-  /* line 36, C:/Users/VIV/Desktop/Markilux/css/scss/_superiority_section.scss */
+  /* line 36, C:/Users/user/Desktop/mark/markilux/css/scss/_superiority_section.scss */
   .superiority_block p {
     clear: both;
     padding-top: 2%; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
 .consultation {
   padding-top: 3%;
   background: #db3633;
   position: relative; }
-  /* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  /* line 5, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
   .consultation:before {
     content: "";
     position: absolute;
@@ -1095,7 +1095,7 @@ input:-ms-input-placeholder {
     background-position: left;
     background-image: url("/images/triangle_2.svg");
     top: -8.4507px; }
-  /* line 8, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  /* line 8, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
   .consultation:after {
     content: "";
     position: absolute;
@@ -1106,14 +1106,14 @@ input:-ms-input-placeholder {
     background-image: url("/images/triangle_2.svg");
     transform: rotate(180deg);
     bottom: -7.74648px; }
-  /* line 11, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  /* line 11, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
   .consultation h3 {
     font-family: "RobotoRegular";
     font-size: 1.7em;
     text-align: center;
     color: #fff;
     padding-bottom: 3%; }
-  /* line 18, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  /* line 18, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
   .consultation .name_consultation_block, .consultation .phone_consultation_block {
     display: block;
     width: 95%;
@@ -1122,7 +1122,7 @@ input:-ms-input-placeholder {
     padding: 1.5% 4%;
     margin-bottom: 4%;
     border: none; }
-  /* line 30, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  /* line 30, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
   .consultation .btn {
     width: 97%;
     background: #ffd800;
@@ -1139,100 +1139,100 @@ input:-ms-input-placeholder {
     background: yellow;
     box-shadow: 0 2px 5px #ffd800;
     margin-top: 2% !important; }
-    /* line 46, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+    /* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
     .consultation .btn:hover {
       background: #ffd800; }
-    /* line 49, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+    /* line 49, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
     .consultation .btn:active {
       background: #e8c400;
       box-shadow: 0 1px 2px #ffd800;
       outline: none !important; }
-  /* line 56, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  /* line 56, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
   .consultation form .consult_checkbox {
     vertical-align: middle;
     display: inline-block;
     margin: 0 0 0 6px; }
-  /* line 61, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
+  /* line 61, C:/Users/user/Desktop/mark/markilux/css/scss/_consultation_section.scss */
   .consultation form label, .consultation .form-section form a, .form-section .consultation form a {
     vertical-align: baseline;
     display: inline-block;
     color: #fff; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
 .smart_mark {
   font-family: "RobotoLight";
   padding: 1.5% 0 2%; }
-  /* line 4, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+  /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark h2 {
     font-size: 2em;
     padding-bottom: 3%; }
-  /* line 8, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+  /* line 8, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark p {
     font-size: 1.1em;
     padding-top: 0;
     padding-bottom: 2%; }
-  /* line 13, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+  /* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark h3 {
     font-size: 1.5em;
     margin-top: 1em;
     padding-bottom: 1em; }
-  /* line 19, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+  /* line 19, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark .superiority_block_section h4 {
     padding-bottom: 5px;
     font-size: 1.2em; }
-    /* line 22, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+    /* line 22, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
     .smart_mark .superiority_block_section h4 span {
       padding: 0 5px; }
-  /* line 27, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark .superiority_block_section img {
     width: 100%; }
-  /* line 30, C:/Users/VIV/Desktop/Markilux/css/scss/_smart_section.scss */
+  /* line 30, C:/Users/user/Desktop/mark/markilux/css/scss/_smart_section.scss */
   .smart_mark .superiority_block_section a {
     margin-bottom: 25px;
     display: block; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
 .catalog {
   background: #f5b138;
   border-bottom: 10px solid #dd011d;
   padding-top: 1%; }
 
-/* line 7, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+/* line 7, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
 .catalog_description {
   padding: 1.5% 2%; }
-  /* line 10, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  /* line 10, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
   .catalog_description h3 {
     font-size: 2em;
     color: #000;
     font-family: "RobotoRegular"; }
-  /* line 16, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  /* line 16, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
   .catalog_description p {
     font-family: "RobotoRegular";
     font-size: 1.5em;
     color: #000;
     line-height: 1.2; }
 
-/* line 25, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+/* line 25, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
 .form-section form {
   padding-top: 8%; }
-  /* line 27, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
   .form-section form .catalog_checkbox {
     vertical-align: middle;
     display: inline-block;
     margin: 0 0 0 9px; }
-  /* line 33, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  /* line 33, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
   .form-section form label, .form-section form a {
     vertical-align: baseline;
     display: inline-block;
     color: #555;
     font-size: 0.7em; }
-  /* line 39, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  /* line 39, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
   .form-section form a {
     display: inline;
     color: red;
     text-decoration: underline; }
 
-/* line 47, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+/* line 47, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
 .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email {
   display: block;
   width: 90%;
@@ -1242,7 +1242,7 @@ input:-ms-input-placeholder {
   margin-bottom: 4%;
   border: none; }
 
-/* line 59, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+/* line 59, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
 .form-section .btn {
   width: 95%;
   background: #ffd800;
@@ -1258,16 +1258,16 @@ input:-ms-input-placeholder {
   transition: 0.2s ease;
   box-shadow: 0 2px 5px #dd011d;
   background: red; }
-  /* line 76, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  /* line 76, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
   .form-section .btn:hover {
     background: #dd011d; }
-  /* line 79, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+  /* line 79, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
   .form-section .btn:active {
     background: #6f010f;
     box-shadow: 0 1px 2px #dd011d;
     outline: none !important; }
 
-/* line 85, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
+/* line 85, C:/Users/user/Desktop/mark/markilux/css/scss/_catalog_section.scss */
 .form-section p {
   text-align: center;
   font-size: 0.8em;
@@ -1275,40 +1275,40 @@ input:-ms-input-placeholder {
   padding-top: 2%;
   color: #6d6d6d; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_metering_section.scss */
 .metering {
   padding-top: 5%; }
-  /* line 3, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+  /* line 3, C:/Users/user/Desktop/mark/markilux/css/scss/_metering_section.scss */
   .metering h2 {
     font-family: "RobotoLight";
     color: #000;
     font-size: 2.1em;
     padding-bottom: 3%; }
-  /* line 9, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+  /* line 9, C:/Users/user/Desktop/mark/markilux/css/scss/_metering_section.scss */
   .metering p {
     font-size: 1.2em;
     padding-bottom: 2%; }
-  /* line 13, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+  /* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/_metering_section.scss */
   .metering .metering_info_block {
     margin-bottom: 5%; }
-    /* line 15, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+    /* line 15, C:/Users/user/Desktop/mark/markilux/css/scss/_metering_section.scss */
     .metering .metering_info_block h3 {
       font-family: "RobotoRegular";
       font-size: 1.3em; }
-    /* line 19, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+    /* line 19, C:/Users/user/Desktop/mark/markilux/css/scss/_metering_section.scss */
     .metering .metering_info_block p {
       font-family: "RobotoRegular";
       font-size: 1em; }
 
-/* line 26, C:/Users/VIV/Desktop/Markilux/css/scss/_metering_section.scss */
+/* line 26, C:/Users/user/Desktop/mark/markilux/css/scss/_metering_section.scss */
 .metering_info_section {
   margin-top: 2%; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 .worktime_wrapper {
   width: 100%;
   position: relative; }
-  /* line 4, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+  /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
   .worktime_wrapper .bottom_red_line {
     position: absolute;
     height: 37px;
@@ -1317,26 +1317,26 @@ input:-ms-input-placeholder {
     background: red;
     z-index: -1; }
 
-/* line 13, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+/* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 .worktime {
   padding-top: 1.5%; }
-  /* line 15, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+  /* line 15, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
   .worktime img {
     width: 100%; }
-  /* line 19, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+  /* line 19, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
   .worktime .description_worktime h2 {
     font-family: "RobotoLight";
     font-size: 2.1em;
     color: #000;
     padding-bottom: 2%; }
 
-/* line 30, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+/* line 30, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 h3.worktime_h3 {
   font-size: 1.4em;
   padding: 2% 0 2%;
   text-align: center; }
 
-/* line 36, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+/* line 36, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 p.p_desription_worktime {
   font-size: 1em;
   background: red;
@@ -1347,7 +1347,7 @@ p.p_desription_worktime {
   margin-top: 2px;
   position: relative;
   color: #fff; }
-  /* line 46, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+  /* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
   p.p_desription_worktime:after {
     content: "";
     position: absolute;
@@ -1358,17 +1358,17 @@ p.p_desription_worktime {
     right: -1px;
     top: -1px; }
 
-/* line 60, C:/Users/VIV/Desktop/Markilux/css/scss/_worktime_section.scss */
+/* line 60, C:/Users/user/Desktop/mark/markilux/css/scss/_worktime_section.scss */
 .worktime_wrapper .descripton_last:after {
   display: none; }
 
-/* line 3, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+/* line 3, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
 .feedback .feedback_caption {
   font-family: "RobotoLight";
   font-size: 2.1em;
   padding: 0% 0 4%; }
 
-/* line 9, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+/* line 9, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
 .feedback .feedback_block_avatar {
   overflow: hidden;
   width: 100px;
@@ -1377,78 +1377,78 @@ p.p_desription_worktime {
   border-radius: 50%;
   box-shadow: 2px 2px 5px #aaa; }
 
-/* line 18, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+/* line 18, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
 .feedback .feedback_block_description {
   font-family: "RobotoLight";
   text-align: center; }
-  /* line 21, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+  /* line 21, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
   .feedback .feedback_block_description .client_name {
     font-family: "RobotoBold";
     font-size: 1.2em; }
-  /* line 25, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+  /* line 25, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
   .feedback .feedback_block_description .client_profession {
     font-size: 1.2em;
     margin-bottom: 4%; }
-  /* line 29, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+  /* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
   .feedback .feedback_block_description .client_feedback {
     font-size: 1em; }
 
-/* line 35, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+/* line 35, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
 .feedback .owl-nav .owl-prev, .feedback .owl-nav .owl-next {
   height: 50%;
   display: none; }
 
-/* line 46, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+/* line 46, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
 .feedback .owl-dots .owl-dot.active span {
   background: red !important; }
 
-/* line 51, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+/* line 51, C:/Users/user/Desktop/mark/markilux/css/scss/_feedback_section.scss */
 .feedback .owl-dots .owl-dot span {
   border: 2px solid grey; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_our_job_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
 .our_job {
   margin: 0.6% auto 5%;
   padding-top: 1%; }
-  /* line 5, C:/Users/VIV/Desktop/Markilux/css/scss/_our_job_section.scss */
+  /* line 5, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
   .our_job h2 {
     font-size: 2.1em;
     font-family: "RobotoLight";
     color: #000;
     margin: 10% 0 5% 0; }
-  /* line 11, C:/Users/VIV/Desktop/Markilux/css/scss/_our_job_section.scss */
+  /* line 11, C:/Users/user/Desktop/mark/markilux/css/scss/_our_job_section.scss */
   .our_job img {
     width: 100%; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
 .contacts {
   text-align: center;
   line-height: 1; }
-  /* line 4, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+  /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts a:focus {
     outline: none; }
-  /* line 7, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+  /* line 7, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts p {
     font-family: "RobotoLight";
     font-size: 2.1em;
     line-height: 1; }
-  /* line 13, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+  /* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts .our_addres {
     font-size: 1.5em;
     padding-top: 5%; }
-  /* line 17, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+  /* line 17, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts a {
     color: #000;
     font-size: 2.5em;
     display: block; }
-    /* line 23, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+    /* line 23, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
     .contacts a b {
       padding-left: 1%; }
-    /* line 26, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+    /* line 26, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
     .contacts a .work_time {
       padding-top: 0;
       line-height: 1; }
-  /* line 31, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+  /* line 31, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts .btn_contacts {
     background: #fff;
     border: 1px solid red;
@@ -1460,152 +1460,152 @@ p.p_desription_worktime {
     transition: .35s ease;
     box-shadow: 0px 7px 2px -5px #aaa;
     outline: none !important; }
-    /* line 42, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+    /* line 42, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
     .contacts .btn_contacts:hover {
       background: red; }
-    /* line 45, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+    /* line 45, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
     .contacts .btn_contacts:hover a {
       color: #fff; }
-    /* line 48, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+    /* line 48, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
     .contacts .btn_contacts:active {
       background: darkred;
       box-shadow: 0px 2px 1px -2px #aaa; }
-    /* line 52, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+    /* line 52, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
     .contacts .btn_contacts a {
       font-size: 1em;
       color: red;
       text-decoration: none;
       border: none; }
-      /* line 57, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+      /* line 57, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
       .contacts .btn_contacts a:focus {
         outline: none !important; }
-  /* line 64, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+  /* line 64, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts .location_place b {
     font-size: 1.5em;
     padding-top: 0.5%; }
-  /* line 68, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+  /* line 68, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts .location_place p {
     padding-top: 0.4%;
     font-size: 1em; }
-  /* line 73, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+  /* line 73, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
   .contacts .driving_directions {
     color: #dd011d;
     font-size: 1em;
     padding-top: 1.4%; }
 
-/* line 79, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
+/* line 79, C:/Users/user/Desktop/mark/markilux/css/scss/_contacts_section.scss */
 .any_questions {
   margin-top: 6%; }
 
-/* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+/* line 1, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
 .footer {
   margin-top: 4%;
   background: #444444;
   border-top: 8px solid red; }
-  /* line 2, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 2, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   .footer p, .footer a {
     font-size: 0.88em;
     font-family: "RobotoLight"; }
-  /* line 6, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 6, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   .footer p {
     color: #fff; }
-  /* line 13, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   .footer .footer_logo {
     margin: 6.5% 0 4.2%; }
-  /* line 16, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 16, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   .footer .copyright_footer {
     padding: 2% 0 3%;
     display: block; }
-  /* line 24, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 24, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   .footer .footer_links a {
     color: red; }
-  /* line 27, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   .footer .footer_links .footer_email {
     padding-top: 5%;
     text-align: center; }
-  /* line 31, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 31, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   .footer .footer_links .requisites {
     padding-top: 3%;
     padding-bottom: 3%; }
-  /* line 39, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 39, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   .footer .pay_sistems {
     float: right; }
-    /* line 41, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+    /* line 41, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
     .footer .pay_sistems img {
       margin: 7% 0 4%; }
-    /* line 44, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+    /* line 44, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
     .footer .pay_sistems p {
       color: #fff; }
 
 /*---POPUP FOOTER --- */
-/* line 52, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+/* line 52, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
 #privacy_popup {
   font-family: "RobotoRegular"; }
-  /* line 53, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 53, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   #privacy_popup .modal-dialog {
     width: 50%; }
-    /* line 56, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+    /* line 56, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
     #privacy_popup .modal-dialog .modal-header button {
       float: left; }
-  /* line 62, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 62, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   #privacy_popup .h3 {
     text-transform: uppercase;
     margin-left: 39px;
     display: block;
     float: left; }
-  /* line 70, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+  /* line 70, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
   #privacy_popup .modal-body {
     padding: 10px 20px; }
-    /* line 72, C:/Users/VIV/Desktop/Markilux/css/scss/_footer_section.scss */
+    /* line 72, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
     #privacy_popup .modal-body p {
       color: #000; }
 
 /*-------------------*/
 @media screen and (max-width: 800px) {
-  /* line 4, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .content_wrapper .owl-carousel .owl-nav {
     display: none !important; } }
 
 /*---- topline ----*/
 @media screen and (min-width: 1232px) {
-  /* line 13, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 13, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline-wrapper .nav-btn {
     position: fixed;
     top: 23px;
     left: 8%; } }
 
 @media screen and (max-width: 1231px) {
-  /* line 22, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 22, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline-wrapper .nav-btn {
     position: fixed;
     top: 21px;
     left: 10px; }
-  /* line 27, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 27, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline-wrapper .topline {
     width: 100%; }
-    /* line 29, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 29, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .topline-wrapper .topline .logo-header {
       margin-top: 8px;
       margin-left: 55px; }
-      /* line 32, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+      /* line 32, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
       .topline-wrapper .topline .logo-header img {
         width: 200px; }
-    /* line 36, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 36, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .topline-wrapper .topline .header-phone {
       width: 16%;
       margin-right: 20px; } }
 
 @media screen and (max-width: 940px) {
-  /* line 45, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 45, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline .logo-header {
     float: none;
     margin: 0 0 0 60px; }
-  /* line 49, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 49, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline h1 {
     display: block;
     text-align: center;
     width: 100%; }
-  /* line 54, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 54, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline .header-phone {
     position: absolute;
     top: 10px;
@@ -1613,57 +1613,57 @@ p.p_desription_worktime {
     white-space: nowrap; } }
 
 @media screen and (max-width: 700px) {
-  /* line 64, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 64, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline .logo-header {
     float: none;
     margin: 0 0 0 60px; }
-  /* line 68, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 68, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline h1 {
     display: block;
     text-align: center;
     width: 100%; }
-  /* line 73, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 73, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline .header-phone {
     width: 50% !important; } }
 
 @media screen and (max-width: 450px) {
-  /* line 80, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 80, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline .logo-header {
     float: none;
     margin-top: 6px !important; }
-    /* line 83, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 83, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .topline .logo-header img {
       width: 220px !important; }
-  /* line 87, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 87, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline h1 {
     display: block;
     text-align: center;
     width: 100%;
     line-height: 1.1; }
-  /* line 93, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 93, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline .header-phone {
     width: 50% !important;
     top: 20px;
     margin-right: 5px !important; }
-    /* line 98, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 98, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .topline .header-phone .phone-number a {
       font-size: 1.1em; }
-  /* line 103, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 103, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline .popup-nav {
     width: 80%; } }
 
 @media screen and (max-width: 402px) {
-  /* line 110, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 110, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline .logo-header {
     float: none;
     margin: 0 0 0 60px; }
-  /* line 114, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 114, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline h1 {
     display: block;
     text-align: center;
     width: 100%;
     line-height: 1.1; }
-  /* line 120, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 120, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .topline .header-phone {
     position: static;
     float: left;
@@ -1673,146 +1673,201 @@ p.p_desription_worktime {
 /*-- end top line --*/
 /*----- header -----*/
 @media screen and (max-width: 940px) {
-  /* line 146, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 146, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .header .awards-block {
     width: 100%; } }
 
 @media screen and (max-width: 800px) {
-  /* line 153, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 153, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .header .header_banner {
     right: 0;
     width: 375px;
     height: auto; }
-    /* line 157, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 157, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .header .header_banner .garanty {
       font-size: 1.2em; }
-    /* line 161, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 161, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .header .header_banner .banner_form .btn {
       font-size: 1.2em;
       margin-bottom: 0; }
-    /* line 165, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 165, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .header .header_banner .banner_form .security {
       padding: 0;
       clear: both; } }
 
 @media screen and (max-width: 500px) {
-  /* line 177, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 177, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .header .header_banner {
     right: 0;
     width: 100%;
     height: auto; }
-    /* line 181, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 181, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .header .header_banner label, .header .header_banner .form-section form a, .form-section form .header .header_banner a {
       font-size: 0.9em; } }
 
 @media screen and (max-width: 450px) {
-  /* line 189, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 189, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .header .header_banner {
     right: 0;
     width: 100%;
     height: auto; }
-    /* line 193, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 193, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .header .header_banner label, .header .header_banner .form-section form a, .form-section form .header .header_banner a {
       font-size: 0.7em; } }
 
 /*--- header end ---*/
+/*------ reward ------*/
+@media screen and (max-width: 1014px) {
+  /* line 203, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .rewards_caption {
+    padding-top: 1%; }
+  /* line 206, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .awards_section {
+    margin: 15% 0; }
+  /* line 210, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .superiority_reward h2 {
+    margin-top: 5%; } }
+
+@media screen and (max-width: 551px) {
+  /* line 217, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .superiority_reward_item img {
+    width: 50px; }
+  /* line 220, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .superiority_reward_item p {
+    font-size: 1em !important;
+    padding-top: 13px !important; } }
+
+@media screen and (max-width: 449px) {
+  /* line 230, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .superiority_reward .superiority_reward_item img {
+    width: 30px; }
+  /* line 233, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .superiority_reward .superiority_reward_item p {
+    font-size: 0.9em !important;
+    padding-top: 8px !important;
+    margin-left: 10px; } }
+
+@media screen and (max-width: 393px) {
+  /* line 244, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .superiority_reward .superiority_reward_item img {
+    width: 30px; }
+  /* line 247, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .superiority_reward .superiority_reward_item p {
+    font-size: 0.8em !important;
+    padding-top: 8px !important;
+    margin-left: 10px; } }
+
+@media screen and (max-width: 345px) {
+  /* line 258, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .superiority_reward .superiority_reward_item img {
+    width: 25px; }
+  /* line 261, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .superiority_reward .superiority_reward_item p {
+    font-size: 0.7em !important;
+    padding-top: 8px !important;
+    margin-left: 6px; } }
+
+/*------- end --------*/
 /*---top red line ---*/
 @media screen and (max-width: 1472px) {
-  /* line 204, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 278, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .year_section .red-line .cell {
     padding: 1px 6%; }
-  /* line 209, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 283, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .year_section .red-line .cell-6 .arrow.arrow-1 {
     left: 60px !important; } }
 
 @media screen and (max-width: 1284px) {
-  /* line 220, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
-  .year_section .red-line .cell {
-    padding: 1px 6%; }
-  /* line 223, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
-  .year_section .red-line .cell-2 {
-    padding-left: 7%; }
-  /* line 227, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
-  .year_section .red-line .cell-1 .arrow-1 {
-    left: 65px; }
-  /* line 230, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
-  .year_section .red-line .cell-1 .arrow-2 {
-    left: 75px; }
-  /* line 233, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
-  .year_section .red-line .cell-1 .arrow-3 {
-    left: 85px; }
-  /* line 236, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
-  .year_section .red-line .cell-1 .arrow-4 {
-    left: 95px; } }
+  /* line 293, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .year_section .red-line {
+    margin-top: 17% !important; }
+    /* line 296, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+    .year_section .red-line .cell {
+      padding: 1px 6%; }
+    /* line 299, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+    .year_section .red-line .cell-2 {
+      padding-left: 7%; }
+    /* line 303, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+    .year_section .red-line .cell-1 .arrow-1 {
+      left: 65px; }
+    /* line 306, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+    .year_section .red-line .cell-1 .arrow-2 {
+      left: 75px; }
+    /* line 309, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+    .year_section .red-line .cell-1 .arrow-3 {
+      left: 85px; }
+    /* line 312, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+    .year_section .red-line .cell-1 .arrow-4 {
+      left: 95px; } }
 
 @media screen and (max-width: 940px) {
-  /* line 244, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 320, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .year_section {
     display: none; }
-    /* line 246, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 322, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .year_section .red-line {
       width: 100%; }
-      /* line 248, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+      /* line 324, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
       .year_section .red-line .cell {
         padding: 1px 6%; }
-      /* line 252, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+      /* line 328, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
       .year_section .red-line .cell-1:before {
         display: none; }
-      /* line 257, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+      /* line 333, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
       .year_section .red-line .cell-6 .arrow.arrow-1 {
         display: none; } }
 
 /*--- end top red line ---*/
 /*---  disign ---*/
 @media screen and (max-width: 1100px) {
-  /* line 271, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 347, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .right .carousel-wrap .slider_design .owl-dots {
     top: 55%; } }
 
 @media screen and (max-width: 727px) {
-  /* line 282, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 358, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .right .carousel-wrap .slider_design .owl-dots {
     top: 50%; } }
 
 @media screen and (max-width: 650px) {
-  /* line 293, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 369, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .right .carousel-wrap .slider_design .owl-dots {
     top: 45%;
     left: 43%; } }
 
 @media screen and (max-width: 590px) {
-  /* line 302, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 378, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .left {
     font-size: 0.7em; }
-  /* line 308, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 384, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .right .carousel-wrap .slider_design .owl-dots {
     top: 40%;
     left: 40%; } }
 
 @media screen and (max-width: 490px) {
-  /* line 320, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 396, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .right .carousel-wrap .slider_design .owl-dots {
     top: 35%;
     left: 35%; } }
 
 @media screen and (max-width: 430px) {
-  /* line 332, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 408, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .right .carousel-wrap .slider_design .owl-dots {
     top: 30%;
     left: 30%; } }
 
 @media screen and (max-width: 400px) {
-  /* line 345, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 421, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .right .carousel-wrap .slider_design .owl-dots {
     top: 25%; } }
 
 @media screen and (max-width: 354px) {
-  /* line 356, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 432, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .right .carousel-wrap .slider_design .owl-dots {
     top: 22%; } }
 
 @media screen and (max-width: 992px) {
-  /* line 365, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 441, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .design .left {
     position: absolute;
     z-index: 100;
@@ -1820,118 +1875,118 @@ p.p_desription_worktime {
     top: 0;
     background: #fff;
     width: 50%; }
-    /* line 374, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 450, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .design .left ul li .side_arrow {
       display: none !important; }
-  /* line 380, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 456, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .design .right {
     width: 100%; }
-  /* line 383, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 459, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .design .design_button_nav {
     display: block; } }
 
 @media screen and (max-width: 644px) {
-  /* line 391, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 467, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .design .left {
     width: 80%;
     font-size: 0.6em; }
-  /* line 396, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 472, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .active_mobile_button_disign {
     left: 78.8% !important; } }
 
 /*-- end disign --*/
 /*-- consultation --*/
 @media screen and (max-width: 986px) {
-  /* line 405, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 481, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .consultation label, .consultation .form-section form a, .form-section form .consultation a {
     font-size: 0.9em; } }
 
 @media screen and (max-width: 768px) {
-  /* line 412, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 488, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .consultation .name_consultation_block, .consultation .phone_consultation_block,
   .consultation .phone_consultation_block,
   .consultation .btn {
     padding: 2% 4%;
     font-size: 1.7em;
     margin-top: 5% !important; }
-  /* line 419, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 495, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .consultation .consult_checkbox {
     margin: 0 0 0 15px !important; }
-  /* line 422, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 498, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .consultation label, .consultation .form-section form a, .form-section form .consultation a {
     font-size: 1em; } }
 
 @media screen and (max-width: 420px) {
-  /* line 430, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 506, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .consultation .name_consultation_block, .consultation .phone_consultation_block,
   .consultation .phone_consultation_block,
   .consultation .btn {
     padding: 2% 4%;
     font-size: 1.3em; }
-  /* line 436, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 512, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .consultation .btn {
     width: 95%;
     margin-top: 6% !important; } }
 
 @media screen and (max-width: 395px) {
-  /* line 447, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 523, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .consultation form label, .consultation .form-section form a, .form-section .consultation form a {
     font-size: 0.8em; } }
 
 /*--- end ---*/
 /*---smart ---- */
 @media screen and (max-width: 372px) {
-  /* line 460, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 536, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .smart_mark .superiority_block_section h3 {
     font-size: 0.8em; } }
 
 /*--- end -----*/
 /* --- catalog ---*/
 @media screen and (max-width: 1116px) {
-  /* line 479, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 555, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .catalog .form-section a {
     font-size: 0.5em; } }
 
 @media screen and (max-width: 992px) {
-  /* line 488, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 564, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .catalog img {
     display: none; }
-  /* line 493, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 569, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email,
   .form-section .email,
   .form-section .btn {
     padding: 2% 4%;
     font-size: 2.7em; }
-  /* line 499, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 575, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .btn {
     width: 90%;
     margin-top: 3.8%; }
-  /* line 503, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 579, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .catalog_checkbox {
     margin: 0 5px 0 30px !important;
     vertical-align: middle !important; }
-  /* line 507, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 583, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section label, .form-section form a {
     font-size: 1.4em !important;
     vertical-align: middle !important; } }
 
 @media screen and (max-width: 768px) {
-  /* line 518, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 594, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email,
   .form-section .email,
   .form-section .btn {
     padding: 2% 4%;
     font-size: 2.4em; }
-  /* line 524, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 600, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .btn {
     width: 90%; }
-  /* line 527, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 603, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .catalog_checkbox {
     margin-left: 5px; }
-  /* line 530, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 606, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section label, .form-section form a {
     font-size: 1.2em !important; }
-  /* line 533, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 609, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section a {
     display: block !important;
     font-size: 1.2em;
@@ -1939,69 +1994,69 @@ p.p_desription_worktime {
     padding: 2% 0; } }
 
 @media screen and (max-width: 546px) {
-  /* line 545, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 621, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .catalog_checkbox {
     margin: 0 5px 0 25px !important; }
-  /* line 548, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 624, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section label, .form-section form a {
     font-size: 1em !important; } }
 
 @media screen and (max-width: 420px) {
-  /* line 558, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 634, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email,
   .form-section .email,
   .form-section .btn {
     padding: 2% 4%;
     font-size: 1.5em; }
-  /* line 564, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 640, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .btn {
     width: 90%; }
-  /* line 567, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 643, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .catalog_checkbox {
     margin: 0 5px 0 20px !important; }
-  /* line 570, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 646, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section label, .form-section form a {
     font-size: 1em !important; } }
 
 @media screen and (max-width: 394px) {
-  /* line 580, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 656, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .catalog_checkbox {
     margin: 0 5px 0 18px !important; }
-  /* line 583, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 659, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section label, .form-section form a {
     font-size: 0.9em !important; } }
 
 @media screen and (max-width: 346px) {
-  /* line 593, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 669, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section .catalog_checkbox {
     margin: 0 5px 0 14px !important; }
-  /* line 596, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 672, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .form-section label, .form-section form a {
     font-size: 0.8em !important; } }
 
 /*-- end catalog --*/
 /*--- superiority --*/
 @media screen and (max-width: 768px) {
-  /* line 608, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 684, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .superiority .superiority_block {
     margin-bottom: 6%; } }
 
 /*----- end  ----*/
 /*--- worktime ---*/
 @media screen and (max-width: 992px) {
-  /* line 620, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 696, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .worktime .worktime_wrapper .bottom_red_line {
     display: none; } }
 
 @media screen and (max-width: 1100px) {
-  /* line 630, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 706, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .worktime .worktime_wrapper .bottom_red_line {
     height: 36px; } }
 
 /*- end worktime -*/
 /*-- feedback --*/
 @media screen and (max-width: 992px) {
-  /* line 642, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 718, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .feedback .owl-dots {
     bottom: 0;
     right: 45%; } }
@@ -2009,55 +2064,71 @@ p.p_desription_worktime {
 /*---- end ----*/
 /*-- FOOTER --*/
 @media screen and (max-width: 1965px) {
-  /* line 653, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 729, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .footer .copyright_footer {
     padding-bottom: 0; }
-  /* line 657, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 733, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .footer .footer_links .requisites {
     display: flex;
     justify-content: center; } }
 
+@media screen and (max-width: 992px) {
+  /* line 746, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .footer .copyright_footer {
+    padding-bottom: 0; }
+  /* line 750, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .footer .footer_links .requisites {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; }
+  /* line 757, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .footer .pay_col p {
+    font-size: 0.78em; } }
+
 @media screen and (max-width: 768px) {
-  /* line 669, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 765, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .footer {
     position: relative; }
-    /* line 671, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 767, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .footer .copyright_footer {
       padding-bottom: 0; }
-    /* line 674, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 770, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .footer .footer_logo {
       margin-top: 35px;
-      margin-bottom: 20px; }
-    /* line 678, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+      margin-bottom: 0px; }
+    /* line 774, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .footer .footer_links {
       text-align: center; }
-      /* line 680, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+      /* line 776, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
       .footer .footer_links .footer_email {
         display: inline-block;
-        padding-top: 0; }
-      /* line 684, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+        padding-top: 40px; }
+      /* line 780, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
       .footer .footer_links .requisites {
         display: inline-block;
         padding-top: 5%; }
-    /* line 689, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 785, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .footer .pay_col {
       position: absolute;
       top: 20px;
       right: 10px; }
-    /* line 695, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 791, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .footer #privacy_popup .modal-dialog {
       width: 90%; }
-    /* line 700, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 796, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .footer #requisites_popup .modal-body {
       height: 70vh; }
-    /* line 703, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+    /* line 799, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
     .footer #requisites_popup button {
       float: left; } }
 
 @media screen and (max-width: 458px) {
-  /* line 712, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
+  /* line 808, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
   .footer .pay_col .pay_sistems {
-    display: none; } }
+    display: none; }
+  /* line 813, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */
+  .footer .footer_links .footer_email {
+    padding-top: 15px; } }
 
 /*------------*/
 
