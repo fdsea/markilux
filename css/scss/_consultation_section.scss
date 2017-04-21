@@ -6,7 +6,7 @@
         @include fence('/images/triangle_2.svg','top',12px);
     }
     &:after{
-        @include fence('/images/triangle_2.svg','bottom',11px);
+        @include fence('/images/triangle_2.svg','bottom',12px);
     }
     h3{
         font-family: $rr;

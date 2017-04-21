@@ -21,13 +21,15 @@
         .client_name{
            font-family: $rb;
            font-size: 1.2em;
-        }
-        .client_profession{
-            font-size: 1.2em;
             margin-bottom: 4%;
         }
+        
         .client_feedback{
             font-size: 1em;
+            width: 60%;
+            margin: 0 auto;
+            line-height: 1.75;
+            text-align: left;
         }
     }
     .owl-nav{
