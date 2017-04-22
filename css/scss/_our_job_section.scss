@@ -11,6 +11,14 @@
 	img{
 		width: 100%;
 	}
+    .owl-nav{
+        .owl-prev{
+            display: none;
+        }
+        .owl-next{
+            display: none;
+        }
+    }
 }
 
 

@@ -6,6 +6,7 @@
          color:#000;
          font-size: 2.1em;
          margin-bottom: 0.5em;
+        margin-top: 1em;
 	}
     .design_p{
          font-family: $rr;
@@ -97,8 +98,10 @@
         .characteristics{
             padding-top: 30px;
             p{
-                font-family: $rr;
+              font-family: $rr;
+                
             }
+            
         }
     }
 }
@@ -116,10 +119,19 @@
 				}
 				p{
 					font-size: 0.95em;
+                    padding-bottom: 0.2em;
+                    span{
+                         padding: 0 3px;
+                    }
 				}
 				.characteristics{
 					p{
 					font-size: 1em;
+                        padding-bottom: 0em;
+                        b{
+                         color: red;
+                           
+                        }
 					}
 				}
 			}
