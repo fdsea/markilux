@@ -168,14 +168,7 @@ input:-ms-input-placeholder {
 
 /* line 45, C:/Users/VIV/Desktop/Markilux/css/scss/_variables.scss */
 .visible_block {
-  -webkit-animation: opac 1s ease forwards;
-          animation: opac 1s ease forwards; }
-
-@-webkit-keyframes opac {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+  animation: opac 1s ease forwards; }
 
 @keyframes opac {
   0% {
@@ -214,7 +207,6 @@ input:-ms-input-placeholder {
     width: 50px;
     height: 50px;
     position: relative;
-    -webkit-transition: 0.35s ease;
     transition: 0.35s ease;
     top: 10px;
     left: 10px;
@@ -231,7 +223,6 @@ input:-ms-input-placeholder {
       height: 10%;
       background: #dd011d;
       border-radius: 15px;
-      -webkit-transition: .5s ease;
       transition: .5s ease; }
     /* line 50, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
     .topline .nav-btn .span-1 {
@@ -244,40 +235,18 @@ input:-ms-input-placeholder {
       top: 59%; }
   /* line 60, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
   .topline .active-stix-1 {
-    -webkit-animation: stix-1 0.3s ease-in-out forwards;
-            animation: stix-1 0.3s ease-in-out forwards; }
-
-@-webkit-keyframes stix-1 {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    width: 0; }
-  100% {
-    -webkit-transform: rotate(45deg) translate(10px, 14px);
-            transform: rotate(45deg) translate(10px, 14px);
-    width: 100%; } }
+    animation: stix-1 0.3s ease-in-out forwards; }
 
 @keyframes stix-1 {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     width: 0; }
   100% {
-    -webkit-transform: rotate(45deg) translate(10px, 14px);
-            transform: rotate(45deg) translate(10px, 14px);
+    transform: rotate(45deg) translate(10px, 14px);
     width: 100%; } }
   /* line 73, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
   .topline .active-stix-2 {
-    -webkit-animation: stix-2 0.3s ease-in-out forwards;
-            animation: stix-2 0.3s ease-in-out forwards; }
-
-@-webkit-keyframes stix-2 {
-  0% {
-    opacity: 1; }
-  10% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
+    animation: stix-2 0.3s ease-in-out forwards; }
 
 @keyframes stix-2 {
   0% {
@@ -288,60 +257,27 @@ input:-ms-input-placeholder {
     opacity: 0; } }
   /* line 87, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
   .topline .active-stix-3 {
-    -webkit-animation: stix-3 0.3s ease-in-out forwards;
-            animation: stix-3 0.3s ease-in-out forwards; }
-
-@-webkit-keyframes stix-3 {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    width: 0; }
-  100% {
-    -webkit-transform: rotate(-45deg) translate(4px, -7px);
-            transform: rotate(-45deg) translate(4px, -7px);
-    width: 100%; } }
+    animation: stix-3 0.3s ease-in-out forwards; }
 
 @keyframes stix-3 {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     width: 0; }
   100% {
-    -webkit-transform: rotate(-45deg) translate(4px, -7px);
-            transform: rotate(-45deg) translate(4px, -7px);
+    transform: rotate(-45deg) translate(4px, -7px);
     width: 100%; } }
   /* line 100, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
   .topline .inactive-stix-1 {
-    -webkit-animation: stix-1-inact 0.3s ease-in-out forwards;
-            animation: stix-1-inact 0.3s ease-in-out forwards; }
-
-@-webkit-keyframes stix-1-inact {
-  0% {
-    -webkit-transform: rotate(45deg) translate(10px, 14px);
-            transform: rotate(45deg) translate(10px, 14px); }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); } }
+    animation: stix-1-inact 0.3s ease-in-out forwards; }
 
 @keyframes stix-1-inact {
   0% {
-    -webkit-transform: rotate(45deg) translate(10px, 14px);
-            transform: rotate(45deg) translate(10px, 14px); }
+    transform: rotate(45deg) translate(10px, 14px); }
   100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); } }
+    transform: rotate(0deg); } }
   /* line 111, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
   .topline .inactive-stix-2 {
-    -webkit-animation: stix-2-inact 0.3s ease-in-out forwards;
-            animation: stix-2-inact 0.3s ease-in-out forwards; }
-
-@-webkit-keyframes stix-2-inact {
-  0% {
-    opacity: 0; }
-  90% {
-    opacity: 1; }
-  100% {
-    opacity: 1; } }
+    animation: stix-2-inact 0.3s ease-in-out forwards; }
 
 @keyframes stix-2-inact {
   0% {
@@ -352,24 +288,13 @@ input:-ms-input-placeholder {
     opacity: 1; } }
   /* line 125, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
   .topline .inactive-stix-3 {
-    -webkit-animation: stix-3-inact 0.3s ease-in-out forwards;
-            animation: stix-3-inact 0.3s ease-in-out forwards; }
-
-@-webkit-keyframes stix-3-inact {
-  0% {
-    -webkit-transform: rotate(-45deg) translate(4px, -7px);
-            transform: rotate(-45deg) translate(4px, -7px); }
-  100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); } }
+    animation: stix-3-inact 0.3s ease-in-out forwards; }
 
 @keyframes stix-3-inact {
   0% {
-    -webkit-transform: rotate(-45deg) translate(4px, -7px);
-            transform: rotate(-45deg) translate(4px, -7px); }
+    transform: rotate(-45deg) translate(4px, -7px); }
   100% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); } }
+    transform: rotate(0deg); } }
   /* line 136, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
   .topline .popup-nav {
     position: fixed;
@@ -378,7 +303,6 @@ input:-ms-input-placeholder {
     width: 40%;
     height: 100%;
     background: rgba(255, 255, 255, 0.97);
-    -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     z-index: 9000;
     border-left: 8px solid red; }
@@ -395,7 +319,6 @@ input:-ms-input-placeholder {
         /* line 154, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
         .topline .popup-nav ul li:before {
           content: "";
-          -webkit-transition: .35s ease;
           transition: .35s ease;
           display: none;
           position: absolute;
@@ -416,7 +339,6 @@ input:-ms-input-placeholder {
           display: block;
           margin-bottom: 10px;
           color: #000;
-          -webkit-transition: .25s ease;
           transition: .25s ease; }
           /* line 176, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
           .topline .popup-nav ul li a:hover {
@@ -556,7 +478,6 @@ input:-ms-input-placeholder {
     margin-top: 1%;
     margin-bottom: 4%;
     box-shadow: 0 2px 5px #555;
-    -webkit-transition: 0.35s ease;
     transition: 0.35s ease; }
     /* line 327, C:/Users/VIV/Desktop/Markilux/css/scss/_topline_section.scss */
     .header_banner .btn:hover {
@@ -622,18 +543,10 @@ input:-ms-input-placeholder {
   /* line 34, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
   #call_order_popup .modal-dialog .banner_form {
     padding: -10px 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-line-pack: distribute;
-        align-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
     font-family: "RobotoRegular"; }
     /* line 42, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
     #call_order_popup .modal-dialog .banner_form .banner_input_name, #call_order_popup .modal-dialog .banner_form .banner_input_phone, #call_order_popup .modal-dialog .banner_form .btn {
@@ -661,7 +574,6 @@ input:-ms-input-placeholder {
       padding: 7px 10px;
       margin-top: 3%;
       box-shadow: 0 2px 5px #dd011d;
-      -webkit-transition: 0.35s ease;
       transition: 0.35s ease; }
       /* line 77, C:/Users/VIV/Desktop/Markilux/css/scss/_header_section.scss */
       #call_order_popup .modal-dialog .banner_form .btn:hover {
@@ -705,8 +617,7 @@ input:-ms-input-placeholder {
       width: 50px;
       height: 50px;
       border: 7px solid #fff;
-      -webkit-transform: rotate(45deg);
-              transform: rotate(45deg);
+      transform: rotate(45deg);
       right: 0px;
       top: -5px;
       border-left-color: transparent;
@@ -719,8 +630,7 @@ input:-ms-input-placeholder {
     width: 50px;
     height: 50px;
     border: 7px solid #fff;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     border-left-color: transparent;
     border-bottom-color: transparent;
     top: -5px;
@@ -772,8 +682,7 @@ input:-ms-input-placeholder {
     position: absolute;
     bottom: 1%;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
     width: 60%;
     z-index: 1000; }
     /* line 47, C:/Users/VIV/Desktop/Markilux/css/scss/_reward_section.scss */
@@ -825,7 +734,6 @@ input:-ms-input-placeholder {
   position: relative;
   float: left;
   width: 30%;
-  -webkit-transition: 0.35s ease;
   transition: 0.35s ease; }
 
 /* line 26, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
@@ -843,7 +751,6 @@ input:-ms-input-placeholder {
   height: 50px;
   z-index: 500;
   top: -25px;
-  -webkit-transition: 0.35s ease;
   transition: 0.35s ease;
   position: absolute;
   cursor: pointer; }
@@ -859,24 +766,14 @@ input:-ms-input-placeholder {
     border-radius: 50%;
     opacity: 0.2;
     z-index: -1;
-    -webkit-animation: blink_menu 1s ease infinite;
-            animation: blink_menu 1s ease infinite; }
+    animation: blink_menu 1s ease infinite; }
   /* line 56, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
   .design .design_button_nav:after {
     width: 70px;
     height: 70px;
     top: -10px;
     left: -10px;
-    -webkit-animation: blink_menu 1s .2s ease infinite;
-            animation: blink_menu 1s .2s ease infinite; }
-
-@-webkit-keyframes blink_menu {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0.3; }
-  100% {
-    opacity: 0.01; } }
+    animation: blink_menu 1s .2s ease infinite; }
 
 @keyframes blink_menu {
   0% {
@@ -902,7 +799,7 @@ input:-ms-input-placeholder {
       /* line 82, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
       .right .carousel-wrap .slider_design .owl-dots {
         position: absolute;
-        top: 60%;
+        top: 420px;
         left: 45%; }
         /* line 87, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
         .right .carousel-wrap .slider_design .owl-dots .owl-dot.active span {
@@ -929,26 +826,25 @@ input:-ms-input-placeholder {
 
 /* line 120, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .right .carousel-wrap .slider_design .item p {
-  font-size: 0.95em;
+  font-family: "RobotoRegular";
+  font-size: 0.9em;
+  line-height: 1.45;
   padding-bottom: 0.2em; }
-  /* line 123, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 125, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
   .right .carousel-wrap .slider_design .item p span {
     padding: 0 3px; }
 
-/* line 128, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 130, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .right .carousel-wrap .slider_design .item .characteristics p {
   font-size: 1em;
   padding-bottom: 0em; }
-  /* line 131, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
-  .right .carousel-wrap .slider_design .item .characteristics p b {
-    color: red; }
 
-/* line 144, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 146, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .owl-nav {
   color: red;
   font-size: 3em;
   z-index: 100; }
-  /* line 148, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 150, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
   .owl-nav .owl-prev, .feedback .owl-nav .owl-next {
     position: absolute;
     background: url(/images/left_arrow.png) no-repeat !important;
@@ -958,7 +854,7 @@ input:-ms-input-placeholder {
     width: 100%;
     height: 40%;
     background-size: 100%; }
-  /* line 158, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 160, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
   .owl-nav .owl-next {
     display: none;
     position: absolute;
@@ -973,30 +869,30 @@ input:-ms-input-placeholder {
     background: url(/images/right_arrow.png) no-repeat !important; }
 
 /*=== ACTIVE SLIDE ====*/
-/* line 176, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 178, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .active_slider_design {
   display: block !important; }
 
-/* line 180, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 182, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .active_tabs_design {
   background: #ddd !important;
   border-left: 6px solid #dd011d !important;
   color: #dd011d !important; }
 
-/* line 186, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 188, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .active_arrow_design {
   display: block !important; }
 
-/* line 190, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 192, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .active_mobile_nav_panel {
   left: 2% !important; }
 
-/* line 193, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 195, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .active_mobile_button_design {
   left: 48.8% !important; }
 
 /*====================*/
-/* line 202, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 204, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left ul li {
   padding: 3%;
   background: #fff;
@@ -1009,7 +905,7 @@ input:-ms-input-placeholder {
   position: relative;
   border-bottom: 1px solid #ddd;
   border-left: 1px solid #ddd; }
-  /* line 214, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 216, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
   .left ul li .side_arrow {
     position: absolute;
     width: 0;
@@ -1021,18 +917,18 @@ input:-ms-input-placeholder {
     z-index: 100;
     display: none; }
 
-/* line 226, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 228, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left ul li:nth-child(1) {
   border-top: 1px solid #aaa; }
 
-/* line 230, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 232, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left .form_caption {
   color: #363636;
   font-size: 1.7em;
   text-align: center;
   padding: 5%; }
 
-/* line 237, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 239, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left form .design_hidden_input {
   visibility: hidden;
   height: 2px;
@@ -1041,19 +937,19 @@ input:-ms-input-placeholder {
   margin: 0;
   float: right; }
 
-/* line 245, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 247, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left form .design_checkbox {
   margin: 0 5px 0 35px;
   display: inline-block;
   vertical-align: middle; }
 
-/* line 250, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 252, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left form label, .left .form-section form a, .form-section .left form a {
   font-size: 0.8em;
   display: inline-block;
   vertical-align: baseline; }
 
-/* line 255, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 257, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left form .name, .left form .phone, .left form .btn_order, .left form .form-section .email, .form-section .left form .email {
   display: block;
   width: 79%;
@@ -1063,11 +959,11 @@ input:-ms-input-placeholder {
   margin-bottom: 4%;
   background: #eeeeee; }
 
-/* line 264, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 266, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left form .phone {
   margin-bottom: 2%; }
 
-/* line 268, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 270, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left form .btn_order {
   color: #000;
   margin-top: 2%;
@@ -1077,23 +973,22 @@ input:-ms-input-placeholder {
   border: none;
   padding: 3% 2%;
   background: yellow;
-  -webkit-transition: .35s ease;
   transition: .35s ease;
   box-shadow: 0 2px 5px #ffd800; }
-  /* line 280, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 282, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
   .left form .btn_order:hover {
     background: #ffd800; }
-  /* line 283, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 285, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
   .left form .btn_order:active {
     background: #e8c400;
     box-shadow: 0 1px 2px #ffd800; }
 
-/* line 289, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+/* line 291, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
 .left form p {
   font-family: "RobotoRegular";
   font-size: 0.7em;
   text-align: center; }
-  /* line 293, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
+  /* line 295, C:/Users/VIV/Desktop/Markilux/css/scss/_design_section.scss */
   .left form p span {
     color: #ffd800;
     padding-left: 1%; }
@@ -1209,23 +1104,26 @@ input:-ms-input-placeholder {
     content: "";
     position: absolute;
     width: 100%;
-    height: 12px;
-    background-size: 12px 12px;
+    height: 14px;
+    display: block;
+    height: 14px;
+    background-size: 14px 14px;
     background-position: left;
     background-image: url("/images/triangle_2.svg");
-    top: -8.4507px; }
+    top: -9.85915px; }
   /* line 8, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
   .consultation:after {
     content: "";
     position: absolute;
     width: 100%;
-    height: 12px;
-    background-size: 12px 12px;
+    height: 14px;
+    display: block;
+    height: 14px;
+    background-size: 14px 14px;
     background-position: left;
     background-image: url("/images/triangle_2.svg");
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-    bottom: -8.4507px; }
+    transform: rotate(180deg);
+    bottom: -9.85915px; }
   /* line 11, C:/Users/VIV/Desktop/Markilux/css/scss/_consultation_section.scss */
   .consultation h3 {
     font-family: "RobotoRegular";
@@ -1255,7 +1153,6 @@ input:-ms-input-placeholder {
     border: none;
     padding: 2% 2%;
     border-radius: 5px;
-    -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
     background: yellow;
     box-shadow: 0 2px 5px #ffd800;
@@ -1376,10 +1273,9 @@ input:-ms-input-placeholder {
 .form-section .name, .form-section .left form .phone, .left form .form-section .phone, .form-section .left form .btn_order, .left form .form-section .btn_order, .form-section .email {
   display: block;
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 4%;
   border-radius: 5px;
   padding: 3% 4%;
-  margin-bottom: 4%;
   border: none; }
 
 /* line 70, C:/Users/VIV/Desktop/Markilux/css/scss/_catalog_section.scss */
@@ -1395,7 +1291,6 @@ input:-ms-input-placeholder {
   border: none;
   padding: 2% 2%;
   border-radius: 5px;
-  -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
   box-shadow: 0 2px 5px #dd011d;
   background: red; }
@@ -1567,6 +1462,12 @@ p.p_desription_worktime {
   /* line 18, C:/Users/VIV/Desktop/Markilux/css/scss/_our_job_section.scss */
   .our_job .owl-nav .owl-next {
     display: none; }
+  /* line 24, C:/Users/VIV/Desktop/Markilux/css/scss/_our_job_section.scss */
+  .our_job .owl-dots .owl-dot.active span {
+    background: red !important; }
+  /* line 29, C:/Users/VIV/Desktop/Markilux/css/scss/_our_job_section.scss */
+  .our_job .owl-dots .owl-dot span {
+    border: 2px solid grey; }
 
 /* line 1, C:/Users/VIV/Desktop/Markilux/css/scss/_contacts_section.scss */
 .contacts {
@@ -1605,7 +1506,6 @@ p.p_desription_worktime {
     color: red;
     font-family: "RobotoMedium";
     padding: 1% 2%;
-    -webkit-transition: .35s ease;
     transition: .35s ease;
     box-shadow: 0px 7px 2px -5px #aaa;
     outline: none !important; }
@@ -2229,12 +2129,8 @@ p.p_desription_worktime {
     padding-bottom: 0; }
   /* line 799, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
   .footer .footer_links .requisites {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; } }
+    justify-content: center; } }
 
 @media screen and (max-width: 992px) {
   /* line 810, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
@@ -2242,12 +2138,8 @@ p.p_desription_worktime {
     padding-bottom: 0; }
   /* line 814, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
   .footer .footer_links .requisites {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding-top: 20px; }
   /* line 821, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
   .footer .pay_col p {
@@ -2263,7 +2155,7 @@ p.p_desription_worktime {
     /* line 834, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
     .footer .footer_logo {
       margin-top: 35px;
-      margin-bottom: 0px; }
+      margin-bottom: 0; }
     /* line 838, C:/Users/VIV/Desktop/Markilux/css/scss/_media_queries_section.scss */
     .footer .footer_links {
       text-align: center; }
@@ -2299,3 +2191,5 @@ p.p_desription_worktime {
     padding-top: 15px; } }
 
 /*------------*/
+
+/*# sourceMappingURL=main.css.map */

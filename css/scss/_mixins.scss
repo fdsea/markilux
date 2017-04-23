@@ -5,6 +5,8 @@
     position: absolute;
     width: 100%;
     height: $size;
+    display: block;
+    height: $size;
     background-size: $size $size;
     background-position: left;
     background-image: url($urlImg);

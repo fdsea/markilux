@@ -1,265 +1,260 @@
-.design {
+.design{
     position: relative;
     margin-top: 8.5%;
-    .design_h2 {
-        font-family: $rl;
-        color: #000;
-        font-size: 2.1em;
-        margin-bottom: 0.5em;
+	.design_h2{
+		 font-family: $rl;
+         color:#000;
+         font-size: 2.1em;
+         margin-bottom: 0.5em;
         margin-top: 1em;
-    }
-    .design_p {
-        font-family: $rr;
-        color: #000;
-        font-size: 1.2em;
-        margin-bottom: 2.5em;
+	}
+    .design_p{
+         font-family: $rr;
+         color:#000;
+         font-size: 1.2em;
+         margin-bottom: 2.5em;
     }
 }
-
 .left {
     position: relative;
-    float: left;
-    width: 30%;
-    transition: 0.35s ease;
+   
+	float: left;
+	width: 30%;
+	transition: 0.35s ease;
 }
-
-.design {
-    .design_button_nav {
-        display: none;
-        text-transform: uppercase;
-        background: red;
-        font-family: $rb;
-        font-size: 1.8em;
-        text-align: center;
-        line-height: 50px;
-        border-radius: 50%;
-        color: #fff;
-        width: 50px;
-        height: 50px;
-        z-index: 500;
-        top: -25px;
-        transition: 0.35s ease;
-        position: absolute;
-        cursor: pointer;
-        &:before {
-            content: "";
-            position: absolute;
-            width: 60px;
-            height: 60px;
-            background: red;
-            top: -5px;
-            left: -5px;
-            border-radius: 50%;
-            opacity: 0.2;
-            z-index: -1;
-            animation: blink_menu 1s ease infinite;
-        }
-        &:after {
-            @extend .design_button_nav:before;
-            width: 70px;
-            height: 70px;
-            top: -10px;
-            left: -10px;
-            animation: blink_menu 1s .2s ease infinite;
-        }
-    }
+.design{
+	.design_button_nav{
+		display: none;
+		text-transform: uppercase;
+		background: red;
+		font-family: $rb;
+		font-size: 1.8em;
+		text-align: center;
+		line-height: 50px;
+		border-radius: 50%;
+		color: #fff;
+		width: 50px;
+		height: 50px;
+		z-index: 500;
+		top: -25px;
+		transition: 0.35s ease;
+		position: absolute;
+		cursor: pointer;
+		&:before{
+			content: "";
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			background: red;
+			top: -5px;
+			left: -5px;
+			border-radius: 50%;
+			opacity:0.2;
+			z-index:-1;
+			animation: blink_menu 1s ease infinite; 
+		}
+		&:after{
+			@extend .design_button_nav:before;
+			width:70px;
+			height: 70px;
+			top:-10px;
+			left: -10px;
+			animation: blink_menu 1s .2s ease infinite; 
+		}
+	}
 }
-
 @keyframes blink_menu {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.3;
-    }
-    100% {
-        opacity: 0.01;
-    }
+	0%{opacity: 0;}
+	50%{opacity: 0.3;}
+	100%{opacity: 0.01;}
 }
 
 .right {
-    width: 70%;
-    float: right;
-    overflow: hidden;
-    .carousel-wrap {
-        width: 100%;
-        .slider_design {
-            height: 100%;
-            display: none;
-            position: relative;
-            .owl-dots {
+	width: 70%;
+	float: right;
+	overflow: hidden;
+	.carousel-wrap {
+		width: 100%;
+		.slider_design {
+			height: 100%;
+			display: none;
+			position: relative;
+            .owl-dots{
                 position: absolute;
-                top: 420px;
-                left: 45%;
-                .owl-dot.active {
-                    span {
-                        background: red;
+                top:420px;
+                left:45%;
+                .owl-dot.active{
+                    span{
+                        background: red;  
                     }
                 }
-                .owl-dot {
-                    span {
-                        border: 2px solid grey;
-                    }
+                .owl-dot{
+                    span{border: 2px solid grey;}
                 }
-            }
-        }
-    }
-    .slider_content {
-        .characteristics {
+            }  
+		}
+	}
+	.slider_content {
+        .characteristics{
             padding-top: 30px;
-            p {
-                font-family: $rr;
+            p{
+              font-family: $rr;
+                
             }
+            
         }
     }
 }
-
 .right {
-    .carousel-wrap {
-        .slider_design {
-            .item {
-                .img_design_wrap {
-                    max-height: 458px;
-                    overflow: hidden;
-                }
-                h1 {
-                    font-size: 1.9em;
-                    margin: 0.5em 0 0.1em;
-                }
-                p {
-                    font-size: 0.95em;
+	.carousel-wrap{
+		.slider_design{
+			.item{
+				.img_design_wrap{
+					max-height: 458px;
+					overflow: hidden;
+				}
+				h1{
+					font-size: 1.9em;
+					margin: 0.5em 0 0.1em;
+				}
+				p{
+                    font-family: $rr;
+					font-size: 0.9em;
+                    line-height: 1.45;
                     padding-bottom: 0.2em;
-                    span {
-                        padding: 0 3px;
+                    span{
+                         padding: 0 3px;
                     }
-                }
-                .characteristics {
-                    p {
-                        font-size: 1em;
+				}
+				.characteristics{
+					p{
+					font-size: 1em;
                         padding-bottom: 0em;
-                        b {
-                            color: red;
+                        b{
+                         //color: red;
+                           
                         }
-                    }
-                }
-            }
-        }
-    }
+					}
+				}
+			}
+		}
+		
+	}
+
 }
 
 .owl-nav {
-    color: red;
-    font-size: 3em;
-    z-index: 100;
-    .owl-prev {
-        position: absolute;
+	color: red;
+	font-size: 3em;
+	z-index: 100;
+	.owl-prev {
+		position: absolute;
         background: url(/images/left_arrow.png)no-repeat!important;
-        color: transparent;
-        left: -100px;
-        top: 35%;
-        width: 100%;
-        height: 40%;
-        background-size: 100%;
-    }
-    .owl-next {
-        display: none;
-        position: absolute;
-        color: transparent;
-        right: -15%;
-        top: 35%;
-        height: 40%;
-        width: 10%;
-        float: right;
-        background-size: 100%;
+		color: transparent;
+		left: -100px;
+		top: 35%;
+		width: 100%;
+		height:40%;
+		background-size: 100%;
+	}
+	.owl-next {
+		display: none;
+		position: absolute;
+		color: transparent;
+		right: -15%;
+		top: 35%;
+		height: 40%;
+		width: 10%;
+		float: right;
+		background-size: 100%;
         background-position: center;
-        background: url(/images/right_arrow.png)no-repeat!important;
-    }
+        background:  url(/images/right_arrow.png)no-repeat!important;
+	}
 }
 
 
 /*=== ACTIVE SLIDE ====*/
 
 .active_slider_design {
-    display: block!important;
+	display: block!important;
 }
 
 .active_tabs_design {
-    background: #ddd!important;
-    border-left: 6px solid $red!important;
-    color: $red!important;
+	background: #ddd!important;
+	border-left: 6px solid $red!important;
+	color: $red!important;
 }
 
 .active_arrow_design {
-    display: block!important;
+	display: block!important;
 }
 
-.active_mobile_nav_panel {
+.active_mobile_nav_panel{
     left: 2% !important;
 }
-
-.active_mobile_button_design {
-    left: 48.8% !important;
+.active_mobile_button_design{
+	
+	left: 48.8% !important;
 }
-
 
 /*====================*/
 
 .left {
-    ul {
-        li {
-            padding: 3%;
-            background: $white;
-            color: $grey;
-            text-align: left;
+	ul {
+		li {
+			padding: 3%;
+			background: $white;
+			color: $grey;
+			text-align: left;
             font-family: $rr;
             font-size: 1.5em;
             color: #333;
-            cursor: pointer;
-            position: relative;
+			cursor: pointer;
+			position: relative;
             border-bottom: 1px solid #ddd;
-            border-left: 1px solid #ddd;
-            .side_arrow {
-                position: absolute;
-                width: 0;
-                height: 0;
-                border: 25px solid transparent;
-                border-left-color: #ddd;
-                right: -49px;
-                top: 0;
-                z-index: 100;
-                display: none;
-            }
+            border-left:1px solid #ddd;
+			.side_arrow {
+				position: absolute;
+				width: 0;
+				height: 0;
+				border: 25px solid transparent;
+				border-left-color: #ddd;
+				right: -49px;
+				top: 0;
+				z-index: 100;
+				display: none;
+			}
+		}
+        li:nth-child(1){
+            border-top:1px solid $grey;
         }
-        li:nth-child(1) {
-            border-top: 1px solid $grey;
-        }
-    }
-    .form_caption {
-        color: #363636;
+	}
+    .form_caption{
+        color:#363636;
         font-size: 1.7em;
         text-align: center;
         padding: 5%;
     }
-    form {
-        .design_hidden_input {
-            visibility: hidden;
-            height: 2px;
-            width: 1px;
-            padding: 0;
-            margin: 0;
-            float: right;
-        }
-        .design_checkbox {
-            margin: 0 5px 0 35px;
+    form{
+		.design_hidden_input{
+			visibility: hidden;
+			height: 2px;
+			width: 1px;
+			padding:0;
+		    margin:0;
+			float:right;
+		}
+        .design_checkbox{
+            margin:0 5px 0 35px;
             display: inline-block;
             vertical-align: middle;
         }
-        label {
-            font-size: 0.8em;
-            display: inline-block;
-            vertical-align: baseline;
+        label{
+             font-size: 0.8em;
+             display: inline-block;
+             vertical-align: baseline;
         }
-        .name {
+        .name{
             display: block;
             width: 79%;
             margin: 0 auto;
@@ -268,11 +263,11 @@
             margin-bottom: 4%;
             background: #eeeeee;
         }
-        .phone {
+        .phone{
             @extend .name;
             margin-bottom: 2%;
         }
-        .btn_order {
+        .btn_order{
             @extend .name;
             color: #000;
             margin-top: 2%;
@@ -282,24 +277,26 @@
             border: none;
             padding: 3% 2%;
             background: yellow;
-            transition: .35s ease;
-            box-shadow: 0 2px 5px $yellow;
-            &:hover {
-                background: $yellow;
-            }
-            &:active {
-                background: $yellow/1.1;
-                box-shadow: 0 1px 2px $yellow;
-            }
-        }
-        p {
+			transition: .35s ease;
+			box-shadow: 0 2px 5px $yellow;
+			&:hover{
+			   background: $yellow;
+		   }
+		   &:active{
+			   background: $yellow/1.1;
+			   box-shadow: 0 1px 2px $yellow;
+		   }
+            
+          }
+        p{
             font-family: $rr;
             font-size: 0.7em;
             text-align: center;
-            span {
+            span{
                 color: $yellow;
                 padding-left: 1%;
             }
         }
+        
     }
 }
