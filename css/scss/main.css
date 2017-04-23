@@ -1424,22 +1424,23 @@ p.p_desription_worktime {
     margin-bottom: 4%; }
   /* line 27, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
   .feedback .feedback_block_description .client_feedback {
+    font-family: "RobotoRegular";
     font-size: 1em;
     width: 60%;
     margin: 0 auto;
     line-height: 1.75;
     text-align: left; }
 
-/* line 37, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+/* line 38, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
 .feedback .owl-nav .owl-prev, .feedback .owl-nav .owl-next {
   height: 50%;
   display: none; }
 
-/* line 48, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+/* line 49, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
 .feedback .owl-dots .owl-dot.active span {
   background: red !important; }
 
-/* line 53, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
+/* line 54, C:/Users/VIV/Desktop/Markilux/css/scss/_feedback_section.scss */
 .feedback .owl-dots .owl-dot span {
   border: 2px solid grey; }
 
