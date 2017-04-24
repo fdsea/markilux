@@ -38,14 +38,17 @@ counter(0, 1000000,countTime,p5);
     return false;
 }
 
+	
 	function scroolStart(){
-	   var scroll = document.body.scrollTop;
+	   var scroll = $('html').scrollTop();
        var reward = document.querySelector('.reward');
-       if(reward.offsetTop/0.7 <= document.body.scrollTop /*&& document.body.scrollTop<400*/ ){
+		console.log($('.reward').offset().top);
+		 if($('.reward').offset().top/0.7 <= $('html,body').scrollTop() || reward.offsetTop/0.7 <= document.body.scrollTop ){
         metrickCounter();
 		document.removeEventListener('scroll', scroolStart);
 	   }
-	}
+}
+	
 document.addEventListener('scroll', scroolStart);
 
 }());

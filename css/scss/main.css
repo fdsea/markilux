@@ -1563,6 +1563,14 @@ p.p_desription_worktime {
     #privacy_popup .modal-body p {
       color: #000; }
 
+/* line 85, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
+#driving_directions_popup .modal-dialog {
+  width: 90%;
+  height: 100vh; }
+  /* line 88, C:/Users/user/Desktop/mark/markilux/css/scss/_footer_section.scss */
+  #driving_directions_popup .modal-dialog .modal-body {
+    height: 100%; }
+
 /*-------------------*/
 @media screen and (max-width: 800px) {
   /* line 4, C:/Users/user/Desktop/mark/markilux/css/scss/_media_queries_section.scss */

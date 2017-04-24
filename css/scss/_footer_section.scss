@@ -77,8 +77,18 @@
     }
     
 }
+
 #requisites_popup{
     
+}
+#driving_directions_popup{
+	.modal-dialog{
+		width: 90%;
+		height: 100vh;
+		.modal-body{
+			height: 100%;
+		}
+		}
 }
 
 
