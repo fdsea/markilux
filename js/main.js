@@ -37,6 +37,29 @@ $(document).ready(function() {
 			}
 		}
 	});
+    $('.our_job_carousel').owlCarousel({
+		loop: true, //Зацикливаем слайдер
+		margin: 10, //Отступ от картино если выводите больше 1
+		navText: true,
+		nav: true, //Отключил навигацию
+		autoplay: true, //Автозапуск слайдера
+		smartSpeed: 1000, //Время движения слайда
+		autoplayTimeout: 5000, //Время смены слайда
+		autoplayHoverPause: false, 
+		responsive:{ //Адаптация в зависимости от разрешения экрана
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:6
+			}
+		}
+	});
+    
+    
        $('.slider_1').owlCarousel({
 		loop: true, //Зацикливаем слайдер
 		margin: 10, //Отступ от картино если выводите больше 1
@@ -85,6 +108,22 @@ $(document).ready(function() {
          
 });
     
+    $("a.our_job_gallery").fancybox(
+			{						
+          "padding" : 5,
+          "imageScale" : false, 
+			"zoomOpacity" : false,
+			"zoomSpeedIn" : 1000,	
+			"zoomSpeedOut" : 1000,	
+			"zoomSpeedChange" : 1000, 
+			"frameWidth" : 700,	 
+			"frameHeight" : 600, 
+			"overlayShow" : true, 
+			"overlayOpacity" : 0.8,	
+			"hideOnContentClick" :false,
+			"centerOnScroll" : false
+				
+			});
 	
 
 function toggleTabs() {

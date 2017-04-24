@@ -42,7 +42,6 @@ counter(0, 1000000,countTime,p5);
 	function scroolStart(){
 	   var scroll = $('html').scrollTop();
        var reward = document.querySelector('.reward');
-		console.log($('.reward').offset().top);
 		 if($('.reward').offset().top/0.7 <= $('html,body').scrollTop() || reward.offsetTop/0.7 <= document.body.scrollTop ){
         metrickCounter();
 		document.removeEventListener('scroll', scroolStart);

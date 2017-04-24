@@ -11,6 +11,24 @@
 	img{
 		width: 100%;
 	}
+    .owl-nav{
+        .owl-prev{
+            display: none;
+        }
+        .owl-next{
+            display: none;
+        }
+    }
+     .owl-dots {
+        .owl-dot.active {
+            span {
+                background: red !important;
+            }
+        }
+        .owl-dot{
+            span{border: 2px solid grey;}
+                }
+   }
 }
 
 

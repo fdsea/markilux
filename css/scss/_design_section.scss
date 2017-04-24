@@ -6,9 +6,10 @@
          color:#000;
          font-size: 2.1em;
          margin-bottom: 0.5em;
+        margin-top: 1em;
 	}
-    .design_h3{
-         font-family: $rl;
+    .design_p{
+         font-family: $rr;
          color:#000;
          font-size: 1.2em;
          margin-bottom: 2.5em;
@@ -80,7 +81,7 @@
 			position: relative;
             .owl-dots{
                 position: absolute;
-                top:60%;
+                top:420px;
                 left:45%;
                 .owl-dot.active{
                     span{
@@ -97,8 +98,10 @@
         .characteristics{
             padding-top: 30px;
             p{
-                font-family: $rr;
+              font-family: $rr;
+                
             }
+            
         }
     }
 }
@@ -115,11 +118,22 @@
 					margin: 0.5em 0 0.1em;
 				}
 				p{
-					font-size: 0.95em;
+                    font-family: $rr;
+					font-size: 0.9em;
+                    line-height: 1.45;
+                    padding-bottom: 0.2em;
+                    span{
+                         padding: 0 3px;
+                    }
 				}
 				.characteristics{
 					p{
 					font-size: 1em;
+                        padding-bottom: 0em;
+                        b{
+                         //color: red;
+                           
+                        }
 					}
 				}
 			}
