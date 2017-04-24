@@ -47,7 +47,9 @@ fabric.properties
 
 
 /vendor/
+/docker/
 docker-compose.yml
+composer.lock
 site.conf
 
 

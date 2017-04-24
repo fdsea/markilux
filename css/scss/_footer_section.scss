@@ -51,6 +51,7 @@
 /*---POPUP FOOTER --- */
 #privacy_popup{
 	.modal-dialog {
+		position: relative;
 		width: 50%;
 		.modal-header{
 			button{
@@ -60,35 +61,82 @@
     }
     font-family: $rr;
     .h3{
-        //display: inline-block;
+        
         text-transform: uppercase;
-        margin-left: 39px;
+        font-size: 1em;
+		font-family: $rb;
 		display: block;
 		float: left;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, 20%);
     }
     
     .modal-body{
-         padding: 10px 20px;
+         padding: 10px 40px;
+		 font-size: 1em;
+		font-family: $rr;
         p{
             color: #000;
-           
+            padding-bottom: 10px;
         }
+		h2{
+			padding-bottom: 10px;
+		}
+		ul{
+			padding-bottom: 10px;
+			li{
+				font-size: 0.9em;
+				list-style-type: disc;
+			}
+		}
         
     }
     
 }
-
-#requisites_popup{
-    
-}
 #driving_directions_popup{
-	.modal-dialog{
-		width: 90%;
-		height: 100vh;
-		.modal-body{
-			height: 100%;
+	iframe{
+		width: 100%;
+		height: 400px;
+	}
+	.modal-header{
+		position: relative;
+		h3{
+			font-family: $rb;
+		text-transform: uppercase;
+		display: block;
+		font-size: 1em;;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
 		}
+	}
+	.modal-body{
+		padding: 0;
+	}
+}
+#requisites_popup{
+	.modal-header {
+		position: relative;
+	}
+	h3{
+		font-family: $rb;
+		text-transform: uppercase;
+		display: block;
+		font-size: 1em;;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+	}
+	.modal-body{
+		
+		iframe{
+			width: 100%;
+		    height: 500px;
 		}
+	}
 }
 
 

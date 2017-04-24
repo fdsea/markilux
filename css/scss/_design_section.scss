@@ -276,11 +276,11 @@
             font-size: 1.5em;
             border: none;
             padding: 3% 2%;
-            background: yellow;
+            background: #ffd800;
 			transition: .35s ease;
 			box-shadow: 0 2px 5px $yellow;
 			&:hover{
-			   background: $yellow;
+			   background: #eebf02;
 		   }
 		   &:active{
 			   background: $yellow/1.1;
